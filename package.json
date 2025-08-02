@@ -1,0 +1,35 @@
+{
+  "name": "h3ravel",
+  "version": "0.1.0",
+  "description": "Modern TypeScript runtime-agnostic web framework built on top of H3.",
+  "categories": [
+    "Programming Languages",
+    "Extension Packs",
+    "Testing"
+  ],
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsx watch src/index.ts",
+    "start": "node dist/index.js",
+    "lint": "eslint . --ext .ts",
+    "cleanup": "find . -name 'node_modules' -type d -prune -exec rm -rf '{}' +",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "@h3ravel/config": "^0.1.1",
+    "@h3ravel/core": "^0.1.1",
+    "@h3ravel/http": "^0.1.1",
+    "@h3ravel/router": "^0.1.1",
+    "h3": "2.0.0-beta.3",
+    "reflect-metadata": "^0.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.1.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.4.0"
+  },
+  "packageManager": "pnpm@10.13.1+sha512.37ebf1a5c7a30d5fabe0c5df44ee8da4c965ca0c5af3dbab28c3a1681b70a256218d05c81c9c0dcf767ef6b8551eb5b960042b9ed4300c59242336377e01cfad"
+}

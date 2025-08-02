@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>H3ravel - The web framework that masks your fears</title>
+  <meta name="description"
+    content="A modern TypeScript runtime-agnostic web framework built on top of H3, designed to bring the elegance and developer experience of Laravel to the JavaScript ecosystem.">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: linear-gradient(135deg, #0970ce 0%, #0359a9 50%, #1f2937 100%);
+      min-height: 100vh;
+      color: white;
+      line-height: 1.6;
+    }
+
+    .container {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .header {
+      text-align: center;
+      margin-bottom: 3rem;
+    }
+
+    .logo-section {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 1.5rem;
+    }
+
+    .logo {
+      width: 4rem;
+      height: 4rem;
+      margin-right: 1rem;
+      position: relative;
+    }
+
+    .logo img {
+      position: relative;
+      width: 2.5rem;
+      height: auto;
+      transform: rotate(315deg);
+    }
+
+    .logo-cube {
+      position: absolute;
+      inset: 0;
+      transform: rotate(45deg);
+      background: #065bae;
+      border: 4px solid #85c0f6;
+      border-radius: 0.5rem;
+      animation: spin 10s linear infinite;
+    }
+
+    .logo-inner {
+      position: absolute;
+      inset: 0.5rem;
+      transform: rotate(45deg);
+      background: #ffffff;
+      border-radius: 0.25rem;
+    }
+
+    @keyframes spin {
+      from {
+        transform: rotate(45deg);
+      }
+
+      to {
+        transform: rotate(405deg);
+      }
+    }
+
+    .logo-text {
+      font-size: 3rem;
+      font-weight: 700;
+      color: white;
+      letter-spacing: 0.05em;
+    }
+
+    .tagline {
+      font-size: 1.125rem;
+      color: #afd2f3;
+      max-width: 42rem;
+      margin: 0 auto;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 2rem;
+      width: 100%;
+      max-width: 1000px;
+    }
+
+    .card {
+      background: rgba(31, 41, 55, 0.9);
+      backdrop-filter: blur(10px);
+      border-radius: 1rem;
+      padding: 2rem;
+      border: 1px solid rgba(55, 65, 81, 0.5);
+      transition: all 0.3s ease;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .card:hover {
+      border-color: rgba(56, 163, 255, 0.8);
+      transform: translateY(-5px);
+    }
+
+    .card-header {
+      display: flex;
+      align-items: center;
+      margin-bottom: 1.5rem;
+    }
+
+    .card-icon {
+      width: 3rem;
+      height: 3rem;
+      border-radius: 0.5rem;
+      background: rgba(4, 95, 178, 0.4);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-right: 1rem;
+    }
+
+    .card-icon svg {
+      width: 1.5rem;
+      height: 1.5rem;
+      color: #85c0f6;
+    }
+
+    .card-title {
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: white;
+    }
+
+    .card-content {
+      color: #d1d5db;
+      margin-bottom: 1.5rem;
+      line-height: 1.7;
+    }
+
+    .card-link {
+      display: inline-flex;
+      align-items: center;
+      color: #85c0f6;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.3s ease;
+    }
+
+    .card-link:hover {
+      color: #1a88ee;
+    }
+
+    .card-link svg {
+      width: 1rem;
+      height: 1rem;
+      margin-left: 0.5rem;
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover .card-link svg {
+      transform: translateX(0.25rem);
+    }
+
+    .footer {
+      margin-top: 4rem;
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+      color: #9ca3af;
+      font-size: 0.875rem;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .footer-link {
+      display: flex;
+      align-items: center;
+      color: #9ca3af;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+
+    .footer-link:hover {
+      color: #85c0f6;
+    }
+
+    .footer-link svg {
+      width: 1.25rem;
+      height: 1.25rem;
+      margin-right: 0.5rem;
+    }
+
+    @media (max-width: 768px) {
+      .logo-section {
+        flex-direction: column;
+        gap: 1rem;
+      }
+
+      .logo-text {
+        font-size: 2.5rem;
+      }
+
+      .tagline {
+        font-size: 1rem;
+      }
+
+      .container {
+        padding: 1rem;
+      }
+
+      .footer {
+        flex-direction: column;
+        gap: 1rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <!-- Header Section -->
+    <div class="header">
+      <div class="logo-section">
+        <div class="logo">
+          <div class="logo-cube"></div>
+          <div class="logo-inner">
+            <img src="{{ asset('h3ravel-logo.svg') }}" />
+          </div>
+        </div>
+        <h1 class="logo-text">H3ravel</h1>
+      </div>
+      <p class="tagline">
+        A modern TypeScript runtime-agnostic web framework built on top of H3,
+        designed to bring the elegance and developer experience of Laravel to
+        the JavaScript ecosystem.
+      </p>
+    </div>
+
+    <!-- Main Grid -->
+    <div class="grid">
+      <!-- Documentation Card -->
+      <div class="card">
+        <div class="card-header">
+          <div class="card-icon">
+            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C20.168 18.477 18.582 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+            </svg>
+          </div>
+          <h2 class="card-title">Documentation</h2>
+        </div>
+        <p class="card-content">
+          H3ravel has comprehensive documentation covering every aspect of the framework.
+          Whether you are new to the framework or have previous experience with Laravel,
+          we recommend reading all of the documentation from beginning to end.
+        </p>
+        <a href="{{ links.documentation }}" class="card-link">
+          Read Documentation
+          <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+          </svg>
+        </a>
+      </div>
+
+      <!-- TypeScript First Card -->
+      <div class="card">
+        <div class="card-header">
+          <div class="card-icon">
+            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+            </svg>
+          </div>
+          <h2 class="card-title">TypeScript First</h2>
+        </div>
+        <p class="card-content">
+          Built with TypeScript from the ground up, H3ravel provides excellent developer experience
+          with full type safety, IntelliSense support, and seamless integration with the modern
+          JavaScript ecosystem including Bun, Node.js, and Deno.
+        </p>
+        <a href="{{ links.features }}" class="card-link">
+          Explore TypeScript Features
+          <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+          </svg>
+        </a>
+      </div>
+
+      <!-- High Performance Card -->
+      <div class="card">
+        <div class="card-header">
+          <div class="card-icon">
+            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+            </svg>
+          </div>
+          <h2 class="card-title">High Performance</h2>
+        </div>
+        <p class="card-content">
+          Leveraging the power of H3's universal HTTP framework, H3ravel delivers exceptional
+          performance with minimal overhead. Features include auto-imports, hot module replacement,
+          and optimized bundling for lightning-fast development and production builds.
+        </p>
+        <a href="{{ links.performance }}" class="card-link">
+          Learn About Performance
+          <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+          </svg>
+        </a>
+      </div>
+
+      <!-- H3 Foundation Card -->
+      <div class="card">
+        <div class="card-header">
+          <div class="card-icon">
+            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" />
+            </svg>
+          </div>
+          <h2 class="card-title">H3 Foundation</h2>
+        </div>
+        <p class="card-content">
+          Built on top of H3's minimal and high-performance HTTP framework, H3ravel provides
+          familiar Laravel-style APIs while maintaining compatibility with the broader H3 ecosystem.
+          Deploy anywhere H3 runs - serverless functions, edge workers, or traditional servers.
+        </p>
+        <a href="{{ links.integration }}" class="card-link">
+          Discover H3 Integration
+          <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+          </svg>
+        </a>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+      <a href="https://github.com/h3ravel/h3ravel" class="footer-link" target="_blank">
+        <svg fill="currentColor" viewBox="0 0 24 24">
+          <path
+            d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+        </svg>
+        GitHub
+      </a>
+      <a href="https://github.com/h3ravel/h3ravel" class="footer-link" target="_blank">
+        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+        </svg>
+        Sponsor
+      </a>
+      <span>H3ravel v{{ app.getVersion('app') }} (TypeScript v{{ app.getVersion('ts') }})</span>
+    </div>
+  </div>
+
+  <script src="{{ asset('main.js') }}"></script>
+</body>
+
+</html>
