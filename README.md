@@ -33,20 +33,26 @@ This combination delivers the productivity of Laravel while leveraging the moder
 ## Project Structure
 
 ```
-src/
-├── core/              # Framework foundation (App Container, Kernel, Providers)
-├── http/
-│   ├── controllers/   # Controllers
-│   ├── middleware/    # Middleware
-│   └── kernel.ts      # HTTP Kernel (middleware stack & route loading)
-├── routes/            # Route definitions
-│   ├── web.ts         # Web routes
-│   └── api.ts         # API routes
-├── database/          # ORM, migrations, seeds
-├── console/           # CLI commands
-├── services/          # Mail, Queue, Cache
-├── support/           # Helpers, utilities
-└── config/            # Configuration files
+h3ravel/
+└── src/
+│   └── config/            # Configuration files
+│   ├── http/
+│   │   ├── controllers/   # Controllers
+│   │   ├── middleware/    # Middleware
+│   ├── resources/
+│   │   ├── views/         # Edge view files
+│   ├── routes/            # Route definitions
+│   │   ├── web.ts         # Web routes
+│   │   └── api.ts         # API routes
+│   ├── database/          # ORM, migrations, seeds
+│   ├── console/           # CLI commands
+│   ├── services/          # Mail, Queue, Cache
+│   ├── support/           # Helpers, utilities
+│   └── index.ts           # Main entry point
+├── storage
+│   └── app
+│       └── public         # default uploads directory
+└── public                 # public directory for public assets
 ```
 
 ## Philosophy
