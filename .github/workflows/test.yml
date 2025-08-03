@@ -34,3 +34,9 @@ jobs:
 
       - name: Run the tests
         run: pnpm coverage
+
+      - name: Upload coverage reports to Codecov
+        uses: codecov/codecov-action@v5
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }}
+          slug: h3ravel/h3ravel
