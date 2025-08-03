@@ -1,7 +1,7 @@
-import { Application } from "@h3ravel/core"
+import { Application } from '@h3ravel/core'
 
 export default (app: Application) => {
-    const env = app.make('env');
+    const env = app.make('env')
 
     return {
 

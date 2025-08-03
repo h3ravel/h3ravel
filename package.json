@@ -1,6 +1,6 @@
 {
   "name": "h3ravel",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Modern TypeScript runtime-agnostic web framework built on top of H3.",
   "categories": [
     "Programming Languages",
@@ -19,16 +19,24 @@
     "test": "vitest"
   },
   "dependencies": {
-    "@h3ravel/config": "^0.1.1",
-    "@h3ravel/core": "^0.1.1",
-    "@h3ravel/http": "^0.1.1",
-    "@h3ravel/router": "^0.1.1",
-    "reflect-metadata": "^0.1.0"
+    "@h3ravel/config": "^0.3.0",
+    "@h3ravel/core": "^0.3.0",
+    "@h3ravel/http": "^1.0.0",
+    "@h3ravel/router": "^0.3.0",
+    "@h3ravel/shared": "^0.3.0"
   },
   "devDependencies": {
+    "eslint": "^9.32.0",
+    "typescript-eslint": "^8.38.0",
+    "@typescript-eslint/parser": "^8.38.0",
+    "@typescript-eslint/eslint-plugin": "^8.38.0",
+    "@eslint/js": "^9.32.0",
+    "@types/jest": "^30.0.0",
     "@types/node": "^24.1.0",
+    "jest": "^30.0.5",
+    "ts-jest": "^29.4.0",
     "tsx": "^4.0.0",
-    "typescript": "^5.4.0"
+    "typescript": ">=5.4.0 <5.9.0"
   },
-  "packageManager": "pnpm@10.13.1+sha512.37ebf1a5c7a30d5fabe0c5df44ee8da4c965ca0c5af3dbab28c3a1681b70a256218d05c81c9c0dcf767ef6b8551eb5b960042b9ed4300c59242336377e01cfad"
+  "packageManager": "pnpm@10.14.0+sha512.ad27a79641b49c3e481a16a805baa71817a04bbe06a38d17e60e2eaee83f6a146c6a688125f5792e48dd5ba30e7da52a5cda4c3992b9ccf333f9ce223af84748"
 }
