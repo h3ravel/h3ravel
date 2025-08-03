@@ -5,8 +5,8 @@
     "paths": {
       "src": ["./../src"],
       "src/*": ["./../src/*"],
-      "app": ["./../src"],
-      "app/*": ["./../src/*"],
+      "App": ["./../src/app"],
+      "App/*": ["./../src/app/*"],
       "root": ["./.."],
       "root/*": ["./../*"],
       "config": ["./../src/config"],
@@ -18,8 +18,8 @@
       "routes": ["./../src/routes"],
       "routes/*": ["./../src/routes/*"]
     },
-    "target": "esnext",
-    "module": "preserve",
+    "target": "ESNext",
+    "module": "ESNext",
     "moduleResolution": "Node",
     "esModuleInterop": true,
     "strict": true,

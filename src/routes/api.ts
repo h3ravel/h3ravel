@@ -1,17 +1,17 @@
-import { AuthMiddleware } from 'app/http/middlewares/AuthMiddleware'
+import { AuthMiddleware } from 'App/Http/Middlewares/AuthMiddleware'
 import { Router } from '@h3ravel/router'
-import { UserController } from 'app/http/controllers/UserController'
+import { UserController } from 'App/Http/Controllers/UserController'
 
-export default (router: Router) => {
-    router.group({
+export default (Route: Router) => {
+    Route.group({
         prefix: '/', middleware: [
             (_event) => {
                 console.log('Incoming request')
             }
         ]
     }, () => {
-        router.apiResource('/users', UserController, [new AuthMiddleware()])
+        Route.apiResource('/users', UserController, [new AuthMiddleware()])
     })
 
-    router.get('/hello', () => 'Hello', 'hello.route')
+    Route.get('/hello', () => 'Hello', 'hello.route')
 }

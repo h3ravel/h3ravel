@@ -1,6 +1,6 @@
-import { HomeController } from 'app/http/controllers/HomeController'
+import { HomeController } from 'App/Http/Controllers/HomeController'
 import { Router } from '@h3ravel/router'
 
-export default (router: Router) => {
-    router.get('/', HomeController, 'index')
+export default (Route: Router) => {
+    Route.get('/', HomeController, 'index')
 }

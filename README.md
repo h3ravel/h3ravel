@@ -36,9 +36,10 @@ This combination delivers the productivity of Laravel while leveraging the moder
 h3ravel/
 └── src/
 │   └── config/            # Configuration files
-│   ├── http/
-│   │   ├── controllers/   # Controllers
-│   │   ├── middleware/    # Middleware
+│   ├── app/
+│   │   ├── http/
+│   │   │   ├── controllers/   # Controllers
+│   │   │   ├── middleware/    # Middleware
 │   ├── resources/
 │   │   ├── views/         # Edge view files
 │   ├── routes/            # Route definitions
