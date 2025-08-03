@@ -7,9 +7,6 @@ import { Kernel } from '@h3ravel/core'
     const app = new Application(process.cwd())
 
     app.registerProviders([
-        // (await import('@h3ravel/cache')).CacheServiceProvider,
-        // (await import('@h3ravel/queue')).QueueServiceProvider,
-        // (await import('@h3ravel/mail')).MailServiceProvider
     ])
 
     await app.registerConfiguredProviders()
