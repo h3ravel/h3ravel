@@ -18,7 +18,7 @@
     "lint": "eslint . --ext .ts",
     "cleanup": "find . -name 'node_modules' -type d -prune -exec rm -rf '{}' +",
     "test": "NODE_NO_WARNINGS=1 NODE_ENV=testing jest --passWithNoTests",
-    "coverage": "NODE_NO_WARNINGS=1 NODE_ENV=testing JEST_JUNIT_CLASSNAME=coverage jest --passWithNoTests --coverage --coverageDirectory=coverage --reporters=jest-junit",
+    "coverage": "NODE_NO_WARNINGS=1 NODE_ENV=testing JEST_JUNIT_CLASSNAME=coverage jest --passWithNoTests --coverage --coverageDirectory=coverage",
     "release": "pnpm build && pnpm changeset version && pnpm changeset publish",
     "publish": "pnpm build && pnpm -r publish --access public"
   },
