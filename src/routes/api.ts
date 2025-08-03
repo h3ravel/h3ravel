@@ -1,6 +1,6 @@
-import { AuthMiddleware } from '../http/middlewares/AuthMiddleware'
+import { AuthMiddleware } from 'app/http/middlewares/AuthMiddleware'
 import { Router } from '@h3ravel/router'
-import { UserController } from '../http/controllers/UserController'
+import { UserController } from 'app/http/controllers/UserController'
 
 export default (router: Router) => {
     router.group({
