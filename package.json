@@ -6,6 +6,13 @@
     "Programming Languages",
     "Extension Packs"
   ],
+  "keywords": [
+    "h3ravel",
+    "framework",
+    "nodejs",
+    "typescript",
+    "laravel"
+  ],
   "private": true,
   "type": "module",
   "module": "NodeNext",
