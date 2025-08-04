@@ -5,7 +5,7 @@ import { Kernel } from '@h3ravel/core'
 import providers from 'src/bootstrap/providers'
 
 export default class {
-    async bootstrap () {
+    async bootstrap (port: number = 3000) {
         const app = new Application(process.cwd())
 
         app.registerProviders(providers)
@@ -23,7 +23,7 @@ export default class {
 
         h3App.use((event) => kernel.handle(event, async () => undefined))
 
-        serve(h3App, { port: 3000 })
-        console.log('🚀 H3ravel running at http://localhost:3000')
+        serve(h3App, { port })
+        console.log(`🚀 H3ravel running at http://localhost:${port}`)
     }
 }
