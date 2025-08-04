@@ -3,20 +3,12 @@
     "baseUrl": ".",
     "outDir": "dist",
     "paths": {
-      "src": ["./../src"],
       "src/*": ["./../src/*"],
-      "App": ["./../src/app"],
       "App/*": ["./../src/app/*"],
-      "root": ["./.."],
       "root/*": ["./../*"],
-      "config": ["./../src/config"],
+      "routes/*": ["./../src/routes/*"],
       "config/*": ["./../src/config/*"],
-      "http": ["./../src/http"],
-      "http/*": ["./../src/http/*"],
-      "resources": ["./../src/resources"],
-      "resources/*": ["./../src/resources/*"],
-      "routes": ["./../src/routes"],
-      "routes/*": ["./../src/routes/*"]
+      "resources/*": ["./../src/resources/*"]
     },
     "target": "ESNext",
     "module": "ESNext",

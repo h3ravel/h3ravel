@@ -13,10 +13,9 @@ const jestConfig: JestConfigWithTsJest = {
     '^src/(.*)$': '<rootDir>/src/$1',
     '^App/(.*)$': '<rootDir>/src/app/$1',
     '^root/(.*)$': '<rootDir>/$1',
-    '^http/(.*)$': '<rootDir>/http/$1',
-    '^config/(.*)$': '<rootDir>/config/$1',
-    '^routes/(.*)$': '<rootDir>/routes/$1',
-    '^resources/(.*)$': '<rootDir>/resources/$1',
+    '^config/(.*)$': '<rootDir>/src/config/$1',
+    '^routes/(.*)$': '<rootDir>/src/routes/$1',
+    '^resources/(.*)$': '<rootDir>/src/resources/$1',
   },
   transformIgnorePatterns: ['!node_modules/(?!@h3ravel)'],
 }
