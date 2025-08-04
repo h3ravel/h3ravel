@@ -4,8 +4,7 @@
   "description": "Modern TypeScript runtime-agnostic web framework built on top of H3.",
   "categories": [
     "Programming Languages",
-    "Extension Packs",
-    "Testing"
+    "Extension Packs"
   ],
   "private": true,
   "type": "module",
