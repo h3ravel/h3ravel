@@ -1,5 +1,5 @@
 {
-  "name": "@h3ravel/h3ravel",
+  "name": "h3ravel",
   "version": "0.2.0",
   "description": "Modern TypeScript runtime-agnostic web framework built on top of H3.",
   "categories": [
