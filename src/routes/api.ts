@@ -13,5 +13,5 @@ export default (Route: Router) => {
         Route.apiResource('/users', UserController, [new AuthMiddleware()])
     })
 
-    Route.get('/hello', () => 'Hello', 'hello.route')
+    Route.get('/hello', () => 'Hello').name('hello.route')
 }

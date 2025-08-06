@@ -40,6 +40,7 @@ h3ravel/
 │   │   ├── http/
 │   │   │   ├── controllers/   # Controllers
 │   │   │   ├── middleware/    # Middleware
+|   |   └── Providers/         # Service Providers
 │   ├── resources/
 │   │   ├── views/         # Edge view files
 │   ├── routes/            # Route definitions
@@ -65,13 +66,15 @@ h3ravel/
 
 ## Roadmap
 
-- [ ] Application container with service providers
-- [ ] Middleware pipeline and HTTP kernel
-- [ ] Routing system (with decorators)
-- [ ] CLI (artisan-like commands)
-- [ ] ORM with relationships (Eloquent-style)
+- [x] Application container with service providers
+- [x] Middleware pipeline and HTTP kernel
+- [x] Routing system
+- [x] Config management and environment handling
+- [ ] Community Building
+- [ ] Musket CLI (artisan-like commands)
+- [ ] Cache Management
 - [ ] Queues, Mail, Events, Broadcasting
-- [ ] Config management and environment handling
+- [ ] H3loquent ORM with relationships (Eloquent-style)
 - [ ] First-class runtime adapters (Node, Bun, Deno)
 
 ## Contributing
