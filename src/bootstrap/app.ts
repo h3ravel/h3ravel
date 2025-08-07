@@ -17,8 +17,9 @@ export default class {
         const serve = app.make('http.serve')
 
         const kernel = new Kernel((event) => ({
-            request: new Request(event),
-            response: new Response(event)
+            app,
+            request: new Request(event, app),
+            response: new Response(event, app)
         }), [new LogRequests()])
 
         h3App.use((event) => kernel.handle(event, async () => undefined))

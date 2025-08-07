@@ -5,7 +5,7 @@ export class AuthMiddleware extends Middleware {
         { request, response }: HttpContext,
         next: () => Promise<unknown>
     ): Promise<unknown> {
-        if (!request.input('authorization')) {
+        if (!request.headers.get('authorization')) {
             response.setStatusCode(401)
             return { message: 'Unauthorized' }
         }
