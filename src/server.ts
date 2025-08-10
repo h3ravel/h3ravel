@@ -1,3 +1,5 @@
+import 'reflect-metadata'
+
 import app from 'src/bootstrap/app'
 
-new app().bootstrap(4444)
+new app().bootstrap() 

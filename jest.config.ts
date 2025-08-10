@@ -1,4 +1,6 @@
 import { createJsWithTsEsmPreset, type JestConfigWithTsJest } from 'ts-jest'
+import { pathsToModuleNameMapper } from 'ts-jest'
+import { compilerOptions } from './.h3ravel/tsconfig.json'
 
 const tsJestTransformCfg = createJsWithTsEsmPreset().transform
 
@@ -9,14 +11,16 @@ const jestConfig: JestConfigWithTsJest = {
   },
   roots: ['<rootDir>'],
   testMatch: ['**/tests/**/*.test.ts'],
-  moduleNameMapper: {
-    '^src/(.*)$': '<rootDir>/src/$1',
-    '^App/(.*)$': '<rootDir>/src/app/$1',
-    '^root/(.*)$': '<rootDir>/$1',
-    '^config/(.*)$': '<rootDir>/src/config/$1',
-    '^routes/(.*)$': '<rootDir>/src/routes/$1',
-    '^resources/(.*)$': '<rootDir>/src/resources/$1',
-  },
+  modulePaths: [compilerOptions.baseUrl],
+  moduleNameMapper: pathsToModuleNameMapper(compilerOptions.paths),
+  // moduleNameMapper: {
+  //   '^src/(.*)$': '<rootDir>/src/$1',
+  //   '^App/(.*)$': '<rootDir>/src/app/$1',
+  //   '^root/(.*)$': '<rootDir>/$1',
+  //   '^config/(.*)$': '<rootDir>/src/config/$1',
+  //   '^routes/(.*)$': '<rootDir>/src/routes/$1',
+  //   '^resources/(.*)$': '<rootDir>/src/resources/$1',
+  // },
   transformIgnorePatterns: ['!node_modules/(?!@h3ravel)'],
 }
 
