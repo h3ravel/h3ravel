@@ -17,8 +17,8 @@
     "laravel"
   ],
   "scripts": {
-    "build": "NODE_ENV=production tsup",
-    "dev": "NODE_ENV=development pnpm tsup-node",
+    "build": "rm -rf dist && NODE_ENV=production tsup",
+    "dev": "rm -rf dist && NODE_ENV=development pnpm tsup-node",
     "start": "SRC_PATH=dist node -r tsconfig-paths/register dist/server.js",
     "lint": "eslint . --ext .ts",
     "test": "NODE_NO_WARNINGS=1 NODE_ENV=testing jest --passWithNoTests",
