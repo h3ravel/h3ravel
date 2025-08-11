@@ -1,8 +1,10 @@
 import { Application, Injectable } from '@h3ravel/core'
 
+import { Mailer } from '@h3ravel/mail'
+
 export class HomeController {
     @Injectable()
-    public async index (app: Application) {
+    public async index (app: Application, mail: Mailer) {
         const view = app.make('view')
 
         return view('index', {
