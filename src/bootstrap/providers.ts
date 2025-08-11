@@ -8,10 +8,13 @@ import { CacheServiceProvider } from '@h3ravel/cache'
 import { ConsoleServiceProvider } from '@h3ravel/console'
 import { QueueServiceProvider } from '@h3ravel/queue'
 import { MailServiceProvider } from '@h3ravel/mail'
+import { MainServiceProvider } from 'App/Providers/MainServiceProvider'
 
 /**
  * Default service provider have a priority ranging from 999-990
  * We recommend leaving the 900 range for the defaults.
+ * Service provider names should be unique as duplicates will be filtered out
+ * including custom providers matching core provider names
  */
 export default <Array<new (_app: Application) => IServiceProvider>>[
     HttpServiceProvider,
@@ -23,4 +26,5 @@ export default <Array<new (_app: Application) => IServiceProvider>>[
     ConsoleServiceProvider,
     QueueServiceProvider,
     MailServiceProvider,
+    MainServiceProvider,
 ]
