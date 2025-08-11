@@ -1,6 +1,6 @@
-import { Application, Controller, Injectable } from '@h3ravel/core'
+import { Application, Injectable } from '@h3ravel/core'
 
-export class HomeController extends Controller {
+export class HomeController {
     @Injectable()
     public async index (app: Application) {
         const view = app.make('view')
