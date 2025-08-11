@@ -6,7 +6,7 @@ import { ServiceProvider } from '@h3ravel/core'
  * Bootstraps your services and bindings.
  * 
  */
-export class MainServiceProvider extends ServiceProvider {
+export class AppServiceProvider extends ServiceProvider {
     public static priority = 899
 
     register () {
