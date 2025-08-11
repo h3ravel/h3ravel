@@ -1,5 +1,5 @@
-import { Controller } from '@h3ravel/core'
-import { HttpContext } from '@h3ravel/http'
+import { Controller, Injectable } from '@h3ravel/core'
+import { HttpContext, Request, Response } from '@h3ravel/http'
 
 export class UserController extends Controller {
     index () {
@@ -12,7 +12,8 @@ export class UserController extends Controller {
             .json({ message: `User ${await request.input('name')} created` })
     }
 
-    show ({ request, response }: HttpContext) {
+    @Injectable()
+    show (response: Response, request: Request) {
         return response
             .json({ id: request.input('id'), name: 'John Doe' })
     }

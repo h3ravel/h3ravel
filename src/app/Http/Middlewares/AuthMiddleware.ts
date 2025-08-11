@@ -7,7 +7,7 @@ export class AuthMiddleware extends Middleware {
     ): Promise<unknown> {
         if (!request.headers.get('authorization')) {
             response.setStatusCode(401)
-            return { message: 'Unauthorized' }
+            // return { message: 'Unauthorized' }
         }
 
         return await next()

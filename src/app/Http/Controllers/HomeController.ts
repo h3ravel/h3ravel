@@ -1,8 +1,8 @@
-import { Controller } from '@h3ravel/core'
-import { HttpContext } from '@h3ravel/http'
+import { Application, Controller, Injectable } from '@h3ravel/core'
 
 export class HomeController extends Controller {
-    public async index ({ app }: HttpContext) {
+    @Injectable()
+    public async index (app: Application) {
         const view = app.make('view')
 
         return view('index', {
