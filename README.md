@@ -4,6 +4,21 @@
 
 H3ravel is a modern TypeScript runtime-agnostic web framework built on top of [H3](https://h3.dev), designed to bring the elegance and developer experience of [Laravel](https://laravel.com) to the JavaScript ecosystem.
 
+## Installation
+
+To get started, run the `create-h3ravel` script, which will seamlessly initialize a new project structure with all the necessary files and configurations tailored for [H3ravel](https://h3ravel.toneflix.net) development.
+
+```sh
+# Using npm
+npm init h3ravel
+
+# Using yarn
+yarn create h3ravel
+
+# Using pnpm
+pnpm create h3ravel
+```
+
 ## Features
 
 - Laravel-inspired architecture – Service Container, Service Providers, Middleware, Facades
@@ -76,6 +91,10 @@ h3ravel/
 - [ ] Queues, Mail, Events, Broadcasting
 - [ ] Arquebus ORM with relationships (Eloquent-style)
 - [ ] First-class runtime adapters (Node, Bun, Deno)
+
+## Documentation
+
+More information can be found in the [documentations](https://h3ravel.toneflix.net).
 
 ## Contributing
 
