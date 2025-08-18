@@ -19,6 +19,10 @@ yarn create h3ravel
 pnpm create h3ravel
 ```
 
+## Documentation
+
+More information can be found in the [documentations](https://h3ravel.toneflix.net).
+
 ## Features
 
 - Laravel-inspired architecture – Service Container, Service Providers, Middleware, Facades
@@ -91,10 +95,6 @@ h3ravel/
 - [ ] Queues, Mail, Events, Broadcasting
 - [ ] Arquebus ORM with relationships (Eloquent-style)
 - [ ] First-class runtime adapters (Node, Bun, Deno)
-
-## Documentation
-
-More information can be found in the [documentations](https://h3ravel.toneflix.net).
 
 ## Contributing
 
