@@ -1,8 +1,4 @@
-import { Application } from '@h3ravel/core'
-
-export default (app: Application) => {
-    const env = app.make('env')
-
+export default () => {
     return {
         /*
         |--------------------------------------------------------------------------

@@ -1,12 +1,7 @@
-import { Application, Injectable } from '@h3ravel/core'
+import { Controller } from '@h3ravel/core'
 
-import { Mailer } from '@h3ravel/mail'
-
-export class HomeController {
-    @Injectable()
-    public async index (app: Application, mail: Mailer) {
-        const view = app.make('view')
-
+export class WelcomeController extends Controller {
+    public async index () {
         return view('index', {
             links: {
                 documentation: 'https://h3ravel.toneflix.net/docs',

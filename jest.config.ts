@@ -1,5 +1,4 @@
 import { createJsWithTsEsmPreset, type JestConfigWithTsJest } from 'ts-jest'
-import { pathsToModuleNameMapper } from 'ts-jest'
 
 const tsJestTransformCfg = createJsWithTsEsmPreset().transform
 

@@ -1,8 +1,4 @@
-import { Application } from '@h3ravel/core'
-
-export default (app: Application) => {
-    const env = app.make('env')
-
+export default () => {
     return {
 
         /*
@@ -35,7 +31,7 @@ export default (app: Application) => {
         disks: {
             public: {
                 driver: 'local',
-                root: app.getPath('storage', 'app/public'),
+                root: storage_path('app/public'),
                 url: env('APP_URL') + '/storage',
                 visibility: 'public'
             }
@@ -53,7 +49,7 @@ export default (app: Application) => {
         */
 
         links: {
-            [app.getPath('public')]: app.getPath('storage', 'app/public'),
+            [public_path('storage')]: storage_path('app/public'),
         },
     }
 }
