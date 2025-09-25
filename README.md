@@ -4,15 +4,19 @@
 
 H3ravel is a modern TypeScript runtime-agnostic web framework built on top of [H3](https://h3.dev), designed to bring the elegance and developer experience of [Laravel](https://laravel.com) to the JavaScript ecosystem.
 
-## Install the dependencies
+## Installation
 
-```bash
-yarn
-# or
-npm install
-# or
-pnpm install
+To get started, run the `create-h3ravel` script, which will seamlessly initialize a new project structure with all the necessary files and configurations tailored for [H3ravel](https://h3ravel.toneflix.net) development.
 
+```sh
+# Using npm
+npm init h3ravel
+
+# Using yarn
+yarn create h3ravel
+
+# Using pnpm
+pnpm create h3ravel
 ```
 
 ### Start the app in development mode (hot-code reloading, error reporting, etc.)
@@ -36,6 +40,10 @@ pnpm lint
 ```bash
 npx musket build
 ```
+
+## Documentation
+
+More information can be found in the [documentations](https://h3ravel.toneflix.net).
 
 ## Contributing
 
