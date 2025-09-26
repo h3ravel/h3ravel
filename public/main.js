@@ -1,4 +1,4 @@
-fetch('/assets/h3ravel-logo.svg')
+fetch('/h3ravel-logo.svg')
   .then(response => response.text())
   .then(svgXml => {
     const svgDataUrl = `data:image/svg+xml;base64,${btoa(svgXml)}`
@@ -9,5 +9,5 @@ fetch('/assets/h3ravel-logo.svg')
       background-size: contain;
       background-position: center center;
       background-repeat: no-repeat;
-    `, 'H3ravel - Welcome to the future of web frameworks!')
+    `, 'H3ravel - The web framework that masks your fears!')
   })

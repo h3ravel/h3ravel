@@ -8,9 +8,8 @@ export default tseslint.config(
   [
     globalIgnores([
       'dist/**',
-      '**/dist',
-      '**/dist/**',
-      'public/**/*.js',
+      'public/**',
+      '.h3ravel/**',
       'node_modules/**'
     ])
   ],
