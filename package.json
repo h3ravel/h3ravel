@@ -23,7 +23,8 @@
     "lint": "eslint . --ext .ts",
     "test": "NODE_NO_WARNINGS=1 NODE_ENV=testing jest --passWithNoTests",
     "cleanup": "find . -name 'node_modules' -type d -prune -exec rm -rf '{}' +",
-    "coverage": "NODE_NO_WARNINGS=1 NODE_ENV=testing JEST_JUNIT_CLASSNAME=coverage jest --passWithNoTests --coverage --coverageDirectory=coverage"
+    "coverage": "NODE_NO_WARNINGS=1 NODE_ENV=testing JEST_JUNIT_CLASSNAME=coverage jest --passWithNoTests --coverage --coverageDirectory=coverage",
+    "postinstall": "pnpm spawn"
   },
   "dependencies": {
     "@h3ravel/core": "^1.10.0",

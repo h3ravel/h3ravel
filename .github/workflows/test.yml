@@ -31,7 +31,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pnpm install --frozen-lockfile
+          pnpm install --ignore-scripts --frozen-lockfile
           pnpm spawn
 
       - name: Run the tests
