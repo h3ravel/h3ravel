@@ -30,7 +30,9 @@ jobs:
           version: 10
 
       - name: Install dependencies
-        run: pnpm install --frozen-lockfile
+        run: |
+          pnpm install --frozen-lockfile
+          pnpm spawn
 
       - name: Run the tests
         run: pnpm coverage
