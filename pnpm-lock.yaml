@@ -18,8 +18,8 @@ importers:
         specifier: ^1.4.1
         version: 1.4.1
       '@h3ravel/console':
-        specifier: ^11.5.1
-        version: 11.5.1(@h3ravel/arquebus@0.5.0)(@h3ravel/core@1.10.0)(@h3ravel/support@0.10.2)
+        specifier: ^11.5.2
+        version: 11.5.2(@h3ravel/arquebus@0.5.0)(@h3ravel/core@1.10.0)(@h3ravel/support@0.10.2)
       '@h3ravel/core':
         specifier: ^1.10.0
         version: 1.10.0
@@ -713,8 +713,8 @@ packages:
   '@h3ravel/config@1.4.1':
     resolution: {integrity: sha512-rzqoR09/lKl5ELaBfHXQenptDbaU2NnAnOq5efSz2OVOH82kqC8Z/UCfvxBMExq4FI9jVDth20y4LLlLzBO5eA==}
 
-  '@h3ravel/console@11.5.1':
-    resolution: {integrity: sha512-fIs7czjP+LO3rKYMW8ReDvx4CSPmWQ1IIkFSU4ggb9mqzOOlyPNlXm0uLwktJft+lcwdUNeypXLNhvN5S1dckQ==}
+  '@h3ravel/console@11.5.2':
+    resolution: {integrity: sha512-01wuiPxbG6Bw7rd6R9mxM2gRWmoMRmeBRCh+2xndS6sFXKBL+0w5Iuudrhq384cQOSBJ0b0HmJAmkB//n+YeVQ==}
     hasBin: true
     peerDependencies:
       '@h3ravel/arquebus': ^0.5.0
@@ -756,6 +756,9 @@ packages:
 
   '@h3ravel/shared@0.20.4':
     resolution: {integrity: sha512-SJfc/o/W+/pi/V6lDpliIgT4Mx0fglnUz0Ba3DuJcxQKb76XEBJg0jUQa9K9pwD9U1W/B4EVV//bYUs6iN4lDw==}
+
+  '@h3ravel/shared@0.20.5':
+    resolution: {integrity: sha512-nxWxWm42VP4akUvAE+4WvN58w3qkg8SvZB3qXKWWG9gT+nb9KPeRl5Dyi2cPWSPPWXZoXuDevc0z7Pu0/DLnpw==}
 
   '@h3ravel/support@0.10.2':
     resolution: {integrity: sha512-h9O8eXcYPbD6l7MXHi3UTkm3y/S2U7VbjINJPFnwpq8a1zSrE539ECqIYVrtA1hE7hEitjNHSmon0PqgoxKpfg==}
@@ -4903,11 +4906,11 @@ snapshots:
     transitivePeerDependencies:
       - crossws
 
-  '@h3ravel/console@11.5.1(@h3ravel/arquebus@0.5.0)(@h3ravel/core@1.10.0)(@h3ravel/support@0.10.2)':
+  '@h3ravel/console@11.5.2(@h3ravel/arquebus@0.5.0)(@h3ravel/core@1.10.0)(@h3ravel/support@0.10.2)':
     dependencies:
       '@h3ravel/arquebus': 0.5.0(sqlite3@5.1.7)
       '@h3ravel/core': 1.10.0
-      '@h3ravel/shared': 0.20.4
+      '@h3ravel/shared': 0.20.5
       '@h3ravel/support': 0.10.2
       chalk: 5.6.2
       commander: 14.0.1
@@ -5002,6 +5005,16 @@ snapshots:
       - supports-color
 
   '@h3ravel/shared@0.20.4':
+    dependencies:
+      chalk: 5.6.2
+      edge.js: 6.3.0
+      escalade: 3.2.0
+      h3: 2.0.0-beta.4
+      preferred-pm: 4.1.1
+    transitivePeerDependencies:
+      - crossws
+
+  '@h3ravel/shared@0.20.5':
     dependencies:
       chalk: 5.6.2
       edge.js: 6.3.0
