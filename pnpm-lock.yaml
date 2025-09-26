@@ -18,8 +18,8 @@ importers:
         specifier: ^1.4.1
         version: 1.4.1
       '@h3ravel/console':
-        specifier: ^11.4.0
-        version: 11.4.0(@h3ravel/arquebus@0.5.0)(@h3ravel/core@1.10.0)(@h3ravel/support@0.10.2)
+        specifier: ^11.5.1
+        version: 11.5.1(@h3ravel/arquebus@0.5.0)(@h3ravel/core@1.10.0)(@h3ravel/support@0.10.2)
       '@h3ravel/core':
         specifier: ^1.10.0
         version: 1.10.0
@@ -713,8 +713,8 @@ packages:
   '@h3ravel/config@1.4.1':
     resolution: {integrity: sha512-rzqoR09/lKl5ELaBfHXQenptDbaU2NnAnOq5efSz2OVOH82kqC8Z/UCfvxBMExq4FI9jVDth20y4LLlLzBO5eA==}
 
-  '@h3ravel/console@11.4.0':
-    resolution: {integrity: sha512-1HzNO7Kz6b4RaltES7lLEQJrD3Xt4lnqxzPvH3+wzquDSmgBQIu0MaTjUBKfOleL05BfPNR2Un8gtsw275mkwA==}
+  '@h3ravel/console@11.5.1':
+    resolution: {integrity: sha512-fIs7czjP+LO3rKYMW8ReDvx4CSPmWQ1IIkFSU4ggb9mqzOOlyPNlXm0uLwktJft+lcwdUNeypXLNhvN5S1dckQ==}
     hasBin: true
     peerDependencies:
       '@h3ravel/arquebus': ^0.5.0
@@ -4903,7 +4903,7 @@ snapshots:
     transitivePeerDependencies:
       - crossws
 
-  '@h3ravel/console@11.4.0(@h3ravel/arquebus@0.5.0)(@h3ravel/core@1.10.0)(@h3ravel/support@0.10.2)':
+  '@h3ravel/console@11.5.1(@h3ravel/arquebus@0.5.0)(@h3ravel/core@1.10.0)(@h3ravel/support@0.10.2)':
     dependencies:
       '@h3ravel/arquebus': 0.5.0(sqlite3@5.1.7)
       '@h3ravel/core': 1.10.0
