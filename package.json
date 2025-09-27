@@ -35,7 +35,7 @@
     "@h3ravel/http": "^11.3.1",
     "@h3ravel/mail": "^11.0.4",
     "@h3ravel/queue": "^11.0.3",
-    "@h3ravel/router": "^1.10.0",
+    "@h3ravel/router": "^1.10.1",
     "@h3ravel/shared": "^0.20.10",
     "@h3ravel/support": "^0.10.3",
     "@h3ravel/arquebus": "^0.5.0",

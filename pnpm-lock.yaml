@@ -39,8 +39,8 @@ importers:
         specifier: ^11.0.3
         version: 11.0.3(@h3ravel/core@1.11.0)
       '@h3ravel/router':
-        specifier: ^1.10.0
-        version: 1.10.0(@h3ravel/filesystem@0.4.0(@h3ravel/core@1.11.0))
+        specifier: ^1.10.1
+        version: 1.10.1(@h3ravel/filesystem@0.4.0(@h3ravel/core@1.11.0))
       '@h3ravel/shared':
         specifier: ^0.20.10
         version: 0.20.10
@@ -751,8 +751,8 @@ packages:
     peerDependencies:
       '@h3ravel/core': ^1.11.0
 
-  '@h3ravel/router@1.10.0':
-    resolution: {integrity: sha512-v805kkbZuapgsbYPAf4J8oshrxNJirP+CeCkRKqQMQGtrFRsHcY2WoOMa31aRQEMhW9Y1j/pphSguc1FZOFGXw==}
+  '@h3ravel/router@1.10.1':
+    resolution: {integrity: sha512-At19CecC/0XHmqqXf9VwFmG3S7oVe/91X1UCX4YPMQI1wAiDifr64x1vXxq1MCDUqH9Kpsr1z1XDtebz9veWoA==}
 
   '@h3ravel/shared@0.20.10':
     resolution: {integrity: sha512-NwdLA3g0TalG5PMA27ZdZCzmjCCvfhMjhMlOV3Cs6lhtmYpEqMDUzDIlRDbUJ55tZ58sh9762ShnJacpMe21mg==}
@@ -4983,7 +4983,7 @@ snapshots:
     dependencies:
       '@h3ravel/core': 1.11.0
 
-  '@h3ravel/router@1.10.0(@h3ravel/filesystem@0.4.0(@h3ravel/core@1.11.0))':
+  '@h3ravel/router@1.10.1(@h3ravel/filesystem@0.4.0(@h3ravel/core@1.11.0))':
     dependencies:
       '@h3ravel/core': 1.11.0
       '@h3ravel/database': 11.2.7(@h3ravel/core@1.11.0)(@h3ravel/filesystem@0.4.0(@h3ravel/core@1.11.0))(@h3ravel/support@0.10.3)
