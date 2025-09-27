@@ -18,17 +18,17 @@ importers:
         specifier: ^1.4.2
         version: 1.4.2
       '@h3ravel/console':
-        specifier: ^11.6.0
-        version: 11.6.0(@h3ravel/arquebus@0.5.0)(@h3ravel/core@1.11.0)(@h3ravel/support@0.10.3)
+        specifier: ^11.6.1
+        version: 11.6.1(@h3ravel/arquebus@0.5.0)(@h3ravel/core@1.11.0)(@h3ravel/support@0.10.3)
       '@h3ravel/core':
         specifier: ^1.11.0
         version: 1.11.0
       '@h3ravel/database':
-        specifier: ^11.2.6
-        version: 11.2.6(@h3ravel/core@1.11.0)(@h3ravel/filesystem@0.3.1(@h3ravel/core@1.11.0))(@h3ravel/support@0.10.3)
+        specifier: ^11.2.7
+        version: 11.2.7(@h3ravel/core@1.11.0)(@h3ravel/filesystem@0.4.0(@h3ravel/core@1.11.0))(@h3ravel/support@0.10.3)
       '@h3ravel/filesystem':
-        specifier: ^0.3.1
-        version: 0.3.1(@h3ravel/core@1.11.0)
+        specifier: ^0.4.0
+        version: 0.4.0(@h3ravel/core@1.11.0)
       '@h3ravel/http':
         specifier: ^11.3.1
         version: 11.3.1(@h3ravel/core@1.11.0)
@@ -39,11 +39,11 @@ importers:
         specifier: ^11.0.3
         version: 11.0.3(@h3ravel/core@1.11.0)
       '@h3ravel/router':
-        specifier: ^1.9.4
-        version: 1.9.4(@h3ravel/filesystem@0.3.1(@h3ravel/core@1.11.0))
+        specifier: ^1.10.0
+        version: 1.10.0(@h3ravel/filesystem@0.4.0(@h3ravel/core@1.11.0))
       '@h3ravel/shared':
-        specifier: ^0.20.9
-        version: 0.20.9
+        specifier: ^0.20.10
+        version: 0.20.10
       '@h3ravel/support':
         specifier: ^0.10.3
         version: 0.10.3
@@ -713,8 +713,8 @@ packages:
   '@h3ravel/config@1.4.2':
     resolution: {integrity: sha512-l5v+lnSNaDYM7RwuLGSPmWdq9Sxrw6jShjFNjGceT/5Yn/j70hkgx4VZu2IWDcq9Rzy8OnC0rE1kxJDREnKkAw==}
 
-  '@h3ravel/console@11.6.0':
-    resolution: {integrity: sha512-ocYVSrmqHHf+QgwW132cfirgxnHeNOR0g7+noBKY1Pcs6VDGoKXrh20TY4TI9R4mqrnpEoifFbXA7LTWQbLwKA==}
+  '@h3ravel/console@11.6.1':
+    resolution: {integrity: sha512-t5fzM8lHvukEPQOSL2KrQTD9F6ivQztJ31c5mV+DbXBmgiY3KVOAFF/wjzw/TSIchY6h37XWPrGhKIiU6S7r+Q==}
     hasBin: true
     peerDependencies:
       '@h3ravel/arquebus': ^0.5.0
@@ -724,15 +724,15 @@ packages:
   '@h3ravel/core@1.11.0':
     resolution: {integrity: sha512-SdLs70dzMocuVikovfh1xkpqm2EX59x+iGi4ko5fTGHhXB7P+twP5+TgNQU7rGNE/c6fb5QGpq08bcRTagDQDw==}
 
-  '@h3ravel/database@11.2.6':
-    resolution: {integrity: sha512-7cXnGBUaWHIu8K4MO6sJJN4+W3Z7vKQcvGwlyPxx+BFLuzGxekR8af6DR3Qlm3fvVSZLbhsS/ZganZVlsigHhw==}
+  '@h3ravel/database@11.2.7':
+    resolution: {integrity: sha512-Uy1ppWurJ6SdRQUFRX1zQTp+zQ1fhI+KdQdKcNA+cXIiqAHfh+HqSJVC0r8UHzz+Mfc0H7B3jrDf1sp0d86UYg==}
     peerDependencies:
       '@h3ravel/core': ^1.11.0
-      '@h3ravel/filesystem': ^0.3.1
+      '@h3ravel/filesystem': ^0.4.0
       '@h3ravel/support': ^0.10.3
 
-  '@h3ravel/filesystem@0.3.1':
-    resolution: {integrity: sha512-e3lpVNBkczSRGdJOOoEnJ7cilpItmWxW0QCd/shJSgwXy7AT4V2AtiE3Hljuoqczrz+yBJCMqyJ8OHEKjo3L2Q==}
+  '@h3ravel/filesystem@0.4.0':
+    resolution: {integrity: sha512-hRNCEieiONyevVFXI0+KCGzn98aCeKfS/f/vJca3Aeh9IqDK8RcNv324EMGfmkjylxmyAQ5nFHX/2JCzvuWCsw==}
     peerDependencies:
       '@h3ravel/core': ^1.11.0
 
@@ -751,11 +751,11 @@ packages:
     peerDependencies:
       '@h3ravel/core': ^1.11.0
 
-  '@h3ravel/router@1.9.4':
-    resolution: {integrity: sha512-ytxPQ3qmD2090N7if98xI4MUMGS+ck2GWFhek/UiuJUtvNapzIBwQu2qwMXup8Cp2GR6cEB3SjlMUx+wzJAxIQ==}
+  '@h3ravel/router@1.10.0':
+    resolution: {integrity: sha512-v805kkbZuapgsbYPAf4J8oshrxNJirP+CeCkRKqQMQGtrFRsHcY2WoOMa31aRQEMhW9Y1j/pphSguc1FZOFGXw==}
 
-  '@h3ravel/shared@0.20.9':
-    resolution: {integrity: sha512-oC21OFfanarR91QjpZFanAbPpVM9CFs771yxj/5kHnZZS3LramlKBjWty6hg9XcnaggSRTWIlvPggG51iHuK6g==}
+  '@h3ravel/shared@0.20.10':
+    resolution: {integrity: sha512-NwdLA3g0TalG5PMA27ZdZCzmjCCvfhMjhMlOV3Cs6lhtmYpEqMDUzDIlRDbUJ55tZ58sh9762ShnJacpMe21mg==}
 
   '@h3ravel/support@0.10.3':
     resolution: {integrity: sha512-JPNyZrkaup9xlvfWhlz4qWR/bOg8PtIGuf98xMoQ1YuiK5gDF/GOHDJ8VlAcBA1K0oy9ma4bV/nzWgeu1wa/YA==}
@@ -4866,7 +4866,7 @@ snapshots:
 
   '@h3ravel/arquebus@0.5.0(sqlite3@5.1.7)':
     dependencies:
-      '@h3ravel/shared': 0.20.9
+      '@h3ravel/shared': 0.20.10
       chalk: 5.6.2
       collect.js: 4.36.1
       commander: 14.0.1
@@ -4898,16 +4898,16 @@ snapshots:
 
   '@h3ravel/config@1.4.2':
     dependencies:
-      '@h3ravel/shared': 0.20.9
+      '@h3ravel/shared': 0.20.10
       '@h3ravel/support': 0.10.3
     transitivePeerDependencies:
       - crossws
 
-  '@h3ravel/console@11.6.0(@h3ravel/arquebus@0.5.0)(@h3ravel/core@1.11.0)(@h3ravel/support@0.10.3)':
+  '@h3ravel/console@11.6.1(@h3ravel/arquebus@0.5.0)(@h3ravel/core@1.11.0)(@h3ravel/support@0.10.3)':
     dependencies:
       '@h3ravel/arquebus': 0.5.0(sqlite3@5.1.7)
       '@h3ravel/core': 1.11.0
-      '@h3ravel/shared': 0.20.9
+      '@h3ravel/shared': 0.20.10
       '@h3ravel/support': 0.10.3
       chalk: 5.6.2
       commander: 14.0.1
@@ -4922,7 +4922,7 @@ snapshots:
 
   '@h3ravel/core@1.11.0':
     dependencies:
-      '@h3ravel/shared': 0.20.9
+      '@h3ravel/shared': 0.20.10
       '@h3ravel/support': 0.10.3
       chalk: 5.6.2
       commander: 14.0.1
@@ -4938,11 +4938,11 @@ snapshots:
     transitivePeerDependencies:
       - crossws
 
-  '@h3ravel/database@11.2.6(@h3ravel/core@1.11.0)(@h3ravel/filesystem@0.3.1(@h3ravel/core@1.11.0))(@h3ravel/support@0.10.3)':
+  '@h3ravel/database@11.2.7(@h3ravel/core@1.11.0)(@h3ravel/filesystem@0.4.0(@h3ravel/core@1.11.0))(@h3ravel/support@0.10.3)':
     dependencies:
       '@h3ravel/arquebus': 0.5.0(sqlite3@5.1.7)
       '@h3ravel/core': 1.11.0
-      '@h3ravel/filesystem': 0.3.1(@h3ravel/core@1.11.0)
+      '@h3ravel/filesystem': 0.4.0(@h3ravel/core@1.11.0)
       '@h3ravel/support': 0.10.3
       sqlite3: 5.1.7
     transitivePeerDependencies:
@@ -4953,10 +4953,10 @@ snapshots:
       - pg-native
       - supports-color
 
-  '@h3ravel/filesystem@0.3.1(@h3ravel/core@1.11.0)':
+  '@h3ravel/filesystem@0.4.0(@h3ravel/core@1.11.0)':
     dependencies:
       '@h3ravel/core': 1.11.0
-      '@h3ravel/shared': 0.20.9
+      '@h3ravel/shared': 0.20.10
       '@h3ravel/support': 0.10.3
     transitivePeerDependencies:
       - crossws
@@ -4964,7 +4964,7 @@ snapshots:
   '@h3ravel/http@11.3.1(@h3ravel/core@1.11.0)':
     dependencies:
       '@h3ravel/core': 1.11.0
-      '@h3ravel/shared': 0.20.9
+      '@h3ravel/shared': 0.20.10
       '@h3ravel/support': 0.10.3
       h3: 2.0.0-beta.4
       srvx: 0.8.7
@@ -4983,12 +4983,12 @@ snapshots:
     dependencies:
       '@h3ravel/core': 1.11.0
 
-  '@h3ravel/router@1.9.4(@h3ravel/filesystem@0.3.1(@h3ravel/core@1.11.0))':
+  '@h3ravel/router@1.10.0(@h3ravel/filesystem@0.4.0(@h3ravel/core@1.11.0))':
     dependencies:
       '@h3ravel/core': 1.11.0
-      '@h3ravel/database': 11.2.6(@h3ravel/core@1.11.0)(@h3ravel/filesystem@0.3.1(@h3ravel/core@1.11.0))(@h3ravel/support@0.10.3)
+      '@h3ravel/database': 11.2.7(@h3ravel/core@1.11.0)(@h3ravel/filesystem@0.4.0(@h3ravel/core@1.11.0))(@h3ravel/support@0.10.3)
       '@h3ravel/http': 11.3.1(@h3ravel/core@1.11.0)
-      '@h3ravel/shared': 0.20.9
+      '@h3ravel/shared': 0.20.10
       '@h3ravel/support': 0.10.3
       h3: 2.0.0-beta.4
       reflect-metadata: 0.2.2
@@ -5001,7 +5001,7 @@ snapshots:
       - pg-native
       - supports-color
 
-  '@h3ravel/shared@0.20.9':
+  '@h3ravel/shared@0.20.10':
     dependencies:
       chalk: 5.6.2
       edge.js: 6.3.0
