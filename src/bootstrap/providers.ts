@@ -8,6 +8,7 @@ import { MailServiceProvider } from '@h3ravel/mail'
 import { ConfigServiceProvider } from '@h3ravel/config'
 import { FilesystemProvider } from '@h3ravel/filesystem'
 import { AppServiceProvider } from 'src/app/Providers/AppServiceProvider'
+import { ViewServiceProvider } from '@h3ravel/view'
 
 /**
  * Default service provider have a priority ranging from 999-990
@@ -19,6 +20,7 @@ export default <Array<new (_app: Application) => ServiceProvider>>[
     HttpServiceProvider,
     ConfigServiceProvider,
     RouteServiceProvider,
+    ViewServiceProvider,
     AssetsServiceProvider,
     DatabaseServiceProvider,
     CacheServiceProvider,

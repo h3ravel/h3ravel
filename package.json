@@ -27,27 +27,30 @@
     "postinstall": "pnpm spawn"
   },
   "dependencies": {
-    "@h3ravel/core": "^1.12.0",
+    "@h3ravel/arquebus": "^0.5.0",
     "@h3ravel/cache": "^11.0.4",
     "@h3ravel/config": "^1.4.2",
     "@h3ravel/console": "^11.6.1",
+    "@h3ravel/core": "^1.12.2",
     "@h3ravel/database": "^11.2.7",
+    "@h3ravel/filesystem": "^0.4.0",
     "@h3ravel/http": "^11.3.1",
     "@h3ravel/mail": "^11.0.4",
     "@h3ravel/queue": "^11.0.3",
     "@h3ravel/router": "^1.10.1",
     "@h3ravel/shared": "^0.20.10",
     "@h3ravel/support": "^0.11.0",
-    "@h3ravel/arquebus": "^0.5.0",
-    "@h3ravel/filesystem": "^0.4.0",
-    "@h3ravel/view": "^0.1.0",
+    "@h3ravel/view": "^0.1.1",
+    "h3": "2.0.0-beta.4",
     "reflect-metadata": "^0.2.2",
-    "source-map-support": "^0.5.21",
-    "h3": "2.0.0-beta.4"
+    "source-map-support": "^0.5.21"
   },
   "devDependencies": {
     "@eslint/js": "latest",
+    "@rollup/plugin-run": "^3.1.0",
+    "@swc/core": "^1.13.5",
     "@types/jest": "^30.0.0",
+    "@types/node": "^24.5.2",
     "@typescript-eslint/eslint-plugin": "^8.40.0",
     "@typescript-eslint/parser": "^8.40.0",
     "eslint": "^9.34.0",
@@ -57,12 +60,9 @@
     "ts-node": "^10.9.2",
     "tsconfig-paths": "^4.2.0",
     "tsdown": "^0.15.4",
-    "typescript-eslint": "^8.40.0",
-    "@rollup/plugin-run": "^3.1.0",
-    "@swc/core": "^1.13.5",
-    "@types/node": "^24.5.2",
     "tsx": "^4.20.5",
-    "typescript": "^5.9.2"
+    "typescript": "^5.9.2",
+    "typescript-eslint": "^8.40.0"
   },
   "packageManager": "pnpm@10.15.0"
 }
