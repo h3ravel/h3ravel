@@ -1,8 +1,7 @@
+import { Application, Kernel } from '@h3ravel/core'
 import { LogRequests, Request, Response } from '@h3ravel/http'
 
-import { Application } from '@h3ravel/core'
 import { HttpContext } from '@h3ravel/shared'
-import { Kernel } from '@h3ravel/core'
 import providers from 'src/bootstrap/providers'
 
 export default class {
