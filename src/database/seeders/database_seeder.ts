@@ -8,7 +8,7 @@ export default class DatabaseSeeder extends Seeder {
    */
   async run () {
     await DB.table('users').insert({
-      name: 'John Does',
+      name: 'John Doe',
       email: 'demo@example.com',
       password: await Hash.make('password')
     })
