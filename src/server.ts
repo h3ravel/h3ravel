@@ -1,9 +1,11 @@
 import 'reflect-metadata'
+import App from 'src/bootstrap/app'
 
-import app from 'src/bootstrap/app'
-
-new app().bootstrap();
+const appInstance = new App();
+appInstance.bootstrap();
 
 ['SIGINT', 'SIGTERM', 'SIGTSTP'].forEach(sig => process.on(sig, () => {
     process.exit(0)
 }))
+
+export { appInstance as app };
