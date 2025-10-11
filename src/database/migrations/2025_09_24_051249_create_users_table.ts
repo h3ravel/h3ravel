@@ -8,10 +8,9 @@ export default class extends Migration {
   async up (schema: SchemaBuilder) {
     await schema.createTable('users', (table) => {
       table.increments('id')
-      table.string('username').unique()
+      table.string('name')
       table.string('email').unique()
-      table.string('firstname')
-      table.string('lastname').nullable()
+      table.string('password').nullable()
       table.timestamps()
     })
   }
