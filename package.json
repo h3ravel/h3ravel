@@ -55,6 +55,8 @@
     "@typescript-eslint/eslint-plugin": "^8.40.0",
     "@typescript-eslint/parser": "^8.40.0",
     "@vitest/coverage-v8": "^3.2.4",
+    "@types/supertest": "^6.0.3",
+    "supertest": "^7.1.4",
     "eslint": "^9.34.0",
     "ts-node": "^10.9.2",
     "tsconfig-paths": "^4.2.0",
