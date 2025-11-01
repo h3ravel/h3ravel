@@ -70,7 +70,7 @@ export default () => {
         |--------------------------------------------------------------------------
         |
         | The application locale determines the default locale that will be used
-        | by Laravel's translation / localization methods. This option can be
+        | by H3ravel's translation / localization methods. This option can be
         | set to any locale for which you plan to have translation strings.
         |
         */
@@ -86,7 +86,7 @@ export default () => {
         | Encryption Key
         |--------------------------------------------------------------------------
         |
-        | This key is utilized by Laravel's encryption services and should be set
+        | This key is utilized by H3ravel's encryption services and should be set
         | to a random, 32 character string to ensure that all encrypted values
         | are secure. You should do this prior to deploying the application.
         |
@@ -96,9 +96,9 @@ export default () => {
 
         key: env('APP_KEY'),
 
-        previous_keys: {
+        previous_keys: [
             ...String(env('APP_PREVIOUS_KEYS', '')).split(',').filter(e => !!e)
-        },
+        ],
 
         /*
         |--------------------------------------------------------------------------
@@ -106,7 +106,7 @@ export default () => {
         |--------------------------------------------------------------------------
         |
         | These configuration options determine the driver used to determine and
-        | manage Laravel's "maintenance mode" status. The "cache" driver will
+        | manage H3ravel's "maintenance mode" status. The "cache" driver will
         | allow maintenance mode to be controlled across multiple machines.
         |
         | Supported drivers: "file", "cache"

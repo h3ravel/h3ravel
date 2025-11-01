@@ -32,7 +32,7 @@ jobs:
       - name: Install dependencies
         run: |
           pnpm install --ignore-scripts --frozen-lockfile
-          pnpm spawn
+          pnpm prepare
 
       - name: Run tests
         run: pnpm test
