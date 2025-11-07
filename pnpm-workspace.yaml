@@ -1,0 +1,5 @@
+ignoredBuiltDependencies:
+  - '@h3ravel/arquebus'
+
+onlyBuiltDependencies:
+  - '@h3ravel/musket'
