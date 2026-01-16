@@ -8,7 +8,8 @@ export default class {
             process.cwd(),
             {
                 autoload: true
-            }
+            },
+            async () => undefined
         )
 
         return await app.fire()

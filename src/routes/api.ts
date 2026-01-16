@@ -6,7 +6,7 @@ export default (Route: Router) => {
         Route.get('/', ({ app }: Request) => {
             return {
                 api: 'H3ravel Framework',
-                version: app().getVersion('app')
+                version: app.getVersion('app')
             }
         })
     })
