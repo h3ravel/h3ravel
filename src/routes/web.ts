@@ -1,6 +1,4 @@
-import { Router } from '@h3ravel/router'
+import { Route } from '@h3ravel/support/facades'
 import { WelcomeController } from 'src/app/Http/Controllers/WelcomeController'
 
-export default (Route: Router) => {
-    Route.get('/', [WelcomeController, 'index'])
-}
+Route.get('/', [WelcomeController, 'index']).name('index')

@@ -1,6 +1,4 @@
-import 'reflect-metadata'
-
-import { ServiceProvider } from '@h3ravel/core'
+import { ServiceProvider } from '@h3ravel/support'
 
 /**
  * Bootstraps your services and bindings.

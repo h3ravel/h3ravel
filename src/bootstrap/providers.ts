@@ -9,6 +9,6 @@ import { AppServiceProvider } from 'src/app/Providers/AppServiceProvider'
  * including custom providers matching core provider names
  */
 export default <Array<new (_app: Application) => ServiceProvider>>[
-    HttpServiceProvider,
     AppServiceProvider,
-]
+    HttpServiceProvider,
+] 
