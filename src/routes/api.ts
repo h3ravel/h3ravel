@@ -1,13 +1,8 @@
-import { Request } from '@h3ravel/http'
-import { Router } from '@h3ravel/router'
+import { Route } from '@h3ravel/support/facades'
 
-export default (Route: Router) => {
-    Route.group({ prefix: '/api' }, () => {
-        Route.get('/', ({ app }: Request) => {
-            return {
-                api: 'H3ravel Framework',
-                version: app().getVersion('app')
-            }
-        })
-    })
-}
+Route.get('/', () => {
+    return {
+        api: 'H3ravel Framework',
+        version: app().getVersion('app')
+    }
+}).name('index')
