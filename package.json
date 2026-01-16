@@ -1,6 +1,6 @@
 {
   "name": "h3ravel",
-  "version": "0.4.0",
+  "version": "1.0.0-alpha.1",
   "description": "Modern TypeScript runtime-agnostic web framework built on top of H3.",
   "type": "module",
   "main": "dist/index.js",
