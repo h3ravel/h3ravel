@@ -9,68 +9,68 @@ importers:
   .:
     dependencies:
       '@h3ravel/arquebus':
-        specifier: ^0.7.6-alpha.4
-        version: 0.7.6(@types/node@24.10.9)(sqlite3@5.1.7)
+        specifier: ^0.8.0-alpha.2
+        version: 0.8.0-alpha.2(@types/node@24.10.9)(sqlite3@5.1.7)
       '@h3ravel/cache':
-        specifier: ^11.1.0-alpha.8
-        version: 11.1.0-alpha.8(@h3ravel/support@0.17.0-alpha.8)
+        specifier: ^11.1.0-alpha.9
+        version: 11.1.0-alpha.9(@h3ravel/support@0.17.0-alpha.9)
       '@h3ravel/config':
-        specifier: ^1.5.0-alpha.8
-        version: 1.5.0-alpha.8(@types/node@24.10.9)
+        specifier: ^1.5.0-alpha.9
+        version: 1.5.0-alpha.9(@types/node@24.10.9)
       '@h3ravel/console':
-        specifier: ^11.15.0-alpha.8
-        version: 11.15.0-alpha.8(@h3ravel/core@1.22.0-alpha.8(@types/node@24.10.9))(@h3ravel/support@0.17.0-alpha.8)(@types/node@24.10.9)
+        specifier: ^11.15.0-alpha.9
+        version: 11.15.0-alpha.9(@h3ravel/core@1.22.0-alpha.9(@types/node@24.10.9))(@h3ravel/support@0.17.0-alpha.9)(@types/node@24.10.9)
       '@h3ravel/core':
-        specifier: ^1.22.0-alpha.8
-        version: 1.22.0-alpha.8(@types/node@24.10.9)
+        specifier: ^1.22.0-alpha.9
+        version: 1.22.0-alpha.9(@types/node@24.10.9)
       '@h3ravel/database':
-        specifier: ^11.5.0-alpha.8
-        version: 11.5.0-alpha.8(@h3ravel/core@1.22.0-alpha.8(@types/node@24.10.9))(@h3ravel/filesystem@0.4.15-alpha.8(@h3ravel/core@1.22.0-alpha.8(@types/node@24.10.9))(@types/node@24.10.9))(@h3ravel/shared@0.29.0-alpha.8(@types/node@24.10.9))(@h3ravel/support@0.17.0-alpha.8)(@types/node@24.10.9)
+        specifier: ^11.5.0-alpha.9
+        version: 11.5.0-alpha.9(@h3ravel/core@1.22.0-alpha.9(@types/node@24.10.9))(@h3ravel/filesystem@0.4.15-alpha.9(@h3ravel/core@1.22.0-alpha.9(@types/node@24.10.9))(@types/node@24.10.9))(@h3ravel/shared@0.29.0-alpha.9(@types/node@24.10.9))(@h3ravel/support@0.17.0-alpha.9)(@types/node@24.10.9)
       '@h3ravel/events':
-        specifier: ^0.1.0-alpha.8
-        version: 0.1.0-alpha.8(@h3ravel/core@1.22.0-alpha.8(@types/node@24.10.9))
+        specifier: ^0.1.0-alpha.9
+        version: 0.1.0-alpha.9(@h3ravel/core@1.22.0-alpha.9(@types/node@24.10.9))
       '@h3ravel/filesystem':
-        specifier: ^0.4.15-alpha.8
-        version: 0.4.15-alpha.8(@h3ravel/core@1.22.0-alpha.8(@types/node@24.10.9))(@types/node@24.10.9)
+        specifier: ^0.4.15-alpha.9
+        version: 0.4.15-alpha.9(@h3ravel/core@1.22.0-alpha.9(@types/node@24.10.9))(@types/node@24.10.9)
       '@h3ravel/foundation':
-        specifier: ^0.1.0-alpha.8
-        version: 0.1.0-alpha.8(@types/node@24.10.9)
+        specifier: ^0.1.0-alpha.9
+        version: 0.1.0-alpha.9(@types/node@24.10.9)
       '@h3ravel/hashing':
-        specifier: ^0.2.0-alpha.8
-        version: 0.2.0-alpha.8(@h3ravel/core@1.22.0-alpha.8(@types/node@24.10.9))(@h3ravel/foundation@0.1.0-alpha.8(@types/node@24.10.9))(@h3ravel/shared@0.29.0-alpha.8(@types/node@24.10.9))(@h3ravel/support@0.17.0-alpha.8)
+        specifier: ^0.2.0-alpha.9
+        version: 0.2.0-alpha.9(@h3ravel/core@1.22.0-alpha.9(@types/node@24.10.9))(@h3ravel/foundation@0.1.0-alpha.9(@types/node@24.10.9))(@h3ravel/shared@0.29.0-alpha.9(@types/node@24.10.9))(@h3ravel/support@0.17.0-alpha.9)
       '@h3ravel/http':
-        specifier: ^11.8.0-alpha.8
-        version: 11.8.0-alpha.8(@h3ravel/database@11.5.0-alpha.8(@h3ravel/core@1.22.0-alpha.8(@types/node@24.10.9))(@h3ravel/filesystem@0.4.15-alpha.8(@h3ravel/core@1.22.0-alpha.8(@types/node@24.10.9))(@types/node@24.10.9))(@h3ravel/shared@0.29.0-alpha.8(@types/node@24.10.9))(@h3ravel/support@0.17.0-alpha.8)(@types/node@24.10.9))(@h3ravel/foundation@0.1.0-alpha.8(@types/node@24.10.9))(@h3ravel/validation@0.1.0-alpha.8(@h3ravel/config@1.5.0-alpha.8(@types/node@24.10.9))(@h3ravel/contracts@0.29.0-alpha.8)(@h3ravel/core@1.22.0-alpha.8(@types/node@24.10.9))(@h3ravel/database@11.5.0-alpha.8(@h3ravel/core@1.22.0-alpha.8(@types/node@24.10.9))(@h3ravel/filesystem@0.4.15-alpha.8(@h3ravel/core@1.22.0-alpha.8(@types/node@24.10.9))(@types/node@24.10.9))(@h3ravel/shared@0.29.0-alpha.8(@types/node@24.10.9))(@h3ravel/support@0.17.0-alpha.8)(@types/node@24.10.9))(@types/node@24.10.9))(@types/node@24.10.9)
+        specifier: ^11.8.0-alpha.9
+        version: 11.8.0-alpha.9(@h3ravel/database@11.5.0-alpha.9(@h3ravel/core@1.22.0-alpha.9(@types/node@24.10.9))(@h3ravel/filesystem@0.4.15-alpha.9(@h3ravel/core@1.22.0-alpha.9(@types/node@24.10.9))(@types/node@24.10.9))(@h3ravel/shared@0.29.0-alpha.9(@types/node@24.10.9))(@h3ravel/support@0.17.0-alpha.9)(@types/node@24.10.9))(@h3ravel/foundation@0.1.0-alpha.9(@types/node@24.10.9))(@h3ravel/validation@0.1.0-alpha.9(@h3ravel/config@1.5.0-alpha.9(@types/node@24.10.9))(@h3ravel/contracts@0.29.0-alpha.9)(@h3ravel/core@1.22.0-alpha.9(@types/node@24.10.9))(@h3ravel/database@11.5.0-alpha.9(@h3ravel/core@1.22.0-alpha.9(@types/node@24.10.9))(@h3ravel/filesystem@0.4.15-alpha.9(@h3ravel/core@1.22.0-alpha.9(@types/node@24.10.9))(@types/node@24.10.9))(@h3ravel/shared@0.29.0-alpha.9(@types/node@24.10.9))(@h3ravel/support@0.17.0-alpha.9)(@types/node@24.10.9))(@types/node@24.10.9))(@types/node@24.10.9)
       '@h3ravel/mail':
-        specifier: ^11.0.17-alpha.8
-        version: 11.0.17-alpha.8(@h3ravel/core@1.22.0-alpha.8(@types/node@24.10.9))
+        specifier: ^11.0.17-alpha.9
+        version: 11.0.17-alpha.9(@h3ravel/core@1.22.0-alpha.9(@types/node@24.10.9))
       '@h3ravel/musket':
-        specifier: ^0.6.12-alpha.4
-        version: 0.6.12(@types/node@24.10.9)
+        specifier: ^0.8.0-alpha.4
+        version: 0.8.0-alpha.4(@types/node@24.10.9)
       '@h3ravel/queue':
-        specifier: ^11.1.0-alpha.8
-        version: 11.1.0-alpha.8(@h3ravel/contracts@0.29.0-alpha.8)(@h3ravel/core@1.22.0-alpha.8(@types/node@24.10.9))
+        specifier: ^11.1.0-alpha.9
+        version: 11.1.0-alpha.9(@h3ravel/contracts@0.29.0-alpha.9)(@h3ravel/core@1.22.0-alpha.9(@types/node@24.10.9))
       '@h3ravel/router':
-        specifier: ^1.15.0-alpha.8
-        version: 1.15.0-alpha.8(@h3ravel/core@1.22.0-alpha.8(@types/node@24.10.9))(@h3ravel/database@11.5.0-alpha.8(@h3ravel/core@1.22.0-alpha.8(@types/node@24.10.9))(@h3ravel/filesystem@0.4.15-alpha.8(@h3ravel/core@1.22.0-alpha.8(@types/node@24.10.9))(@types/node@24.10.9))(@h3ravel/shared@0.29.0-alpha.8(@types/node@24.10.9))(@h3ravel/support@0.17.0-alpha.8)(@types/node@24.10.9))(@h3ravel/validation@0.1.0-alpha.8(@h3ravel/config@1.5.0-alpha.8(@types/node@24.10.9))(@h3ravel/contracts@0.29.0-alpha.8)(@h3ravel/core@1.22.0-alpha.8(@types/node@24.10.9))(@h3ravel/database@11.5.0-alpha.8(@h3ravel/core@1.22.0-alpha.8(@types/node@24.10.9))(@h3ravel/filesystem@0.4.15-alpha.8(@h3ravel/core@1.22.0-alpha.8(@types/node@24.10.9))(@types/node@24.10.9))(@h3ravel/shared@0.29.0-alpha.8(@types/node@24.10.9))(@h3ravel/support@0.17.0-alpha.8)(@types/node@24.10.9))(@types/node@24.10.9))(@types/node@24.10.9)
+        specifier: ^1.15.0-alpha.9
+        version: 1.15.0-alpha.9(@h3ravel/core@1.22.0-alpha.9(@types/node@24.10.9))(@h3ravel/database@11.5.0-alpha.9(@h3ravel/core@1.22.0-alpha.9(@types/node@24.10.9))(@h3ravel/filesystem@0.4.15-alpha.9(@h3ravel/core@1.22.0-alpha.9(@types/node@24.10.9))(@types/node@24.10.9))(@h3ravel/shared@0.29.0-alpha.9(@types/node@24.10.9))(@h3ravel/support@0.17.0-alpha.9)(@types/node@24.10.9))(@h3ravel/validation@0.1.0-alpha.9(@h3ravel/config@1.5.0-alpha.9(@types/node@24.10.9))(@h3ravel/contracts@0.29.0-alpha.9)(@h3ravel/core@1.22.0-alpha.9(@types/node@24.10.9))(@h3ravel/database@11.5.0-alpha.9(@h3ravel/core@1.22.0-alpha.9(@types/node@24.10.9))(@h3ravel/filesystem@0.4.15-alpha.9(@h3ravel/core@1.22.0-alpha.9(@types/node@24.10.9))(@types/node@24.10.9))(@h3ravel/shared@0.29.0-alpha.9(@types/node@24.10.9))(@h3ravel/support@0.17.0-alpha.9)(@types/node@24.10.9))(@types/node@24.10.9))(@types/node@24.10.9)
       '@h3ravel/session':
-        specifier: ^0.1.0-alpha.8
-        version: 0.1.0-alpha.8(@h3ravel/database@11.5.0-alpha.8(@h3ravel/core@1.22.0-alpha.8(@types/node@24.10.9))(@h3ravel/filesystem@0.4.15-alpha.8(@h3ravel/core@1.22.0-alpha.8(@types/node@24.10.9))(@types/node@24.10.9))(@h3ravel/shared@0.29.0-alpha.8(@types/node@24.10.9))(@h3ravel/support@0.17.0-alpha.8)(@types/node@24.10.9))(@h3ravel/foundation@0.1.0-alpha.8(@types/node@24.10.9))(@h3ravel/shared@0.29.0-alpha.8(@types/node@24.10.9))
+        specifier: ^0.1.0-alpha.9
+        version: 0.1.0-alpha.9(@h3ravel/database@11.5.0-alpha.9(@h3ravel/core@1.22.0-alpha.9(@types/node@24.10.9))(@h3ravel/filesystem@0.4.15-alpha.9(@h3ravel/core@1.22.0-alpha.9(@types/node@24.10.9))(@types/node@24.10.9))(@h3ravel/shared@0.29.0-alpha.9(@types/node@24.10.9))(@h3ravel/support@0.17.0-alpha.9)(@types/node@24.10.9))(@h3ravel/foundation@0.1.0-alpha.9(@types/node@24.10.9))(@h3ravel/shared@0.29.0-alpha.9(@types/node@24.10.9))
       '@h3ravel/shared':
-        specifier: ^0.29.0-alpha.8
-        version: 0.29.0-alpha.8(@types/node@24.10.9)
+        specifier: ^0.29.0-alpha.9
+        version: 0.29.0-alpha.9(@types/node@24.10.9)
       '@h3ravel/support':
-        specifier: ^0.17.0-alpha.8
-        version: 0.17.0-alpha.8
+        specifier: ^0.17.0-alpha.9
+        version: 0.17.0-alpha.9
       '@h3ravel/url':
-        specifier: ^1.1.0-alpha.8
-        version: 1.1.0-alpha.8(@types/node@24.10.9)
+        specifier: ^1.1.0-alpha.9
+        version: 1.1.0-alpha.9(@types/node@24.10.9)
       '@h3ravel/validation':
-        specifier: ^0.1.0-alpha.8
-        version: 0.1.0-alpha.8(@h3ravel/config@1.5.0-alpha.8(@types/node@24.10.9))(@h3ravel/contracts@0.29.0-alpha.8)(@h3ravel/core@1.22.0-alpha.8(@types/node@24.10.9))(@h3ravel/database@11.5.0-alpha.8(@h3ravel/core@1.22.0-alpha.8(@types/node@24.10.9))(@h3ravel/filesystem@0.4.15-alpha.8(@h3ravel/core@1.22.0-alpha.8(@types/node@24.10.9))(@types/node@24.10.9))(@h3ravel/shared@0.29.0-alpha.8(@types/node@24.10.9))(@h3ravel/support@0.17.0-alpha.8)(@types/node@24.10.9))(@types/node@24.10.9)
+        specifier: ^0.1.0-alpha.9
+        version: 0.1.0-alpha.9(@h3ravel/config@1.5.0-alpha.9(@types/node@24.10.9))(@h3ravel/contracts@0.29.0-alpha.9)(@h3ravel/core@1.22.0-alpha.9(@types/node@24.10.9))(@h3ravel/database@11.5.0-alpha.9(@h3ravel/core@1.22.0-alpha.9(@types/node@24.10.9))(@h3ravel/filesystem@0.4.15-alpha.9(@h3ravel/core@1.22.0-alpha.9(@types/node@24.10.9))(@types/node@24.10.9))(@h3ravel/shared@0.29.0-alpha.9(@types/node@24.10.9))(@h3ravel/support@0.17.0-alpha.9)(@types/node@24.10.9))(@types/node@24.10.9)
       '@h3ravel/view':
-        specifier: ^0.1.14-alpha.8
-        version: 0.1.14-alpha.8(@h3ravel/database@11.5.0-alpha.8(@h3ravel/core@1.22.0-alpha.8(@types/node@24.10.9))(@h3ravel/filesystem@0.4.15-alpha.8(@h3ravel/core@1.22.0-alpha.8(@types/node@24.10.9))(@types/node@24.10.9))(@h3ravel/shared@0.29.0-alpha.8(@types/node@24.10.9))(@h3ravel/support@0.17.0-alpha.8)(@types/node@24.10.9))(@h3ravel/foundation@0.1.0-alpha.8(@types/node@24.10.9))(@h3ravel/shared@0.29.0-alpha.8(@types/node@24.10.9))(@h3ravel/support@0.17.0-alpha.8)(@h3ravel/validation@0.1.0-alpha.8(@h3ravel/config@1.5.0-alpha.8(@types/node@24.10.9))(@h3ravel/contracts@0.29.0-alpha.8)(@h3ravel/core@1.22.0-alpha.8(@types/node@24.10.9))(@h3ravel/database@11.5.0-alpha.8(@h3ravel/core@1.22.0-alpha.8(@types/node@24.10.9))(@h3ravel/filesystem@0.4.15-alpha.8(@h3ravel/core@1.22.0-alpha.8(@types/node@24.10.9))(@types/node@24.10.9))(@h3ravel/shared@0.29.0-alpha.8(@types/node@24.10.9))(@h3ravel/support@0.17.0-alpha.8)(@types/node@24.10.9))(@types/node@24.10.9))(@types/node@24.10.9)
+        specifier: ^0.1.14-alpha.9
+        version: 0.1.14-alpha.9(@h3ravel/database@11.5.0-alpha.9(@h3ravel/core@1.22.0-alpha.9(@types/node@24.10.9))(@h3ravel/filesystem@0.4.15-alpha.9(@h3ravel/core@1.22.0-alpha.9(@types/node@24.10.9))(@types/node@24.10.9))(@h3ravel/shared@0.29.0-alpha.9(@types/node@24.10.9))(@h3ravel/support@0.17.0-alpha.9)(@types/node@24.10.9))(@h3ravel/foundation@0.1.0-alpha.9(@types/node@24.10.9))(@h3ravel/shared@0.29.0-alpha.9(@types/node@24.10.9))(@h3ravel/support@0.17.0-alpha.9)(@h3ravel/validation@0.1.0-alpha.9(@h3ravel/config@1.5.0-alpha.9(@types/node@24.10.9))(@h3ravel/contracts@0.29.0-alpha.9)(@h3ravel/core@1.22.0-alpha.9(@types/node@24.10.9))(@h3ravel/database@11.5.0-alpha.9(@h3ravel/core@1.22.0-alpha.9(@types/node@24.10.9))(@h3ravel/filesystem@0.4.15-alpha.9(@h3ravel/core@1.22.0-alpha.9(@types/node@24.10.9))(@types/node@24.10.9))(@h3ravel/shared@0.29.0-alpha.9(@types/node@24.10.9))(@h3ravel/support@0.17.0-alpha.9)(@types/node@24.10.9))(@types/node@24.10.9))(@types/node@24.10.9)
       cross-env:
         specifier: ^10.1.0
         version: 10.1.0
@@ -583,131 +583,116 @@ packages:
   '@gar/promisify@1.1.3':
     resolution: {integrity: sha512-k2Ty1JcVojjJFwrg/ThKi2ujJ7XNLYaFGNB/bWT9wGR+oSMJHMa5w+CUq6p/pVrKeNNgA7pCqEcjSnHVoqJQFw==}
 
-  '@h3ravel/arquebus@0.7.6':
-    resolution: {integrity: sha512-nBwW/47UBFQX+8qVuCEWA/BxvZBZSnI6oX6Yw5nmts8ddnFS/AMjgfVj5FwfK0tPt2v/An5u1PNL6wfh6LBqbQ==}
+  '@h3ravel/arquebus@0.8.0-alpha.2':
+    resolution: {integrity: sha512-PQVlRVY2joYjIddpTl67BN0xC0YTbAeSl4+NKNfH7K7BSKR+J5dtjQUy/H9kdpzhurKlb0y/IDE5hIgZdNb5lw==}
     engines: {node: '>=14', pnpm: '>=4'}
     hasBin: true
 
-  '@h3ravel/cache@11.1.0-alpha.8':
-    resolution: {integrity: sha512-mzP9bIl8xYss7nt4WAujbTIHVrKB/6hnZxV9hFcsyyKbFRyIjcaMC7cgqn8l5XQrOJikmUhHuFvLdYA5GZxU8A==}
+  '@h3ravel/cache@11.1.0-alpha.9':
+    resolution: {integrity: sha512-XknZAVjo+9iWJ6CU8gel80myBQI56iI/oCqS5bOTj+YO0Sst8gGqHldhuO/FitBGihpO8lvgluC2cldDRa4hmA==}
     peerDependencies:
-      '@h3ravel/support': ^0.17.0-alpha.8
+      '@h3ravel/support': ^0.17.0-alpha.9
 
   '@h3ravel/collect.js@5.3.4':
     resolution: {integrity: sha512-XcdO4mbNzlDIycsF1h9OSn65os8rZW02+EOTGaq3MVAQ8oeUB8L8So1VWoFrD7dyAL6M0H8koIkLJE77KROEXQ==}
 
-  '@h3ravel/config@1.5.0-alpha.8':
-    resolution: {integrity: sha512-ptolsOQzKENcohVcVzI/fQ88jEigNkaGQFGP1w1N0uoHNTBuqrl4o8Cna26ZpPgUBdQOUiPGbmtjHlyy4nau0Q==}
+  '@h3ravel/config@1.5.0-alpha.9':
+    resolution: {integrity: sha512-kLr/sfyLqWe+6NYX21PKuRog1FfvJ2ws0+CoVes+ojmV8ymdwyOmEaTDxzGUa1NfikNKdW3aGppHo7HhRN6vkg==}
 
-  '@h3ravel/console@11.15.0-alpha.8':
-    resolution: {integrity: sha512-uHcnxzsbOpEkHOs1LN7QQUJ6Y9W/Pju3E/uLwdk0q87a9WUlMmS0WQpU4fTl3yYLtQeXs+Be/dg7EpytgoEPsw==}
+  '@h3ravel/console@11.15.0-alpha.9':
+    resolution: {integrity: sha512-ZZJuBiJHqeFT1uv7dOHcOp77wJivx927lo8rvYSVa5Ecr6ze9cPBg0E9XJM0nfXiOn4SU/jE+vUtncZ/b98IXQ==}
     hasBin: true
     peerDependencies:
-      '@h3ravel/core': ^1.22.0-alpha.8
-      '@h3ravel/support': ^0.17.0-alpha.8
+      '@h3ravel/core': ^1.22.0-alpha.9
+      '@h3ravel/support': ^0.17.0-alpha.9
 
-  '@h3ravel/contracts@0.28.1':
-    resolution: {integrity: sha512-Ub2+5rvabNjMvcxDkVWfBBucXLpVDqCX8/rl3QQwbDpcNilZfcnzw1aHfSuk5XpNUBw4zmxYJGlQkuNS3St+TQ==}
+  '@h3ravel/contracts@0.29.0-alpha.9':
+    resolution: {integrity: sha512-x8EauzifVYEw5C7wvDOkZKrvMd3iaoOebxfzsa5XxH/FujWlH/JqOaYJuYw76/PRx83VBSH+K8yvo+jta9xW2w==}
 
-  '@h3ravel/contracts@0.29.0-alpha.8':
-    resolution: {integrity: sha512-f/tbVNiihSOwTJmdvcIeWuep55xd0+qtxJ4R9q1LK6Mq+5BLiAZ7y5+CJW1KZtZCJE4D2Saw77WQcSpAaViPkw==}
+  '@h3ravel/core@1.22.0-alpha.9':
+    resolution: {integrity: sha512-7w6X70WKD654lH1iv10CqcmSOJ44ZhnRvx0C4QcBzxDaLZCFpsWOXIpRzMb9/gS9OJoFIKWcJ1aNW4BptlySLQ==}
 
-  '@h3ravel/core@1.22.0-alpha.8':
-    resolution: {integrity: sha512-TMKbpn+795Q03+G4tkB7KsyWfyFymyFcR6jLd5J08BetXWqd7XKDxP3uXelbE1Xdx/DQ47EdHyvq0J5Zktrggg==}
-
-  '@h3ravel/database@11.5.0-alpha.8':
-    resolution: {integrity: sha512-xJD063GjOcRO+bAY1RVB+PLa2S8JA4wDnbyY0MABRwAhpGqvAr5rOuwYRD+iU7q0fX4Xw5aaoGfv2grNnak9Ow==}
+  '@h3ravel/database@11.5.0-alpha.9':
+    resolution: {integrity: sha512-2YpuSJQDsYzHAX4QQbeRP1gfmkB2U0+XJI/1RwPrNv2bz2LpjfgDrS3iL2GOa6ALJDI7Ygj9eoQdYpXmJl9HkQ==}
     peerDependencies:
-      '@h3ravel/core': ^1.22.0-alpha.8
-      '@h3ravel/filesystem': ^0.4.15-alpha.8
-      '@h3ravel/shared': ^0.29.0-alpha.8
-      '@h3ravel/support': ^0.17.0-alpha.8
+      '@h3ravel/core': ^1.22.0-alpha.9
+      '@h3ravel/filesystem': ^0.4.15-alpha.9
+      '@h3ravel/shared': ^0.29.0-alpha.9
+      '@h3ravel/support': ^0.17.0-alpha.9
 
-  '@h3ravel/events@0.1.0-alpha.8':
-    resolution: {integrity: sha512-rTe/OhMy9MJWmHUB995xP3nowMLnUANFri4yGfee4Vtj3zaQ91DJ+hM+/bhTGgbufA4GAJuv0H0mh+g3wDVwtQ==}
+  '@h3ravel/events@0.1.0-alpha.9':
+    resolution: {integrity: sha512-ZM4oVUF4dnrdGm1k0iFWJh/41hWhsG9Q/TcwacC6NrGAJUj9Q3evdGQzuBsm8ySpD/EjOdbR/dbCN27orYGvHA==}
     peerDependencies:
-      '@h3ravel/core': ^1.22.0-alpha.8
+      '@h3ravel/core': ^1.22.0-alpha.9
 
-  '@h3ravel/filesystem@0.4.15-alpha.8':
-    resolution: {integrity: sha512-MRJecWcPBkBEHNkns3+6LuDq/nupdrCz2RtNsr5b1LO+N6l2BsmKY9lzMZsNHAGXOJGucPdRIuk6El1ysWQ7Dg==}
+  '@h3ravel/filesystem@0.4.15-alpha.9':
+    resolution: {integrity: sha512-9m7kmsq185DtKTlSSOmmsChcmHVk5TGQQyWF05ch+8ETvtKW8pRHWMFFZ/X/CayvJ6VnFg81TGA6o5FWOygHpg==}
     peerDependencies:
-      '@h3ravel/core': ^1.22.0-alpha.8
+      '@h3ravel/core': ^1.22.0-alpha.9
 
-  '@h3ravel/foundation@0.1.0-alpha.8':
-    resolution: {integrity: sha512-24LJcGOp5s3GmvfsytaPBn1RsS/uaoj+flXoOcO+d3nk9ZHHuKPdRnbhq8Wan25fVYBvv5PYBeG2c3aU0MdJ9w==}
+  '@h3ravel/foundation@0.1.0-alpha.9':
+    resolution: {integrity: sha512-41vh0YXYdTYh3WAJyLaB6lsOVOd2SY0be5xQaa2hnJAke+gGqE8K6oi1C9qad79Dq5kDuboy77mEg+ONZGXAWA==}
 
-  '@h3ravel/hashing@0.2.0-alpha.8':
-    resolution: {integrity: sha512-oIsRBDhGoCTXHfekLJ4a1uzJtko5YZLyVZ8XijFRo/lavP1DMs56+aRcsMB8T9NK05fWNeYDz6+ld5Iz1i41fg==}
+  '@h3ravel/hashing@0.2.0-alpha.9':
+    resolution: {integrity: sha512-Ns7VcQVg3WbCGXrFzA7SCQy0H1Puc+0Y3mrAVL9QMhr5VQtFCNN/P8TSlmt7Ep7xG3Xl8PCQ6gqxIxCxD9B8Tg==}
     peerDependencies:
-      '@h3ravel/core': ^1.22.0-alpha.8
-      '@h3ravel/foundation': ^0.1.0-alpha.8
-      '@h3ravel/shared': ^0.29.0-alpha.8
-      '@h3ravel/support': ^0.17.0-alpha.8
+      '@h3ravel/core': ^1.22.0-alpha.9
+      '@h3ravel/foundation': ^0.1.0-alpha.9
+      '@h3ravel/shared': ^0.29.0-alpha.9
+      '@h3ravel/support': ^0.17.0-alpha.9
     peerDependenciesMeta:
       '@h3ravel/core':
         optional: true
 
-  '@h3ravel/http@11.8.0-alpha.8':
-    resolution: {integrity: sha512-kLUm1ObTMEUlmCzK/ZeHK3Ez98JHJI/fMj1D6CW3vIyVgSuwy1Du5ARfvveB2OVQmkRPsXeFRhnrjM7wn20/Ww==}
+  '@h3ravel/http@11.8.0-alpha.9':
+    resolution: {integrity: sha512-2tOK81fadfrRnwzjUhlE2gKI/hINynnYwWI1szQW4+34PUkFtoDAUsWRf6oTxKisoZ9Yqh+CxrKT9KyVZ5iuZA==}
     peerDependencies:
-      '@h3ravel/foundation': ^0.1.0-alpha.8
-      '@h3ravel/validation': ^0.1.0-alpha.8
+      '@h3ravel/foundation': ^0.1.0-alpha.9
+      '@h3ravel/validation': ^0.1.0-alpha.9
 
-  '@h3ravel/mail@11.0.17-alpha.8':
-    resolution: {integrity: sha512-j6i+7HzfJ59lYirE79x+nmtJ0g7NrnBYgHTKqqR0WndXBFXVNiBi52DVDt/gfu05ZUR8uw24uwJYmlUSN/Rdxg==}
+  '@h3ravel/mail@11.0.17-alpha.9':
+    resolution: {integrity: sha512-Ue1eBfaeK29y4orEyQc+svFl9wcMN7T4tramGxM2PVl+pqmcTs+xgU1rbcuZSPIjKdwCxIh2FesFv9yIfEZ7Uw==}
     peerDependencies:
-      '@h3ravel/core': ^1.22.0-alpha.8
+      '@h3ravel/core': ^1.22.0-alpha.9
 
-  '@h3ravel/musket@0.6.12':
-    resolution: {integrity: sha512-v4OZT+C3/a/apj1OyooK08glH4SmW92XGF0jdOH3cT2vQNSmVG6+orlhtflKGtjA8fuzSnnd6+UfYTvjUka5DQ==}
+  '@h3ravel/musket@0.8.0-alpha.4':
+    resolution: {integrity: sha512-qyFFuPrXOxXNam+bAo/ft6CQ7ZGrmL40RnbyMEtE9A3V6vQt5BccKQQyDyCcmb9qIPOu2gcnvY/wEtNJtuFV8g==}
     engines: {node: ^20.19.0 || >=22.12.0}
 
-  '@h3ravel/queue@11.1.0-alpha.8':
-    resolution: {integrity: sha512-8NVCIhBYAqnZUvDE6DxyHMjkacL6Lun0tolJDBMPiPksmmLs7SZXqp4ZdF+LwGnwRrD/yQqAqvr9AcNGwORKvA==}
+  '@h3ravel/queue@11.1.0-alpha.9':
+    resolution: {integrity: sha512-xSjzD0KtCuA4uLQjar6ZUISIPSwtkYBHBDR5sM7WyMhhIHIYnW+lHP+EzPJ0KxAhNkfDYJYrm+0FL+xE8oB/Sw==}
     peerDependencies:
-      '@h3ravel/contracts': ^0.29.0-alpha.8
-      '@h3ravel/core': ^1.22.0-alpha.8
+      '@h3ravel/contracts': ^0.29.0-alpha.9
+      '@h3ravel/core': ^1.22.0-alpha.9
 
-  '@h3ravel/router@1.15.0-alpha.8':
-    resolution: {integrity: sha512-23Ma+nSZ5atI48HiKI7ewWD3A3/D3t5Y7rU9XV/3ni3ayvDxd2Vs5PkJWNvnzlOn+9K90qUhP5cKh+Nm33HXow==}
+  '@h3ravel/router@1.15.0-alpha.9':
+    resolution: {integrity: sha512-ySIUAFx77/eFbBUqU8mHfOJqydeZggkTdfIobmM/83QpkYx6nc5xBPnnYO86t13vAAt7eK+1OrXgARAEDcJGcQ==}
     peerDependencies:
-      '@h3ravel/database': ^11.5.0-alpha.8
+      '@h3ravel/database': ^11.5.0-alpha.9
 
-  '@h3ravel/session@0.1.0-alpha.8':
-    resolution: {integrity: sha512-f0Vj45dzJEuqZshJaMhyOwxBIl+AqjSQOYS7lAfF9MXLPl3F0IYEPrBasv+VsxXAebZkB7iUhcI6KdXOFFya5w==}
+  '@h3ravel/session@0.1.0-alpha.9':
+    resolution: {integrity: sha512-ga0JQPEWg5ZnUcy4fdBo1F0QvQMRqQCkAVrn5Jp2BIs7UtmaV7Cyw7ecMhhXIiLmU5MDHUpSC8vdvlMrVQF2Ng==}
     peerDependencies:
-      '@h3ravel/database': ^11.5.0-alpha.8
-      '@h3ravel/foundation': ^0.1.0-alpha.8
-      '@h3ravel/shared': ^0.29.0-alpha.8
+      '@h3ravel/database': ^11.5.0-alpha.9
+      '@h3ravel/foundation': ^0.1.0-alpha.9
+      '@h3ravel/shared': ^0.29.0-alpha.9
 
-  '@h3ravel/shared@0.27.7':
-    resolution: {integrity: sha512-vuH/VlpWNoJHvkrvqz6OxObWyMtOwYmz2fDK4HvV9MREGkVEnKjFRUp96Gr/wplVLTAbvKxKaL6QeUZokulw8Q==}
+  '@h3ravel/shared@0.29.0-alpha.9':
+    resolution: {integrity: sha512-Ab4/gG+bqMVf1SrYbvqdAnoHXSTQ+LRL+q4qkyLq8iWnAgzDjBgnmwPtyy6TOo7jZmhXURgIYx7EjwEcbkeL5g==}
 
-  '@h3ravel/shared@0.28.4':
-    resolution: {integrity: sha512-9D+pdJ5UdLRVau4KdISRDikuUeE2NpqY2SWVgfi/SVNc9R7+eyYbRofZRujWO3H/DvVyJuPA7L6IdxWmdZcQyg==}
+  '@h3ravel/support@0.17.0-alpha.9':
+    resolution: {integrity: sha512-CJKuCzMZbl92n6j+eSl+JG+2hz2v76zhw4PlLMIX52Rihvz8svv68KB4OktB02wlFI/ZIoaXJzHIvgh0iri55Q==}
 
-  '@h3ravel/shared@0.29.0-alpha.8':
-    resolution: {integrity: sha512-u9dJzWGYItL7yoWSyES4Dopwc+x7v1Cqf7dsjEVFCcl7PE0GSzWTc3H5Z8UkmdG4vdcbELHFbHJbr7rScPo2ew==}
+  '@h3ravel/url@1.1.0-alpha.9':
+    resolution: {integrity: sha512-RCsULsIG3i1GxMpODaTU/zxVNdotZR5ZUvahAfGG6AsUku0oeGkFVUTk82CuSxbX6TL2QaVxCTp6JCvCxq8Ofg==}
 
-  '@h3ravel/support@0.15.6':
-    resolution: {integrity: sha512-fAZvxgXotHczhznZhg83FrQfucfJ8XQNNO1xtVQQ8Z7mOCTA+MLIfni0oSaHaqpPf1xpgfpVaXlEmdFu1xcGoQ==}
-
-  '@h3ravel/support@0.16.1':
-    resolution: {integrity: sha512-zXKP3wRhYuvexSOwWOHqehF5ykvQTGf9KzQuiY6sbHgL3PQ0FRC9vTgUB3z1lFfmu2c39XOSpoGQp4c/CBQZ+g==}
-
-  '@h3ravel/support@0.17.0-alpha.8':
-    resolution: {integrity: sha512-NnmobmIwp72Dja6x6eJn2HWn/QYbO9wAYt0B3AoDi4bYFEP3b+pbH+qLwpOOOF/Vd4ugnwfyU/dBEd5cxk3/Mw==}
-
-  '@h3ravel/url@1.1.0-alpha.8':
-    resolution: {integrity: sha512-RppoBPPVDevTCwFuUxigp8vGkFKlE2O9WiR7QqJv0Pny4Rx/1CKy5WdpE02vgjQHg71mvRRyTok27xNEROAbzg==}
-
-  '@h3ravel/validation@0.1.0-alpha.8':
-    resolution: {integrity: sha512-P6s9oaksbCK0zx+u5rdXOpajpoE6IeCPyQ/NANHuUc44QYnZlqKFyUcxyiE6fp/roAzXQLFG++Cx0MeucFc2Og==}
+  '@h3ravel/validation@0.1.0-alpha.9':
+    resolution: {integrity: sha512-TlaEFa8dRoDTvxedQg7TbVYqsp05QzQdEe/rHgTpmcGk9rwCHj4epEgmEE19MY+9Bgf96Y76zxD74BcQB49EHw==}
     peerDependencies:
-      '@h3ravel/config': ^1.5.0-alpha.8
-      '@h3ravel/contracts': ^0.29.0-alpha.8
-      '@h3ravel/core': ^1.22.0-alpha.8
-      '@h3ravel/database': ^11.5.0-alpha.8
+      '@h3ravel/config': ^1.5.0-alpha.9
+      '@h3ravel/contracts': ^0.29.0-alpha.9
+      '@h3ravel/core': ^1.22.0-alpha.9
+      '@h3ravel/database': ^11.5.0-alpha.9
     peerDependenciesMeta:
       '@h3ravel/config':
         optional: true
@@ -716,11 +701,11 @@ packages:
       '@h3ravel/database':
         optional: true
 
-  '@h3ravel/view@0.1.14-alpha.8':
-    resolution: {integrity: sha512-Q72x0QMIRcL3XM7E1/e+GmgIp992H6xdcSCe7Vb6GIOtoFSL04FmYEbk1Th5DIcWS3cAPOp0WbGYP742DIjnYw==}
+  '@h3ravel/view@0.1.14-alpha.9':
+    resolution: {integrity: sha512-tJPzTz/e/iDzUEmKX3CpAxZU9AFoOc7Q6Bt/Y1d1Il+9R+ZvdOhVsCQCErpPkcyHsgdHRAnRuIKdXvdyxLxLrQ==}
     peerDependencies:
-      '@h3ravel/shared': ^0.29.0-alpha.8
-      '@h3ravel/support': ^0.17.0-alpha.8
+      '@h3ravel/shared': ^0.29.0-alpha.9
+      '@h3ravel/support': ^0.17.0-alpha.9
 
   '@humanfs/core@0.19.1':
     resolution: {integrity: sha512-5DyQ4+1JEUzejeK1JGICcideyfUbGixgS9jNgex5nqkW+cY7WZhxBigmieN5Qnw9ZosSNVC9KQKyb+GUaGyKUA==}
@@ -1942,6 +1927,10 @@ packages:
     resolution: {integrity: sha512-ywqV+5MmyL4E7ybXgKys4DugZbX0FC6LnwrhjuykIjnK9k8OQacQ7axGKnjDXWNhns0xot3bZI5h55H8yo9cJg==}
     engines: {node: '>=6'}
 
+  cli-spinners@3.4.0:
+    resolution: {integrity: sha512-bXfOC4QcT1tKXGorxL3wbJm6XJPDqEnij2gQ2m7ESQuE+/z9YFIWnl/5RpTiKWbMq3EVKR4fRLJGn6DVfu0mpw==}
+    engines: {node: '>=18.20'}
+
   cli-truncate@5.1.1:
     resolution: {integrity: sha512-SroPvNHxUnk+vIW/dOSfNqdy1sPEFkrTk6TUtqLCnBlo3N7TNYYkzzN7uSD6+jVjrdO4+p8nH7JzH6cIvUem6A==}
     engines: {node: '>=20'}
@@ -2625,6 +2614,10 @@ packages:
     engines: {node: '>=14.16'}
     hasBin: true
 
+  is-interactive@2.0.0:
+    resolution: {integrity: sha512-qP1vozQRI+BMOPcjFzrjXuQvdak2pHNUMZoeG2eRbiSqyvbEf/wQtEOTOX1guk6E3t36RkaqiSt8A/6YElNxLQ==}
+    engines: {node: '>=12'}
+
   is-lambda@1.0.1:
     resolution: {integrity: sha512-z7CMFGNrENq5iFB9Bqo64Xk6Y9sg+epq1myIcdHaGnbMTYOxvzsEtdYqQUylB7LxfkvgrrjP32T6Ywciio9UIQ==}
 
@@ -2809,6 +2802,10 @@ packages:
 
   lodash@4.17.21:
     resolution: {integrity: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==}
+
+  log-symbols@7.0.1:
+    resolution: {integrity: sha512-ja1E3yCr9i/0hmBVaM0bfwDjnGy8I/s6PP4DFp+yP+a+mrHO4Rm7DtmnqROTUkHIkqffC84YY7AeqX6oFk0WFg==}
+    engines: {node: '>=18'}
 
   log-update@6.1.0:
     resolution: {integrity: sha512-9ie8ItPR6tjY5uYJh8K/Zrv/RMZ5VOlOWvtZdEHYSTFKZfIBPQa9tOAEeAWhd+AnIneLJ22w5fjOYtoutpWq5w==}
@@ -3054,6 +3051,10 @@ packages:
   optionator@0.9.4:
     resolution: {integrity: sha512-6IpQ7mKUxRcZNLIObR0hz7lxsapSSIYNZJwXPGeF0mTVqGKFIXj1DQcMoT22S3ROcLyY/rz0PWaWZ9ayWmad9g==}
     engines: {node: '>= 0.8.0'}
+
+  ora@9.1.0:
+    resolution: {integrity: sha512-53uuLsXHOAJl5zLrUrzY9/kE+uIFEx7iaH4g2BIJQK4LZjY4LpCCYZVKDWIkL+F01wAaCg93duQ1whnK/AmY1A==}
+    engines: {node: '>=20'}
 
   p-limit@2.3.0:
     resolution: {integrity: sha512-//88mFWSJx8lxCzwdAABTJL2MyWB12+eIY7MDL2SqLmAkeKU9qxRvWuSyTjm3FUmpBEMuFfckAIqEaVGUDxb6w==}
@@ -3504,6 +3505,10 @@ packages:
 
   std-env@3.10.0:
     resolution: {integrity: sha512-5GS12FdOZNliM5mAOxFRg7Ir0pWz8MdpYm6AY6VPkGpbA7ZzmbzNcBJQ0GPvvyWgcY7QAhCgf9Uy89I03faLkg==}
+
+  stdin-discarder@0.2.2:
+    resolution: {integrity: sha512-UhDfHmA92YAlNnCfhmq0VeNL5bDbiZGg7sZ2IvPsXubGkiNa9EC+tUTsjBRsYUAz87btI6/1wf4XoVvQ3uRnmQ==}
+    engines: {node: '>=18'}
 
   string-argv@0.3.2:
     resolution: {integrity: sha512-aqD2Q0144Z+/RqG52NeHEkZauTAUWJO8c6yTftGJKO3Tja5tUgIfmIl6kExvhtxSDP7fXB6DvzkfMpCd/F3G+Q==}
@@ -4646,10 +4651,10 @@ snapshots:
   '@gar/promisify@1.1.3':
     optional: true
 
-  '@h3ravel/arquebus@0.7.6(@types/node@24.10.9)(sqlite3@5.1.7)':
+  '@h3ravel/arquebus@0.8.0-alpha.2(@types/node@24.10.9)(sqlite3@5.1.7)':
     dependencies:
-      '@h3ravel/shared': 0.27.7(@types/node@24.10.9)
-      '@h3ravel/support': 0.15.6
+      '@h3ravel/shared': 0.29.0-alpha.9(@types/node@24.10.9)
+      '@h3ravel/support': 0.17.0-alpha.9
       barrelize: 1.7.2
       chalk: 5.6.2
       chokidar: 4.0.3
@@ -4677,28 +4682,28 @@ snapshots:
       - sqlite3
       - supports-color
 
-  '@h3ravel/cache@11.1.0-alpha.8(@h3ravel/support@0.17.0-alpha.8)':
+  '@h3ravel/cache@11.1.0-alpha.9(@h3ravel/support@0.17.0-alpha.9)':
     dependencies:
-      '@h3ravel/support': 0.17.0-alpha.8
+      '@h3ravel/support': 0.17.0-alpha.9
 
   '@h3ravel/collect.js@5.3.4': {}
 
-  '@h3ravel/config@1.5.0-alpha.8(@types/node@24.10.9)':
+  '@h3ravel/config@1.5.0-alpha.9(@types/node@24.10.9)':
     dependencies:
-      '@h3ravel/musket': 0.6.12(@types/node@24.10.9)
-      '@h3ravel/shared': 0.29.0-alpha.8(@types/node@24.10.9)
-      '@h3ravel/support': 0.17.0-alpha.8
+      '@h3ravel/musket': 0.8.0-alpha.4(@types/node@24.10.9)
+      '@h3ravel/shared': 0.29.0-alpha.9(@types/node@24.10.9)
+      '@h3ravel/support': 0.17.0-alpha.9
     transitivePeerDependencies:
       - '@types/node'
       - crossws
 
-  '@h3ravel/console@11.15.0-alpha.8(@h3ravel/core@1.22.0-alpha.8(@types/node@24.10.9))(@h3ravel/support@0.17.0-alpha.8)(@types/node@24.10.9)':
+  '@h3ravel/console@11.15.0-alpha.9(@h3ravel/core@1.22.0-alpha.9(@types/node@24.10.9))(@h3ravel/support@0.17.0-alpha.9)(@types/node@24.10.9)':
     dependencies:
-      '@h3ravel/core': 1.22.0-alpha.8(@types/node@24.10.9)
-      '@h3ravel/foundation': 0.1.0-alpha.8(@types/node@24.10.9)
-      '@h3ravel/musket': 0.6.12(@types/node@24.10.9)
-      '@h3ravel/shared': 0.29.0-alpha.8(@types/node@24.10.9)
-      '@h3ravel/support': 0.17.0-alpha.8
+      '@h3ravel/core': 1.22.0-alpha.9(@types/node@24.10.9)
+      '@h3ravel/foundation': 0.1.0-alpha.9(@types/node@24.10.9)
+      '@h3ravel/musket': 0.8.0-alpha.4(@types/node@24.10.9)
+      '@h3ravel/shared': 0.29.0-alpha.9(@types/node@24.10.9)
+      '@h3ravel/support': 0.17.0-alpha.9
       chalk: 5.6.2
       commander: 14.0.2
       dayjs: 1.11.19
@@ -4712,23 +4717,17 @@ snapshots:
       - '@types/node'
       - crossws
 
-  '@h3ravel/contracts@0.28.1':
+  '@h3ravel/contracts@0.29.0-alpha.9':
     dependencies:
       h3: 2.0.1-rc.5
     transitivePeerDependencies:
       - crossws
 
-  '@h3ravel/contracts@0.29.0-alpha.8':
+  '@h3ravel/core@1.22.0-alpha.9(@types/node@24.10.9)':
     dependencies:
-      h3: 2.0.1-rc.5
-    transitivePeerDependencies:
-      - crossws
-
-  '@h3ravel/core@1.22.0-alpha.8(@types/node@24.10.9)':
-    dependencies:
-      '@h3ravel/foundation': 0.1.0-alpha.8(@types/node@24.10.9)
-      '@h3ravel/shared': 0.29.0-alpha.8(@types/node@24.10.9)
-      '@h3ravel/support': 0.17.0-alpha.8
+      '@h3ravel/foundation': 0.1.0-alpha.9(@types/node@24.10.9)
+      '@h3ravel/shared': 0.29.0-alpha.9(@types/node@24.10.9)
+      '@h3ravel/support': 0.17.0-alpha.9
       chalk: 5.6.2
       commander: 14.0.2
       detect-port: 2.1.0
@@ -4744,14 +4743,14 @@ snapshots:
       - '@types/node'
       - crossws
 
-  '@h3ravel/database@11.5.0-alpha.8(@h3ravel/core@1.22.0-alpha.8(@types/node@24.10.9))(@h3ravel/filesystem@0.4.15-alpha.8(@h3ravel/core@1.22.0-alpha.8(@types/node@24.10.9))(@types/node@24.10.9))(@h3ravel/shared@0.29.0-alpha.8(@types/node@24.10.9))(@h3ravel/support@0.17.0-alpha.8)(@types/node@24.10.9)':
+  '@h3ravel/database@11.5.0-alpha.9(@h3ravel/core@1.22.0-alpha.9(@types/node@24.10.9))(@h3ravel/filesystem@0.4.15-alpha.9(@h3ravel/core@1.22.0-alpha.9(@types/node@24.10.9))(@types/node@24.10.9))(@h3ravel/shared@0.29.0-alpha.9(@types/node@24.10.9))(@h3ravel/support@0.17.0-alpha.9)(@types/node@24.10.9)':
     dependencies:
-      '@h3ravel/arquebus': 0.7.6(@types/node@24.10.9)(sqlite3@5.1.7)
-      '@h3ravel/core': 1.22.0-alpha.8(@types/node@24.10.9)
-      '@h3ravel/filesystem': 0.4.15-alpha.8(@h3ravel/core@1.22.0-alpha.8(@types/node@24.10.9))(@types/node@24.10.9)
-      '@h3ravel/musket': 0.6.12(@types/node@24.10.9)
-      '@h3ravel/shared': 0.29.0-alpha.8(@types/node@24.10.9)
-      '@h3ravel/support': 0.17.0-alpha.8
+      '@h3ravel/arquebus': 0.8.0-alpha.2(@types/node@24.10.9)(sqlite3@5.1.7)
+      '@h3ravel/core': 1.22.0-alpha.9(@types/node@24.10.9)
+      '@h3ravel/filesystem': 0.4.15-alpha.9(@h3ravel/core@1.22.0-alpha.9(@types/node@24.10.9))(@types/node@24.10.9)
+      '@h3ravel/musket': 0.8.0-alpha.4(@types/node@24.10.9)
+      '@h3ravel/shared': 0.29.0-alpha.9(@types/node@24.10.9)
+      '@h3ravel/support': 0.17.0-alpha.9
       sqlite3: 5.1.7
     transitivePeerDependencies:
       - '@types/node'
@@ -4762,51 +4761,51 @@ snapshots:
       - pg-native
       - supports-color
 
-  '@h3ravel/events@0.1.0-alpha.8(@h3ravel/core@1.22.0-alpha.8(@types/node@24.10.9))':
+  '@h3ravel/events@0.1.0-alpha.9(@h3ravel/core@1.22.0-alpha.9(@types/node@24.10.9))':
     dependencies:
-      '@h3ravel/core': 1.22.0-alpha.8(@types/node@24.10.9)
+      '@h3ravel/core': 1.22.0-alpha.9(@types/node@24.10.9)
 
-  '@h3ravel/filesystem@0.4.15-alpha.8(@h3ravel/core@1.22.0-alpha.8(@types/node@24.10.9))(@types/node@24.10.9)':
+  '@h3ravel/filesystem@0.4.15-alpha.9(@h3ravel/core@1.22.0-alpha.9(@types/node@24.10.9))(@types/node@24.10.9)':
     dependencies:
-      '@h3ravel/core': 1.22.0-alpha.8(@types/node@24.10.9)
-      '@h3ravel/musket': 0.6.12(@types/node@24.10.9)
-      '@h3ravel/shared': 0.29.0-alpha.8(@types/node@24.10.9)
-      '@h3ravel/support': 0.17.0-alpha.8
+      '@h3ravel/core': 1.22.0-alpha.9(@types/node@24.10.9)
+      '@h3ravel/musket': 0.8.0-alpha.4(@types/node@24.10.9)
+      '@h3ravel/shared': 0.29.0-alpha.9(@types/node@24.10.9)
+      '@h3ravel/support': 0.17.0-alpha.9
     transitivePeerDependencies:
       - '@types/node'
       - crossws
 
-  '@h3ravel/foundation@0.1.0-alpha.8(@types/node@24.10.9)':
+  '@h3ravel/foundation@0.1.0-alpha.9(@types/node@24.10.9)':
     dependencies:
-      '@h3ravel/musket': 0.6.12(@types/node@24.10.9)
-      '@h3ravel/shared': 0.29.0-alpha.8(@types/node@24.10.9)
-      '@h3ravel/support': 0.17.0-alpha.8
+      '@h3ravel/musket': 0.8.0-alpha.4(@types/node@24.10.9)
+      '@h3ravel/shared': 0.29.0-alpha.9(@types/node@24.10.9)
+      '@h3ravel/support': 0.17.0-alpha.9
       h3: 2.0.1-rc.5
     transitivePeerDependencies:
       - '@types/node'
       - crossws
 
-  '@h3ravel/hashing@0.2.0-alpha.8(@h3ravel/core@1.22.0-alpha.8(@types/node@24.10.9))(@h3ravel/foundation@0.1.0-alpha.8(@types/node@24.10.9))(@h3ravel/shared@0.29.0-alpha.8(@types/node@24.10.9))(@h3ravel/support@0.17.0-alpha.8)':
+  '@h3ravel/hashing@0.2.0-alpha.9(@h3ravel/core@1.22.0-alpha.9(@types/node@24.10.9))(@h3ravel/foundation@0.1.0-alpha.9(@types/node@24.10.9))(@h3ravel/shared@0.29.0-alpha.9(@types/node@24.10.9))(@h3ravel/support@0.17.0-alpha.9)':
     dependencies:
-      '@h3ravel/contracts': 0.29.0-alpha.8
-      '@h3ravel/foundation': 0.1.0-alpha.8(@types/node@24.10.9)
-      '@h3ravel/shared': 0.29.0-alpha.8(@types/node@24.10.9)
-      '@h3ravel/support': 0.17.0-alpha.8
+      '@h3ravel/contracts': 0.29.0-alpha.9
+      '@h3ravel/foundation': 0.1.0-alpha.9(@types/node@24.10.9)
+      '@h3ravel/shared': 0.29.0-alpha.9(@types/node@24.10.9)
+      '@h3ravel/support': 0.17.0-alpha.9
       argon2: 0.44.0
     optionalDependencies:
-      '@h3ravel/core': 1.22.0-alpha.8(@types/node@24.10.9)
+      '@h3ravel/core': 1.22.0-alpha.9(@types/node@24.10.9)
     transitivePeerDependencies:
       - crossws
 
-  '@h3ravel/http@11.8.0-alpha.8(@h3ravel/database@11.5.0-alpha.8(@h3ravel/core@1.22.0-alpha.8(@types/node@24.10.9))(@h3ravel/filesystem@0.4.15-alpha.8(@h3ravel/core@1.22.0-alpha.8(@types/node@24.10.9))(@types/node@24.10.9))(@h3ravel/shared@0.29.0-alpha.8(@types/node@24.10.9))(@h3ravel/support@0.17.0-alpha.8)(@types/node@24.10.9))(@h3ravel/foundation@0.1.0-alpha.8(@types/node@24.10.9))(@h3ravel/validation@0.1.0-alpha.8(@h3ravel/config@1.5.0-alpha.8(@types/node@24.10.9))(@h3ravel/contracts@0.29.0-alpha.8)(@h3ravel/core@1.22.0-alpha.8(@types/node@24.10.9))(@h3ravel/database@11.5.0-alpha.8(@h3ravel/core@1.22.0-alpha.8(@types/node@24.10.9))(@h3ravel/filesystem@0.4.15-alpha.8(@h3ravel/core@1.22.0-alpha.8(@types/node@24.10.9))(@types/node@24.10.9))(@h3ravel/shared@0.29.0-alpha.8(@types/node@24.10.9))(@h3ravel/support@0.17.0-alpha.8)(@types/node@24.10.9))(@types/node@24.10.9))(@types/node@24.10.9)':
+  '@h3ravel/http@11.8.0-alpha.9(@h3ravel/database@11.5.0-alpha.9(@h3ravel/core@1.22.0-alpha.9(@types/node@24.10.9))(@h3ravel/filesystem@0.4.15-alpha.9(@h3ravel/core@1.22.0-alpha.9(@types/node@24.10.9))(@types/node@24.10.9))(@h3ravel/shared@0.29.0-alpha.9(@types/node@24.10.9))(@h3ravel/support@0.17.0-alpha.9)(@types/node@24.10.9))(@h3ravel/foundation@0.1.0-alpha.9(@types/node@24.10.9))(@h3ravel/validation@0.1.0-alpha.9(@h3ravel/config@1.5.0-alpha.9(@types/node@24.10.9))(@h3ravel/contracts@0.29.0-alpha.9)(@h3ravel/core@1.22.0-alpha.9(@types/node@24.10.9))(@h3ravel/database@11.5.0-alpha.9(@h3ravel/core@1.22.0-alpha.9(@types/node@24.10.9))(@h3ravel/filesystem@0.4.15-alpha.9(@h3ravel/core@1.22.0-alpha.9(@types/node@24.10.9))(@types/node@24.10.9))(@h3ravel/shared@0.29.0-alpha.9(@types/node@24.10.9))(@h3ravel/support@0.17.0-alpha.9)(@types/node@24.10.9))(@types/node@24.10.9))(@types/node@24.10.9)':
     dependencies:
-      '@h3ravel/contracts': 0.29.0-alpha.8
-      '@h3ravel/foundation': 0.1.0-alpha.8(@types/node@24.10.9)
-      '@h3ravel/musket': 0.6.12(@types/node@24.10.9)
-      '@h3ravel/session': 0.1.0-alpha.8(@h3ravel/database@11.5.0-alpha.8(@h3ravel/core@1.22.0-alpha.8(@types/node@24.10.9))(@h3ravel/filesystem@0.4.15-alpha.8(@h3ravel/core@1.22.0-alpha.8(@types/node@24.10.9))(@types/node@24.10.9))(@h3ravel/shared@0.29.0-alpha.8(@types/node@24.10.9))(@h3ravel/support@0.17.0-alpha.8)(@types/node@24.10.9))(@h3ravel/foundation@0.1.0-alpha.8(@types/node@24.10.9))(@h3ravel/shared@0.29.0-alpha.8(@types/node@24.10.9))
-      '@h3ravel/shared': 0.29.0-alpha.8(@types/node@24.10.9)
-      '@h3ravel/support': 0.17.0-alpha.8
-      '@h3ravel/validation': 0.1.0-alpha.8(@h3ravel/config@1.5.0-alpha.8(@types/node@24.10.9))(@h3ravel/contracts@0.29.0-alpha.8)(@h3ravel/core@1.22.0-alpha.8(@types/node@24.10.9))(@h3ravel/database@11.5.0-alpha.8(@h3ravel/core@1.22.0-alpha.8(@types/node@24.10.9))(@h3ravel/filesystem@0.4.15-alpha.8(@h3ravel/core@1.22.0-alpha.8(@types/node@24.10.9))(@types/node@24.10.9))(@h3ravel/shared@0.29.0-alpha.8(@types/node@24.10.9))(@h3ravel/support@0.17.0-alpha.8)(@types/node@24.10.9))(@types/node@24.10.9)
+      '@h3ravel/contracts': 0.29.0-alpha.9
+      '@h3ravel/foundation': 0.1.0-alpha.9(@types/node@24.10.9)
+      '@h3ravel/musket': 0.8.0-alpha.4(@types/node@24.10.9)
+      '@h3ravel/session': 0.1.0-alpha.9(@h3ravel/database@11.5.0-alpha.9(@h3ravel/core@1.22.0-alpha.9(@types/node@24.10.9))(@h3ravel/filesystem@0.4.15-alpha.9(@h3ravel/core@1.22.0-alpha.9(@types/node@24.10.9))(@types/node@24.10.9))(@h3ravel/shared@0.29.0-alpha.9(@types/node@24.10.9))(@h3ravel/support@0.17.0-alpha.9)(@types/node@24.10.9))(@h3ravel/foundation@0.1.0-alpha.9(@types/node@24.10.9))(@h3ravel/shared@0.29.0-alpha.9(@types/node@24.10.9))
+      '@h3ravel/shared': 0.29.0-alpha.9(@types/node@24.10.9)
+      '@h3ravel/support': 0.17.0-alpha.9
+      '@h3ravel/validation': 0.1.0-alpha.9(@h3ravel/config@1.5.0-alpha.9(@types/node@24.10.9))(@h3ravel/contracts@0.29.0-alpha.9)(@h3ravel/core@1.22.0-alpha.9(@types/node@24.10.9))(@h3ravel/database@11.5.0-alpha.9(@h3ravel/core@1.22.0-alpha.9(@types/node@24.10.9))(@h3ravel/filesystem@0.4.15-alpha.9(@h3ravel/core@1.22.0-alpha.9(@types/node@24.10.9))(@types/node@24.10.9))(@h3ravel/shared@0.29.0-alpha.9(@types/node@24.10.9))(@h3ravel/support@0.17.0-alpha.9)(@types/node@24.10.9))(@types/node@24.10.9)
       h3: 2.0.1-rc.5
       srvx: 0.8.16
     transitivePeerDependencies:
@@ -4814,18 +4813,17 @@ snapshots:
       - '@types/node'
       - crossws
 
-  '@h3ravel/mail@11.0.17-alpha.8(@h3ravel/core@1.22.0-alpha.8(@types/node@24.10.9))':
+  '@h3ravel/mail@11.0.17-alpha.9(@h3ravel/core@1.22.0-alpha.9(@types/node@24.10.9))':
     dependencies:
       '@aws-sdk/client-sesv2': 3.970.0
-      '@h3ravel/core': 1.22.0-alpha.8(@types/node@24.10.9)
+      '@h3ravel/core': 1.22.0-alpha.9(@types/node@24.10.9)
       nodemailer: 7.0.12
     transitivePeerDependencies:
       - aws-crt
 
-  '@h3ravel/musket@0.6.12(@types/node@24.10.9)':
+  '@h3ravel/musket@0.8.0-alpha.4(@types/node@24.10.9)':
     dependencies:
-      '@h3ravel/shared': 0.28.4(@types/node@24.10.9)
-      '@h3ravel/support': 0.16.1
+      '@h3ravel/shared': 0.29.0-alpha.9(@types/node@24.10.9)
       chalk: 5.6.2
       commander: 14.0.2
       dayjs: 1.11.19
@@ -4839,21 +4837,21 @@ snapshots:
       - '@types/node'
       - crossws
 
-  '@h3ravel/queue@11.1.0-alpha.8(@h3ravel/contracts@0.29.0-alpha.8)(@h3ravel/core@1.22.0-alpha.8(@types/node@24.10.9))':
+  '@h3ravel/queue@11.1.0-alpha.9(@h3ravel/contracts@0.29.0-alpha.9)(@h3ravel/core@1.22.0-alpha.9(@types/node@24.10.9))':
     dependencies:
-      '@h3ravel/contracts': 0.29.0-alpha.8
-      '@h3ravel/core': 1.22.0-alpha.8(@types/node@24.10.9)
+      '@h3ravel/contracts': 0.29.0-alpha.9
+      '@h3ravel/core': 1.22.0-alpha.9(@types/node@24.10.9)
 
-  '@h3ravel/router@1.15.0-alpha.8(@h3ravel/core@1.22.0-alpha.8(@types/node@24.10.9))(@h3ravel/database@11.5.0-alpha.8(@h3ravel/core@1.22.0-alpha.8(@types/node@24.10.9))(@h3ravel/filesystem@0.4.15-alpha.8(@h3ravel/core@1.22.0-alpha.8(@types/node@24.10.9))(@types/node@24.10.9))(@h3ravel/shared@0.29.0-alpha.8(@types/node@24.10.9))(@h3ravel/support@0.17.0-alpha.8)(@types/node@24.10.9))(@h3ravel/validation@0.1.0-alpha.8(@h3ravel/config@1.5.0-alpha.8(@types/node@24.10.9))(@h3ravel/contracts@0.29.0-alpha.8)(@h3ravel/core@1.22.0-alpha.8(@types/node@24.10.9))(@h3ravel/database@11.5.0-alpha.8(@h3ravel/core@1.22.0-alpha.8(@types/node@24.10.9))(@h3ravel/filesystem@0.4.15-alpha.8(@h3ravel/core@1.22.0-alpha.8(@types/node@24.10.9))(@types/node@24.10.9))(@h3ravel/shared@0.29.0-alpha.8(@types/node@24.10.9))(@h3ravel/support@0.17.0-alpha.8)(@types/node@24.10.9))(@types/node@24.10.9))(@types/node@24.10.9)':
+  '@h3ravel/router@1.15.0-alpha.9(@h3ravel/core@1.22.0-alpha.9(@types/node@24.10.9))(@h3ravel/database@11.5.0-alpha.9(@h3ravel/core@1.22.0-alpha.9(@types/node@24.10.9))(@h3ravel/filesystem@0.4.15-alpha.9(@h3ravel/core@1.22.0-alpha.9(@types/node@24.10.9))(@types/node@24.10.9))(@h3ravel/shared@0.29.0-alpha.9(@types/node@24.10.9))(@h3ravel/support@0.17.0-alpha.9)(@types/node@24.10.9))(@h3ravel/validation@0.1.0-alpha.9(@h3ravel/config@1.5.0-alpha.9(@types/node@24.10.9))(@h3ravel/contracts@0.29.0-alpha.9)(@h3ravel/core@1.22.0-alpha.9(@types/node@24.10.9))(@h3ravel/database@11.5.0-alpha.9(@h3ravel/core@1.22.0-alpha.9(@types/node@24.10.9))(@h3ravel/filesystem@0.4.15-alpha.9(@h3ravel/core@1.22.0-alpha.9(@types/node@24.10.9))(@types/node@24.10.9))(@h3ravel/shared@0.29.0-alpha.9(@types/node@24.10.9))(@h3ravel/support@0.17.0-alpha.9)(@types/node@24.10.9))(@types/node@24.10.9))(@types/node@24.10.9)':
     dependencies:
-      '@h3ravel/contracts': 0.29.0-alpha.8
-      '@h3ravel/database': 11.5.0-alpha.8(@h3ravel/core@1.22.0-alpha.8(@types/node@24.10.9))(@h3ravel/filesystem@0.4.15-alpha.8(@h3ravel/core@1.22.0-alpha.8(@types/node@24.10.9))(@types/node@24.10.9))(@h3ravel/shared@0.29.0-alpha.8(@types/node@24.10.9))(@h3ravel/support@0.17.0-alpha.8)(@types/node@24.10.9)
-      '@h3ravel/events': 0.1.0-alpha.8(@h3ravel/core@1.22.0-alpha.8(@types/node@24.10.9))
-      '@h3ravel/foundation': 0.1.0-alpha.8(@types/node@24.10.9)
-      '@h3ravel/http': 11.8.0-alpha.8(@h3ravel/database@11.5.0-alpha.8(@h3ravel/core@1.22.0-alpha.8(@types/node@24.10.9))(@h3ravel/filesystem@0.4.15-alpha.8(@h3ravel/core@1.22.0-alpha.8(@types/node@24.10.9))(@types/node@24.10.9))(@h3ravel/shared@0.29.0-alpha.8(@types/node@24.10.9))(@h3ravel/support@0.17.0-alpha.8)(@types/node@24.10.9))(@h3ravel/foundation@0.1.0-alpha.8(@types/node@24.10.9))(@h3ravel/validation@0.1.0-alpha.8(@h3ravel/config@1.5.0-alpha.8(@types/node@24.10.9))(@h3ravel/contracts@0.29.0-alpha.8)(@h3ravel/core@1.22.0-alpha.8(@types/node@24.10.9))(@h3ravel/database@11.5.0-alpha.8(@h3ravel/core@1.22.0-alpha.8(@types/node@24.10.9))(@h3ravel/filesystem@0.4.15-alpha.8(@h3ravel/core@1.22.0-alpha.8(@types/node@24.10.9))(@types/node@24.10.9))(@h3ravel/shared@0.29.0-alpha.8(@types/node@24.10.9))(@h3ravel/support@0.17.0-alpha.8)(@types/node@24.10.9))(@types/node@24.10.9))(@types/node@24.10.9)
-      '@h3ravel/musket': 0.6.12(@types/node@24.10.9)
-      '@h3ravel/shared': 0.29.0-alpha.8(@types/node@24.10.9)
-      '@h3ravel/support': 0.17.0-alpha.8
+      '@h3ravel/contracts': 0.29.0-alpha.9
+      '@h3ravel/database': 11.5.0-alpha.9(@h3ravel/core@1.22.0-alpha.9(@types/node@24.10.9))(@h3ravel/filesystem@0.4.15-alpha.9(@h3ravel/core@1.22.0-alpha.9(@types/node@24.10.9))(@types/node@24.10.9))(@h3ravel/shared@0.29.0-alpha.9(@types/node@24.10.9))(@h3ravel/support@0.17.0-alpha.9)(@types/node@24.10.9)
+      '@h3ravel/events': 0.1.0-alpha.9(@h3ravel/core@1.22.0-alpha.9(@types/node@24.10.9))
+      '@h3ravel/foundation': 0.1.0-alpha.9(@types/node@24.10.9)
+      '@h3ravel/http': 11.8.0-alpha.9(@h3ravel/database@11.5.0-alpha.9(@h3ravel/core@1.22.0-alpha.9(@types/node@24.10.9))(@h3ravel/filesystem@0.4.15-alpha.9(@h3ravel/core@1.22.0-alpha.9(@types/node@24.10.9))(@types/node@24.10.9))(@h3ravel/shared@0.29.0-alpha.9(@types/node@24.10.9))(@h3ravel/support@0.17.0-alpha.9)(@types/node@24.10.9))(@h3ravel/foundation@0.1.0-alpha.9(@types/node@24.10.9))(@h3ravel/validation@0.1.0-alpha.9(@h3ravel/config@1.5.0-alpha.9(@types/node@24.10.9))(@h3ravel/contracts@0.29.0-alpha.9)(@h3ravel/core@1.22.0-alpha.9(@types/node@24.10.9))(@h3ravel/database@11.5.0-alpha.9(@h3ravel/core@1.22.0-alpha.9(@types/node@24.10.9))(@h3ravel/filesystem@0.4.15-alpha.9(@h3ravel/core@1.22.0-alpha.9(@types/node@24.10.9))(@types/node@24.10.9))(@h3ravel/shared@0.29.0-alpha.9(@types/node@24.10.9))(@h3ravel/support@0.17.0-alpha.9)(@types/node@24.10.9))(@types/node@24.10.9))(@types/node@24.10.9)
+      '@h3ravel/musket': 0.8.0-alpha.4(@types/node@24.10.9)
+      '@h3ravel/shared': 0.29.0-alpha.9(@types/node@24.10.9)
+      '@h3ravel/support': 0.17.0-alpha.9
       h3: 2.0.1-rc.5
       reflect-metadata: 0.2.2
     transitivePeerDependencies:
@@ -4862,26 +4860,13 @@ snapshots:
       - '@types/node'
       - crossws
 
-  '@h3ravel/session@0.1.0-alpha.8(@h3ravel/database@11.5.0-alpha.8(@h3ravel/core@1.22.0-alpha.8(@types/node@24.10.9))(@h3ravel/filesystem@0.4.15-alpha.8(@h3ravel/core@1.22.0-alpha.8(@types/node@24.10.9))(@types/node@24.10.9))(@h3ravel/shared@0.29.0-alpha.8(@types/node@24.10.9))(@h3ravel/support@0.17.0-alpha.8)(@types/node@24.10.9))(@h3ravel/foundation@0.1.0-alpha.8(@types/node@24.10.9))(@h3ravel/shared@0.29.0-alpha.8(@types/node@24.10.9))':
+  '@h3ravel/session@0.1.0-alpha.9(@h3ravel/database@11.5.0-alpha.9(@h3ravel/core@1.22.0-alpha.9(@types/node@24.10.9))(@h3ravel/filesystem@0.4.15-alpha.9(@h3ravel/core@1.22.0-alpha.9(@types/node@24.10.9))(@types/node@24.10.9))(@h3ravel/shared@0.29.0-alpha.9(@types/node@24.10.9))(@h3ravel/support@0.17.0-alpha.9)(@types/node@24.10.9))(@h3ravel/foundation@0.1.0-alpha.9(@types/node@24.10.9))(@h3ravel/shared@0.29.0-alpha.9(@types/node@24.10.9))':
     dependencies:
-      '@h3ravel/database': 11.5.0-alpha.8(@h3ravel/core@1.22.0-alpha.8(@types/node@24.10.9))(@h3ravel/filesystem@0.4.15-alpha.8(@h3ravel/core@1.22.0-alpha.8(@types/node@24.10.9))(@types/node@24.10.9))(@h3ravel/shared@0.29.0-alpha.8(@types/node@24.10.9))(@h3ravel/support@0.17.0-alpha.8)(@types/node@24.10.9)
-      '@h3ravel/foundation': 0.1.0-alpha.8(@types/node@24.10.9)
-      '@h3ravel/shared': 0.29.0-alpha.8(@types/node@24.10.9)
+      '@h3ravel/database': 11.5.0-alpha.9(@h3ravel/core@1.22.0-alpha.9(@types/node@24.10.9))(@h3ravel/filesystem@0.4.15-alpha.9(@h3ravel/core@1.22.0-alpha.9(@types/node@24.10.9))(@types/node@24.10.9))(@h3ravel/shared@0.29.0-alpha.9(@types/node@24.10.9))(@h3ravel/support@0.17.0-alpha.9)(@types/node@24.10.9)
+      '@h3ravel/foundation': 0.1.0-alpha.9(@types/node@24.10.9)
+      '@h3ravel/shared': 0.29.0-alpha.9(@types/node@24.10.9)
 
-  '@h3ravel/shared@0.27.7(@types/node@24.10.9)':
-    dependencies:
-      '@inquirer/prompts': 7.10.1(@types/node@24.10.9)
-      chalk: 5.6.2
-      edge.js: 6.4.0
-      escalade: 3.2.0
-      h3: 2.0.1-rc.5
-      inquirer-autocomplete-standalone: 0.8.1
-      preferred-pm: 4.1.1
-    transitivePeerDependencies:
-      - '@types/node'
-      - crossws
-
-  '@h3ravel/shared@0.28.4(@types/node@24.10.9)':
+  '@h3ravel/shared@0.29.0-alpha.9(@types/node@24.10.9)':
     dependencies:
       '@inquirer/prompts': 7.10.1(@types/node@24.10.9)
       chalk: 5.6.2
@@ -4889,78 +4874,53 @@ snapshots:
       escalade: 3.2.0
       h3: 2.0.1-rc.5
       inquirer-autocomplete-standalone: 0.8.1
+      ora: 9.1.0
       preferred-pm: 4.1.1
     transitivePeerDependencies:
       - '@types/node'
       - crossws
 
-  '@h3ravel/shared@0.29.0-alpha.8(@types/node@24.10.9)':
-    dependencies:
-      '@inquirer/prompts': 7.10.1(@types/node@24.10.9)
-      chalk: 5.6.2
-      edge.js: 6.4.0
-      escalade: 3.2.0
-      h3: 2.0.1-rc.5
-      inquirer-autocomplete-standalone: 0.8.1
-      preferred-pm: 4.1.1
-    transitivePeerDependencies:
-      - '@types/node'
-      - crossws
-
-  '@h3ravel/support@0.15.6':
-    dependencies:
-      dayjs: 1.11.19
-      luxon: 3.7.2
-
-  '@h3ravel/support@0.16.1':
-    dependencies:
-      '@h3ravel/contracts': 0.28.1
-      dayjs: 1.11.19
-      luxon: 3.7.2
-    transitivePeerDependencies:
-      - crossws
-
-  '@h3ravel/support@0.17.0-alpha.8':
+  '@h3ravel/support@0.17.0-alpha.9':
     dependencies:
       '@h3ravel/collect.js': 5.3.4
-      '@h3ravel/contracts': 0.29.0-alpha.8
+      '@h3ravel/contracts': 0.29.0-alpha.9
       dayjs: 1.11.19
       luxon: 3.7.2
     transitivePeerDependencies:
       - crossws
 
-  '@h3ravel/url@1.1.0-alpha.8(@types/node@24.10.9)':
+  '@h3ravel/url@1.1.0-alpha.9(@types/node@24.10.9)':
     dependencies:
-      '@h3ravel/contracts': 0.29.0-alpha.8
-      '@h3ravel/foundation': 0.1.0-alpha.8(@types/node@24.10.9)
-      '@h3ravel/shared': 0.29.0-alpha.8(@types/node@24.10.9)
-      '@h3ravel/support': 0.17.0-alpha.8
+      '@h3ravel/contracts': 0.29.0-alpha.9
+      '@h3ravel/foundation': 0.1.0-alpha.9(@types/node@24.10.9)
+      '@h3ravel/shared': 0.29.0-alpha.9(@types/node@24.10.9)
+      '@h3ravel/support': 0.17.0-alpha.9
     transitivePeerDependencies:
       - '@types/node'
       - crossws
 
-  '@h3ravel/validation@0.1.0-alpha.8(@h3ravel/config@1.5.0-alpha.8(@types/node@24.10.9))(@h3ravel/contracts@0.29.0-alpha.8)(@h3ravel/core@1.22.0-alpha.8(@types/node@24.10.9))(@h3ravel/database@11.5.0-alpha.8(@h3ravel/core@1.22.0-alpha.8(@types/node@24.10.9))(@h3ravel/filesystem@0.4.15-alpha.8(@h3ravel/core@1.22.0-alpha.8(@types/node@24.10.9))(@types/node@24.10.9))(@h3ravel/shared@0.29.0-alpha.8(@types/node@24.10.9))(@h3ravel/support@0.17.0-alpha.8)(@types/node@24.10.9))(@types/node@24.10.9)':
+  '@h3ravel/validation@0.1.0-alpha.9(@h3ravel/config@1.5.0-alpha.9(@types/node@24.10.9))(@h3ravel/contracts@0.29.0-alpha.9)(@h3ravel/core@1.22.0-alpha.9(@types/node@24.10.9))(@h3ravel/database@11.5.0-alpha.9(@h3ravel/core@1.22.0-alpha.9(@types/node@24.10.9))(@h3ravel/filesystem@0.4.15-alpha.9(@h3ravel/core@1.22.0-alpha.9(@types/node@24.10.9))(@types/node@24.10.9))(@h3ravel/shared@0.29.0-alpha.9(@types/node@24.10.9))(@h3ravel/support@0.17.0-alpha.9)(@types/node@24.10.9))(@types/node@24.10.9)':
     dependencies:
-      '@h3ravel/contracts': 0.29.0-alpha.8
-      '@h3ravel/foundation': 0.1.0-alpha.8(@types/node@24.10.9)
-      '@h3ravel/shared': 0.29.0-alpha.8(@types/node@24.10.9)
-      '@h3ravel/support': 0.17.0-alpha.8
+      '@h3ravel/contracts': 0.29.0-alpha.9
+      '@h3ravel/foundation': 0.1.0-alpha.9(@types/node@24.10.9)
+      '@h3ravel/shared': 0.29.0-alpha.9(@types/node@24.10.9)
+      '@h3ravel/support': 0.17.0-alpha.9
       simple-body-validator: 1.3.9
     optionalDependencies:
-      '@h3ravel/config': 1.5.0-alpha.8(@types/node@24.10.9)
-      '@h3ravel/core': 1.22.0-alpha.8(@types/node@24.10.9)
-      '@h3ravel/database': 11.5.0-alpha.8(@h3ravel/core@1.22.0-alpha.8(@types/node@24.10.9))(@h3ravel/filesystem@0.4.15-alpha.8(@h3ravel/core@1.22.0-alpha.8(@types/node@24.10.9))(@types/node@24.10.9))(@h3ravel/shared@0.29.0-alpha.8(@types/node@24.10.9))(@h3ravel/support@0.17.0-alpha.8)(@types/node@24.10.9)
+      '@h3ravel/config': 1.5.0-alpha.9(@types/node@24.10.9)
+      '@h3ravel/core': 1.22.0-alpha.9(@types/node@24.10.9)
+      '@h3ravel/database': 11.5.0-alpha.9(@h3ravel/core@1.22.0-alpha.9(@types/node@24.10.9))(@h3ravel/filesystem@0.4.15-alpha.9(@h3ravel/core@1.22.0-alpha.9(@types/node@24.10.9))(@types/node@24.10.9))(@h3ravel/shared@0.29.0-alpha.9(@types/node@24.10.9))(@h3ravel/support@0.17.0-alpha.9)(@types/node@24.10.9)
     transitivePeerDependencies:
       - '@types/node'
       - crossws
 
-  '@h3ravel/view@0.1.14-alpha.8(@h3ravel/database@11.5.0-alpha.8(@h3ravel/core@1.22.0-alpha.8(@types/node@24.10.9))(@h3ravel/filesystem@0.4.15-alpha.8(@h3ravel/core@1.22.0-alpha.8(@types/node@24.10.9))(@types/node@24.10.9))(@h3ravel/shared@0.29.0-alpha.8(@types/node@24.10.9))(@h3ravel/support@0.17.0-alpha.8)(@types/node@24.10.9))(@h3ravel/foundation@0.1.0-alpha.8(@types/node@24.10.9))(@h3ravel/shared@0.29.0-alpha.8(@types/node@24.10.9))(@h3ravel/support@0.17.0-alpha.8)(@h3ravel/validation@0.1.0-alpha.8(@h3ravel/config@1.5.0-alpha.8(@types/node@24.10.9))(@h3ravel/contracts@0.29.0-alpha.8)(@h3ravel/core@1.22.0-alpha.8(@types/node@24.10.9))(@h3ravel/database@11.5.0-alpha.8(@h3ravel/core@1.22.0-alpha.8(@types/node@24.10.9))(@h3ravel/filesystem@0.4.15-alpha.8(@h3ravel/core@1.22.0-alpha.8(@types/node@24.10.9))(@types/node@24.10.9))(@h3ravel/shared@0.29.0-alpha.8(@types/node@24.10.9))(@h3ravel/support@0.17.0-alpha.8)(@types/node@24.10.9))(@types/node@24.10.9))(@types/node@24.10.9)':
+  '@h3ravel/view@0.1.14-alpha.9(@h3ravel/database@11.5.0-alpha.9(@h3ravel/core@1.22.0-alpha.9(@types/node@24.10.9))(@h3ravel/filesystem@0.4.15-alpha.9(@h3ravel/core@1.22.0-alpha.9(@types/node@24.10.9))(@types/node@24.10.9))(@h3ravel/shared@0.29.0-alpha.9(@types/node@24.10.9))(@h3ravel/support@0.17.0-alpha.9)(@types/node@24.10.9))(@h3ravel/foundation@0.1.0-alpha.9(@types/node@24.10.9))(@h3ravel/shared@0.29.0-alpha.9(@types/node@24.10.9))(@h3ravel/support@0.17.0-alpha.9)(@h3ravel/validation@0.1.0-alpha.9(@h3ravel/config@1.5.0-alpha.9(@types/node@24.10.9))(@h3ravel/contracts@0.29.0-alpha.9)(@h3ravel/core@1.22.0-alpha.9(@types/node@24.10.9))(@h3ravel/database@11.5.0-alpha.9(@h3ravel/core@1.22.0-alpha.9(@types/node@24.10.9))(@h3ravel/filesystem@0.4.15-alpha.9(@h3ravel/core@1.22.0-alpha.9(@types/node@24.10.9))(@types/node@24.10.9))(@h3ravel/shared@0.29.0-alpha.9(@types/node@24.10.9))(@h3ravel/support@0.17.0-alpha.9)(@types/node@24.10.9))(@types/node@24.10.9))(@types/node@24.10.9)':
     dependencies:
-      '@h3ravel/core': 1.22.0-alpha.8(@types/node@24.10.9)
-      '@h3ravel/http': 11.8.0-alpha.8(@h3ravel/database@11.5.0-alpha.8(@h3ravel/core@1.22.0-alpha.8(@types/node@24.10.9))(@h3ravel/filesystem@0.4.15-alpha.8(@h3ravel/core@1.22.0-alpha.8(@types/node@24.10.9))(@types/node@24.10.9))(@h3ravel/shared@0.29.0-alpha.8(@types/node@24.10.9))(@h3ravel/support@0.17.0-alpha.8)(@types/node@24.10.9))(@h3ravel/foundation@0.1.0-alpha.8(@types/node@24.10.9))(@h3ravel/validation@0.1.0-alpha.8(@h3ravel/config@1.5.0-alpha.8(@types/node@24.10.9))(@h3ravel/contracts@0.29.0-alpha.8)(@h3ravel/core@1.22.0-alpha.8(@types/node@24.10.9))(@h3ravel/database@11.5.0-alpha.8(@h3ravel/core@1.22.0-alpha.8(@types/node@24.10.9))(@h3ravel/filesystem@0.4.15-alpha.8(@h3ravel/core@1.22.0-alpha.8(@types/node@24.10.9))(@types/node@24.10.9))(@h3ravel/shared@0.29.0-alpha.8(@types/node@24.10.9))(@h3ravel/support@0.17.0-alpha.8)(@types/node@24.10.9))(@types/node@24.10.9))(@types/node@24.10.9)
-      '@h3ravel/musket': 0.6.12(@types/node@24.10.9)
-      '@h3ravel/shared': 0.29.0-alpha.8(@types/node@24.10.9)
-      '@h3ravel/support': 0.17.0-alpha.8
+      '@h3ravel/core': 1.22.0-alpha.9(@types/node@24.10.9)
+      '@h3ravel/http': 11.8.0-alpha.9(@h3ravel/database@11.5.0-alpha.9(@h3ravel/core@1.22.0-alpha.9(@types/node@24.10.9))(@h3ravel/filesystem@0.4.15-alpha.9(@h3ravel/core@1.22.0-alpha.9(@types/node@24.10.9))(@types/node@24.10.9))(@h3ravel/shared@0.29.0-alpha.9(@types/node@24.10.9))(@h3ravel/support@0.17.0-alpha.9)(@types/node@24.10.9))(@h3ravel/foundation@0.1.0-alpha.9(@types/node@24.10.9))(@h3ravel/validation@0.1.0-alpha.9(@h3ravel/config@1.5.0-alpha.9(@types/node@24.10.9))(@h3ravel/contracts@0.29.0-alpha.9)(@h3ravel/core@1.22.0-alpha.9(@types/node@24.10.9))(@h3ravel/database@11.5.0-alpha.9(@h3ravel/core@1.22.0-alpha.9(@types/node@24.10.9))(@h3ravel/filesystem@0.4.15-alpha.9(@h3ravel/core@1.22.0-alpha.9(@types/node@24.10.9))(@types/node@24.10.9))(@h3ravel/shared@0.29.0-alpha.9(@types/node@24.10.9))(@h3ravel/support@0.17.0-alpha.9)(@types/node@24.10.9))(@types/node@24.10.9))(@types/node@24.10.9)
+      '@h3ravel/musket': 0.8.0-alpha.4(@types/node@24.10.9)
+      '@h3ravel/shared': 0.29.0-alpha.9(@types/node@24.10.9)
+      '@h3ravel/support': 0.17.0-alpha.9
       edge.js: 6.4.0
     transitivePeerDependencies:
       - '@h3ravel/database'
@@ -6212,6 +6172,8 @@ snapshots:
 
   cli-spinners@2.9.2: {}
 
+  cli-spinners@3.4.0: {}
+
   cli-truncate@5.1.1:
     dependencies:
       slice-ansi: 7.1.2
@@ -6891,6 +6853,8 @@ snapshots:
     dependencies:
       is-docker: 3.0.0
 
+  is-interactive@2.0.0: {}
+
   is-lambda@1.0.1:
     optional: true
 
@@ -7076,6 +7040,11 @@ snapshots:
   lodash.once@4.1.1: {}
 
   lodash@4.17.21: {}
+
+  log-symbols@7.0.1:
+    dependencies:
+      is-unicode-supported: 2.1.0
+      yoctocolors: 2.1.2
 
   log-update@6.1.0:
     dependencies:
@@ -7335,6 +7304,17 @@ snapshots:
       prelude-ls: 1.2.1
       type-check: 0.4.0
       word-wrap: 1.2.5
+
+  ora@9.1.0:
+    dependencies:
+      chalk: 5.6.2
+      cli-cursor: 5.0.0
+      cli-spinners: 3.4.0
+      is-interactive: 2.0.0
+      is-unicode-supported: 2.1.0
+      log-symbols: 7.0.1
+      stdin-discarder: 0.2.2
+      string-width: 8.1.0
 
   p-limit@2.3.0:
     dependencies:
@@ -7803,6 +7783,8 @@ snapshots:
   stackback@0.0.2: {}
 
   std-env@3.10.0: {}
+
+  stdin-discarder@0.2.2: {}
 
   string-argv@0.3.2: {}
 
