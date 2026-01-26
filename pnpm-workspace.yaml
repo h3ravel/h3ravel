@@ -1,5 +1,9 @@
 ignoredBuiltDependencies:
   - '@h3ravel/arquebus'
+  - '@swc/core'
+  - argon2
+  - esbuild
 
 onlyBuiltDependencies:
   - '@h3ravel/musket'
+  - sqlite3
