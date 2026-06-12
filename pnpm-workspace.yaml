@@ -3,3 +3,8 @@ ignoredBuiltDependencies:
 
 onlyBuiltDependencies:
   - '@h3ravel/musket'
+  - '@swc/core'
+  - cpu-features
+  - esbuild
+  - sqlite3
+  - ssh2
