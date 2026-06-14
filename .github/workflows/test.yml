@@ -34,6 +34,9 @@ jobs:
           pnpm install --ignore-scripts --frozen-lockfile
           pnpm prepare
 
+      - name: Generate App KEY
+        run: pnpm musket key:generate
+
       - name: Run the tests
         run: pnpm coverage
 
