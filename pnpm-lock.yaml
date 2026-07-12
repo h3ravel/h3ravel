@@ -9,71 +9,71 @@ importers:
   .:
     dependencies:
       '@h3ravel/arquebus':
-        specifier: ^2.0.0
-        version: 2.0.0(@types/node@25.9.3)(sqlite3@6.0.1)
+        specifier: ^3.0.0
+        version: 3.0.0(@types/node@25.9.3)(h3@2.0.1-rc.25)(sqlite3@6.0.1)
       '@h3ravel/cache':
-        specifier: ^11.19.0
-        version: 11.19.0(@h3ravel/support@2.2.0(@types/node@25.9.3))
+        specifier: ^11.19.6
+        version: 11.19.6(@h3ravel/support@2.2.6(@types/node@25.9.3)(h3@2.0.1-rc.25))
       '@h3ravel/config':
-        specifier: ^2.2.0
-        version: 2.2.0(@types/node@25.9.3)
+        specifier: ^2.2.6
+        version: 2.2.6(@types/node@25.9.3)(h3@2.0.1-rc.25)
       '@h3ravel/console':
-        specifier: ^11.19.0
-        version: 11.19.0(@google-cloud/storage@7.21.0(encoding@0.1.13))(@h3ravel/core@2.2.0(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13))))(@h3ravel/support@2.2.0(@types/node@25.9.3))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13)))
+        specifier: ^11.19.6
+        version: 11.19.6(@google-cloud/storage@7.21.0(encoding@0.1.13))(@h3ravel/core@2.2.6(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13))))(@h3ravel/support@2.2.6(@types/node@25.9.3)(h3@2.0.1-rc.25))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13)))
       '@h3ravel/core':
-        specifier: ^2.2.0
-        version: 2.2.0(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13)))
+        specifier: ^2.2.6
+        version: 2.2.6(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13)))
       '@h3ravel/database':
-        specifier: ^11.19.0
-        version: 11.19.0(@h3ravel/core@2.2.0(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13))))(@h3ravel/filesystem@2.2.0(@h3ravel/core@2.2.0(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13))))(@types/node@25.9.3)(encoding@0.1.13))(@h3ravel/shared@2.2.0(@types/node@25.9.3))(@h3ravel/support@2.2.0(@types/node@25.9.3))(@types/node@25.9.3)
+        specifier: ^11.19.6
+        version: 11.19.6(@h3ravel/core@2.2.6(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13))))(@h3ravel/filesystem@2.2.6(@h3ravel/core@2.2.6(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13))))(@types/node@25.9.3)(encoding@0.1.13)(h3@2.0.1-rc.25))(@h3ravel/shared@2.2.6(@types/node@25.9.3))(@h3ravel/support@2.2.6(@types/node@25.9.3)(h3@2.0.1-rc.25))(@types/node@25.9.3)(h3@2.0.1-rc.25)
       '@h3ravel/events':
-        specifier: ^2.2.0
-        version: 2.2.0(@h3ravel/core@2.2.0(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13))))
+        specifier: ^2.2.6
+        version: 2.2.6(@h3ravel/core@2.2.6(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13))))
       '@h3ravel/filesystem':
-        specifier: ^2.2.0
-        version: 2.2.0(@h3ravel/core@2.2.0(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13))))(@types/node@25.9.3)(encoding@0.1.13)
+        specifier: ^2.2.6
+        version: 2.2.6(@h3ravel/core@2.2.6(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13))))(@types/node@25.9.3)(encoding@0.1.13)(h3@2.0.1-rc.25)
       '@h3ravel/foundation':
-        specifier: ^2.2.0
-        version: 2.2.0(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13)))
+        specifier: ^2.2.6
+        version: 2.2.6(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13)))
       '@h3ravel/hashing':
-        specifier: ^2.2.0
-        version: 2.2.0(@h3ravel/core@2.2.0(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13))))(@h3ravel/foundation@2.2.0(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13))))(@h3ravel/shared@2.2.0(@types/node@25.9.3))(@h3ravel/support@2.2.0(@types/node@25.9.3))
+        specifier: ^2.2.6
+        version: 2.2.6(@h3ravel/core@2.2.6(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13))))(@h3ravel/foundation@2.2.6(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13))))(@h3ravel/shared@2.2.6(@types/node@25.9.3))(@h3ravel/support@2.2.6(@types/node@25.9.3)(h3@2.0.1-rc.25))
       '@h3ravel/http':
-        specifier: ^11.19.0
-        version: 11.19.0(@h3ravel/database@11.19.0(@h3ravel/core@2.2.0(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13))))(@h3ravel/filesystem@2.2.0(@h3ravel/core@2.2.0(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13))))(@types/node@25.9.3)(encoding@0.1.13))(@h3ravel/shared@2.2.0(@types/node@25.9.3))(@h3ravel/support@2.2.0(@types/node@25.9.3))(@types/node@25.9.3))(@h3ravel/foundation@2.2.0(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13))))(@h3ravel/validation@2.2.0(b7a86030beb24319a0eb2772ae7fcfad))(@types/node@25.9.3)
+        specifier: ^11.19.6
+        version: 11.19.6(@h3ravel/database@11.19.6(@h3ravel/core@2.2.6(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13))))(@h3ravel/filesystem@2.2.6(@h3ravel/core@2.2.6(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13))))(@types/node@25.9.3)(encoding@0.1.13)(h3@2.0.1-rc.25))(@h3ravel/shared@2.2.6(@types/node@25.9.3))(@h3ravel/support@2.2.6(@types/node@25.9.3)(h3@2.0.1-rc.25))(@types/node@25.9.3)(h3@2.0.1-rc.25))(@h3ravel/foundation@2.2.6(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13))))(@h3ravel/validation@2.2.6(451abdf09a8983b7137893bdaa8ae382))(@types/node@25.9.3)
       '@h3ravel/mail':
-        specifier: ^11.19.0
-        version: 11.19.0(@h3ravel/core@2.2.0(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13))))
+        specifier: ^11.19.6
+        version: 11.19.6(@h3ravel/core@2.2.6(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13))))
       '@h3ravel/musket':
-        specifier: ^2.0.0
-        version: 2.0.0(@types/node@25.9.3)
+        specifier: ^2.2.7
+        version: 2.2.7(@types/node@25.9.3)
       '@h3ravel/queue':
-        specifier: ^11.19.0
-        version: 11.19.0(@h3ravel/contracts@2.2.0)(@h3ravel/core@2.2.0(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13))))
+        specifier: ^11.19.6
+        version: 11.19.6(@h3ravel/contracts@2.2.6)(@h3ravel/core@2.2.6(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13))))
       '@h3ravel/router':
-        specifier: ^2.2.0
-        version: 2.2.0(d9f3292d5008ecc0ed0ced2d69d5a50d)
+        specifier: ^2.2.6
+        version: 2.2.6(039bdf289fec37bbcd2dcaf217aa7cd5)
       '@h3ravel/session':
-        specifier: ^2.2.0
-        version: 2.2.0(@h3ravel/database@11.19.0(@h3ravel/core@2.2.0(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13))))(@h3ravel/filesystem@2.2.0(@h3ravel/core@2.2.0(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13))))(@types/node@25.9.3)(encoding@0.1.13))(@h3ravel/shared@2.2.0(@types/node@25.9.3))(@h3ravel/support@2.2.0(@types/node@25.9.3))(@types/node@25.9.3))(@h3ravel/foundation@2.2.0(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13))))(@h3ravel/shared@2.2.0(@types/node@25.9.3))
+        specifier: ^2.2.6
+        version: 2.2.6(@h3ravel/database@11.19.6(@h3ravel/core@2.2.6(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13))))(@h3ravel/filesystem@2.2.6(@h3ravel/core@2.2.6(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13))))(@types/node@25.9.3)(encoding@0.1.13)(h3@2.0.1-rc.25))(@h3ravel/shared@2.2.6(@types/node@25.9.3))(@h3ravel/support@2.2.6(@types/node@25.9.3)(h3@2.0.1-rc.25))(@types/node@25.9.3)(h3@2.0.1-rc.25))(@h3ravel/foundation@2.2.6(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13))))(@h3ravel/shared@2.2.6(@types/node@25.9.3))
       '@h3ravel/shared':
-        specifier: ^2.2.0
-        version: 2.2.0(@types/node@25.9.3)
+        specifier: ^2.2.6
+        version: 2.2.6(@types/node@25.9.3)
       '@h3ravel/support':
-        specifier: ^2.2.0
-        version: 2.2.0(@types/node@25.9.3)
+        specifier: ^2.2.6
+        version: 2.2.6(@types/node@25.9.3)(h3@2.0.1-rc.25)
       '@h3ravel/url':
-        specifier: ^2.2.0
-        version: 2.2.0(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13)))
+        specifier: ^2.2.6
+        version: 2.2.6(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13)))(h3@2.0.1-rc.25)
       '@h3ravel/validation':
-        specifier: ^2.2.0
-        version: 2.2.0(b7a86030beb24319a0eb2772ae7fcfad)
+        specifier: ^2.2.6
+        version: 2.2.6(451abdf09a8983b7137893bdaa8ae382)
       '@h3ravel/view':
-        specifier: ^2.2.0
-        version: 2.2.0(a6b79107df6f4d55e9e00237e004dd1c)
+        specifier: ^2.2.6
+        version: 2.2.6(cc1cc77cf10127803cb1f54ff8ea4ad8)
       h3:
-        specifier: 2.0.1-rc.22
-        version: 2.0.1-rc.22
+        specifier: 2.0.1-rc.25
+        version: 2.0.1-rc.25
       reflect-metadata:
         specifier: ^0.2.2
         version: 0.2.2
@@ -341,6 +341,10 @@ packages:
 
   '@bcoe/v8-coverage@1.0.2':
     resolution: {integrity: sha512-6zABk/ECA/QYSCQ1NGiVwwbQerUCZ+TQbp64Q3AgmfNvurHH0j8TtXa1qbShXA6qqkpAj4V5W8pP6mLe1mcMqA==}
+    engines: {node: '>=18'}
+
+  '@cli-prompts/multiline@1.0.0':
+    resolution: {integrity: sha512-Jl9c1dra6M1I+yRDHC5FB2LtF/gWN9FmYX9/IKKtA6nQI2cuRde52/0E6f0D6CZffLExLvhvuKbfYrPbnBPBug==}
     engines: {node: '>=18'}
 
   '@cspotcode/source-map-support@0.8.1':
@@ -726,63 +730,55 @@ packages:
     resolution: {integrity: sha512-l+IFTkd+6Y5LoAuXyYCKNAKtw/Ci+rAMqgdTB1jv4iZiLhw0rtq+0qjIRbBizXkNzEFmXiXUW0H7sZQQvk1ffA==}
     engines: {node: '>=14'}
 
-  '@h3ravel/arquebus@1.29.0-alpha.15':
-    resolution: {integrity: sha512-5oGeUvIGJfblsvnE/9Ew7Hn4wFNUWd6Qe41tUwAQGE/RFDWwtupMrfY3W68y2TXR8naZZ/tuedv3r2Q3U9heng==}
-    engines: {node: '>=14', pnpm: '>=4'}
+  '@h3ravel/arquebus@3.0.0':
+    resolution: {integrity: sha512-+iUa+7Uag/rZZSxAWyALL3ztLDbodWtQSv0R9owifwcayUF5v/aGIWOBp5EBBW29u5CcfQwhUT0q/kAfU4IMWw==}
+    engines: {node: ^20.19.0 || >=22.12.0, pnpm: '>=10'}
     hasBin: true
 
-  '@h3ravel/arquebus@2.0.0':
-    resolution: {integrity: sha512-kZLlLX1aHUC/Vxo3yZz5Z82Y86SkouaRX77TsE40nSJquxWAzxj3RSCppSKAAYo/9G56m/2IvHQtmHihvtnj8g==}
-    engines: {node: '>=14', pnpm: '>=4'}
-    hasBin: true
-
-  '@h3ravel/cache@11.19.0':
-    resolution: {integrity: sha512-uYq8Z0ijzbwMKB6UmqSY+uPcMzAxb2uvxmhRfNf8D+uibKeXzrTQM0LWOCjCdPO3ceNAY3EEnc5AKIkcvT/t7g==}
+  '@h3ravel/cache@11.19.6':
+    resolution: {integrity: sha512-z3rcWKzS57iD72+kW5HJAHrKy5IePnECxWd1+w3+4QA5vOp1F2VJzoa73d9QP8XzTTIOYWh8gmwSoGLy3O6Qjg==}
     peerDependencies:
-      '@h3ravel/support': ^2.2.0
+      '@h3ravel/support': ^2.2.6
 
-  '@h3ravel/collect.js@5.3.7':
-    resolution: {integrity: sha512-qsdkxy4uLhKmQ1m7PMnGg3xRyWQleFv+tFuiRliLWdrQZaOsOZab/OGvzV+RXl09VY3O+tJDvc6nxrwsgVGtwA==}
+  '@h3ravel/collect.js@5.4.0':
+    resolution: {integrity: sha512-0PS7Yl30tQf3daHF0akEZ5XV5MnOq6BEsdtksCZl473bGJmrd0RQAdRIA34MEw9h+ilLhE2OhNIlYateffMvBA==}
 
-  '@h3ravel/config@2.2.0':
-    resolution: {integrity: sha512-/2KYdbhWi3X6ZfaZOGCqj8oT3qPz9Z6lXl+SzO5jSYxRhcG7NYnuMd9OuKLCtvFbireIYniKDBEHRhXkwduZFg==}
+  '@h3ravel/config@2.2.6':
+    resolution: {integrity: sha512-QKYn04SjtbqhJ+r0EsnzRP0vVwiueDYL0WdxXke8xYgUJleJ9PhL6+xZQPG+zRxP1msv3ybphle8yX5AWVgqVg==}
 
-  '@h3ravel/console@11.19.0':
-    resolution: {integrity: sha512-Ik1J57itikLjm2n2Ig6mRYKhxsbUotQfIypQfYA5hFVLRxQngE9DZ4g/MMRc+lsrFMKyEI42JC7dpskcrf0s7g==}
+  '@h3ravel/console@11.19.6':
+    resolution: {integrity: sha512-ucoM1o9I9fO73MuJX0rzXnyAcwhVc+wnhExe374unj49leeqX+y4WbGkLccZyhe5PrKqAu9HdDsBVr2x53PNfA==}
     hasBin: true
     peerDependencies:
-      '@h3ravel/core': ^2.2.0
-      '@h3ravel/support': ^2.2.0
+      '@h3ravel/core': ^2.2.6
+      '@h3ravel/support': ^2.2.6
 
-  '@h3ravel/contracts@1.29.0-alpha.16':
-    resolution: {integrity: sha512-7t/iqRR3QL23Sgfrw91ZqDFqvQR3HB1HiS4dV8cl45NrQlLT5f2PNoDZxK/4Vx/ThRA6sBM12at8SaoyHBGV3w==}
+  '@h3ravel/contracts@2.2.6':
+    resolution: {integrity: sha512-GDljn+3qswJkhujfy5O7g6Cx4nbUXzwgYjsInQ5afLthhGNrQqOyCWIWQNzM4afquEWZ/0BV22J1gfGKZgN9Vw==}
 
-  '@h3ravel/contracts@2.2.0':
-    resolution: {integrity: sha512-oDIuxoxtSFiI2wLFzdrm5M7LYrc39bnq9hc+pprZoMSw07Y3X/c2ficAO4bOfqUiy4OSM9x+K8N80EvyKM3A1A==}
+  '@h3ravel/core@2.2.6':
+    resolution: {integrity: sha512-KTwo/1ZimfoPKqqt1pbmaDCECcVDIsqKRuqvNxxzohQElbkL1fDNezhxjONZYJ1YViyxB5pejgr7Z0A8i4HDlA==}
 
-  '@h3ravel/core@2.2.0':
-    resolution: {integrity: sha512-0NUMC0p8jDAFmYd1NNcf5OoWwdoBgaevxfZ3BZkpsWRXCb2Kh8AKeRxJCf8MndIw/1DkqIOcQLGUWY7q8Kpw0w==}
-
-  '@h3ravel/database@11.19.0':
-    resolution: {integrity: sha512-vME2mr5qmOrTt673mc8So/e0SQ2zsSsZIr6q07EUKV7N5jM3qLWcckBEFZxedb3Oi9SSDQ6/EwOCbvim8KlH0w==}
+  '@h3ravel/database@11.19.6':
+    resolution: {integrity: sha512-s3zVp8u9J3WyF1V6Ssc2n3YenFS3Kgqx0/1kVNxwIh98mgRmYruJiDzOjz4MMTjUPXKu6FbIquNznYQ5ZssudA==}
     peerDependencies:
-      '@h3ravel/core': ^2.2.0
-      '@h3ravel/filesystem': ^2.2.0
-      '@h3ravel/shared': ^2.2.0
-      '@h3ravel/support': ^2.2.0
+      '@h3ravel/core': ^2.2.6
+      '@h3ravel/filesystem': ^2.2.6
+      '@h3ravel/shared': ^2.2.6
+      '@h3ravel/support': ^2.2.6
 
-  '@h3ravel/events@2.2.0':
-    resolution: {integrity: sha512-dZCJXyzLC+vViXSPe/509F46rckP2zYW6d1DxCzzWsUBX5ZfCEMqkrIg99CHSKU+7SkdlvfYTl61gxD2D1HWWg==}
+  '@h3ravel/events@2.2.6':
+    resolution: {integrity: sha512-Ui+sxL5kCSSYuAT+dFUhtj6vqlXfr7U4Xu4SJdn5ftk7//WIqjTO2SJOh3mEfYMLKS0c2dpIRgGTvBLBilvBEA==}
     peerDependencies:
-      '@h3ravel/core': ^2.2.0
+      '@h3ravel/core': ^2.2.6
 
-  '@h3ravel/filesystem@2.2.0':
-    resolution: {integrity: sha512-lymbJVk8rufBjOwZFP7RxHlxS7G39Gfy3ZjYY2EKXoJhGbNRyf40MoLnmFAG6UBSmBtZIyx7ags8eil9rBL/fQ==}
+  '@h3ravel/filesystem@2.2.6':
+    resolution: {integrity: sha512-c6nvtMeR9sPwZNsSUYW6E3FPThzkXKeIrX/O9QYCWB12lFiCsYd8IMz8UBmgr43kEJW37cVNddZePno+qE97Xg==}
     peerDependencies:
-      '@h3ravel/core': ^2.2.0
+      '@h3ravel/core': ^2.2.6
 
-  '@h3ravel/foundation@2.2.0':
-    resolution: {integrity: sha512-Hbhfsc/IVv1gAiqTArznb8xRqXqyZ9TN7viQKNnNfecjyOgA7DEH7EA/PdZc1NGAOvViuset0ZlpciFs1/ubDw==}
+  '@h3ravel/foundation@2.2.6':
+    resolution: {integrity: sha512-6DS6/zqU7SX/10fIWvooN5Qg1MdSwNZreFMcYYnyuJLb/Hd3fRR2IExLIfXgLQfBsrP5DDq9l784wyQohyCdyw==}
     peerDependencies:
       '@google-cloud/storage': ^7.21.0
       flydrive: ^2.0.0
@@ -790,76 +786,71 @@ packages:
       '@google-cloud/storage':
         optional: true
 
-  '@h3ravel/hashing@2.2.0':
-    resolution: {integrity: sha512-qgogSK34zP+d9NuiTWJnGg3feK7N+t8Ucc5cW0WygDA/WShJpRbP4rsiXJmvQQNjr5lN6iOrM233sY1S6sBjHQ==}
+  '@h3ravel/hashing@2.2.6':
+    resolution: {integrity: sha512-gk6U3hiJ5yzoWA8yyrWv8w2YdHsgcMXhsecVMbgMXsnjXoE+49DUByFpXzJLN1bgoJjDTBHMlFpuc/0h/oVS1g==}
     peerDependencies:
-      '@h3ravel/core': ^2.2.0
-      '@h3ravel/foundation': ^2.2.0
-      '@h3ravel/shared': ^2.2.0
-      '@h3ravel/support': ^2.2.0
+      '@h3ravel/core': ^2.2.6
+      '@h3ravel/foundation': ^2.2.6
+      '@h3ravel/shared': ^2.2.6
+      '@h3ravel/support': ^2.2.6
     peerDependenciesMeta:
       '@h3ravel/core':
         optional: true
 
-  '@h3ravel/http@11.19.0':
-    resolution: {integrity: sha512-urjDCZ3/wiI6YANhTVPc0L8gxCGktFcSj/Xim4k/Jh4zT9AaltlQt/2IvCIWwiHE0AaCCJrtISxU/bSH+zDmvg==}
+  '@h3ravel/http@11.19.6':
+    resolution: {integrity: sha512-FG2IUwugMoD197q88mN6pxiTby+yP9lQ4aH2xkKocyfPzLzq0I7X4h9wzSoA5omSSFtvi7eQ9LUUjkbxlQSHIA==}
     peerDependencies:
-      '@h3ravel/foundation': ^2.2.0
-      '@h3ravel/validation': ^2.2.0
+      '@h3ravel/foundation': ^2.2.6
+      '@h3ravel/validation': ^2.2.6
 
-  '@h3ravel/mail@11.19.0':
-    resolution: {integrity: sha512-5T7hBvvLfb1m9ro/PYUvd3LfAKtPMnGtDKsSPnubIeoNjMHUAeZYuNLHz8tr+eSb8ZM8CPsMImXJ+7nuUH9Mnw==}
+  '@h3ravel/mail@11.19.6':
+    resolution: {integrity: sha512-eI7bI67iRmLxEpIXKi/yF1LOGMLsqT2osUZBsQ/i1chtWOA5xPtplOCCzWn1SopBZvvVaOrlqhhq2BLwJO6Ivg==}
     peerDependencies:
-      '@h3ravel/core': ^2.2.0
+      '@h3ravel/core': ^2.2.6
 
-  '@h3ravel/musket@1.29.0-alpha.15':
-    resolution: {integrity: sha512-mPnlGhTILRx/GWMKdOX/o6smUelblHiyGRabqyjYwnR2/XqvynfWBk4tN8dDK5cuCxqHiUUPQurN/iED8balyw==}
+  '@h3ravel/musket@2.2.7':
+    resolution: {integrity: sha512-QgYy6g/c+d9NqcjJyOlh4LbMmFwgl6n5kkdB0faiJ5pbnRg2ByrSBwtu4OgDbopvHplbC6PR1ddU/pduCrCisA==}
     engines: {node: ^20.19.0 || >=22.12.0}
 
-  '@h3ravel/musket@2.0.0':
-    resolution: {integrity: sha512-A9U1k/bw6DluXBlUAlkCOHZJds1Bc0kwMWB/tO/8BdWDHqj0poYKDFeRFqyrgmLUdiit3a74tPZPPdQxN6+IhA==}
-    engines: {node: ^20.19.0 || >=22.12.0}
-
-  '@h3ravel/queue@11.19.0':
-    resolution: {integrity: sha512-MOuO0C53GG/7L7SIu0zqrqRnTCq98xlEJ+BN+tqIEYmzUQhC07ZQaIBw+dje5RN4IQcAXCndWoBcMd+31jCRQA==}
+  '@h3ravel/queue@11.19.6':
+    resolution: {integrity: sha512-rDkBmSxMl5Y2/UisQFIiELS3wNdG9FBY6Br6mqePVEJmgndmtoeyp+dhcWDd/c/xZrWcQo7fj5dt78whcLUK2A==}
     peerDependencies:
-      '@h3ravel/contracts': ^2.2.0
-      '@h3ravel/core': ^2.2.0
+      '@h3ravel/contracts': ^2.2.6
+      '@h3ravel/core': ^2.2.6
 
-  '@h3ravel/router@2.2.0':
-    resolution: {integrity: sha512-kGN8suCopcyybgSDHox3//XQh1cj7L+mgcaNnlCkhjp1KTJE7a88GpQpEAqvf8GfN7Bh2NT60q5xKuJUWdyX0w==}
+  '@h3ravel/router@2.2.6':
+    resolution: {integrity: sha512-0JJX2hEkAle8KHdKol7GG1h1rTJgWYz6rhQXsQrn5a49qPyoDzgA3A69Q3+njbBCfZc2e0WndRVEpFsLSODmmQ==}
     peerDependencies:
-      '@h3ravel/database': ^11.19.0
+      '@h3ravel/database': ^11.19.6
 
-  '@h3ravel/session@2.2.0':
-    resolution: {integrity: sha512-6hxcKQPrTJrLVCcAJocdqqznbR+6d5HJFr/4e9ksEQWmSMnWZomijV+B57WCPJNBxz1ZccaiWnXV0NiBVHK6Wg==}
+  '@h3ravel/session@2.2.6':
+    resolution: {integrity: sha512-rt0401q/XN2RmuespqHliD679UUEw3NbwwWVKHw1QzTe/gYBVp0CcOJoLHxkdWlmDck355NYtmOzwEJMIymtwA==}
     peerDependencies:
-      '@h3ravel/database': ^11.19.0
-      '@h3ravel/foundation': ^2.2.0
-      '@h3ravel/shared': ^2.2.0
+      '@h3ravel/database': ^11.19.6
+      '@h3ravel/foundation': ^2.2.6
+      '@h3ravel/shared': ^2.2.6
 
-  '@h3ravel/shared@1.29.0-alpha.16':
-    resolution: {integrity: sha512-QBX9BlSW2wi2FgECR6QQk8zuoXo2GlEpflURS586hQfH58vxoEaLO39AeIw8sf6Y/pnEJP6Z4Jyl/0N8zrCs5w==}
+  '@h3ravel/shared@2.2.6':
+    resolution: {integrity: sha512-aB36v5gL698cjKwSlLtBKTR3QYmvCIzUxQuBkt7Tf00LR9+Q8sNTJ1VinZYE9CZ+BCawfuG1/YcSqDKUN3s6qg==}
 
-  '@h3ravel/shared@2.2.0':
-    resolution: {integrity: sha512-c53qkEe5a80KN1esC6yZuXbhki6n4hvB8Uxh9GphLTO/tsCK56t4dIzyqtMNAX8BhAIzR4xJf0wcKy1mOKg8oQ==}
-
-  '@h3ravel/support@1.29.0-alpha.16':
-    resolution: {integrity: sha512-j8fO95tnhWaReVE1PFTAgMfKvsZgDasoBoXUcb9lOJFyBKiknq6GLnfymLnoHYjFEph0YBuJyzGuzEs6xPEIGA==}
-
-  '@h3ravel/support@2.2.0':
-    resolution: {integrity: sha512-5TGbRtPpNZofgqCZoqBD8MWxPNPtOcYX8gfkaEwFxBSHulOd8EyOBuhQWE5k7vF/YucSStYzevKSvr780d8obg==}
-
-  '@h3ravel/url@2.2.0':
-    resolution: {integrity: sha512-soaUzB+kijrEUEKAW//fVcJfXipx2CdBWs2f2WPBRo0nzjxyQwIB7iyzVL4BRvvNLOW2NLm6XZd1xQrRSxEbuw==}
-
-  '@h3ravel/validation@2.2.0':
-    resolution: {integrity: sha512-V1frDQOyCRvQYYVStRPrZgWiEHGIcDyE9/9XbwlWQMJNom/Z5j8Vk5NUnHxYeL8Fy/fR1dc9NrFzFkj8u5A13w==}
+  '@h3ravel/support@2.2.6':
+    resolution: {integrity: sha512-/LYzW5eguyB7bcAKi8YNTghFjW57ynZ2r0v+ANjL7IcGl1FsrTspSu20jlPbMYqOu1mexe6V1D7DHN8soNDfeA==}
     peerDependencies:
-      '@h3ravel/config': ^2.2.0
-      '@h3ravel/contracts': ^2.2.0
-      '@h3ravel/core': ^2.2.0
-      '@h3ravel/database': ^11.19.0
+      h3: ^2.0.1-rc.22
+    peerDependenciesMeta:
+      h3:
+        optional: true
+
+  '@h3ravel/url@2.2.6':
+    resolution: {integrity: sha512-ExUsX4/BQJH6a/hOVf9Vfh39bmTOvp/x5nYQnpdXpXP2l/Yuy5BHtbv4WrriGRibk3fhOfQQMJhGpB1DUwn71A==}
+
+  '@h3ravel/validation@2.2.6':
+    resolution: {integrity: sha512-u830XD+isu0ecZmCUAbijCfb74DyaYf2Hh+a6SIBoari1hlZSaenOT7CCKt18qg4daPAFmfstTP4sYrEp10sXA==}
+    peerDependencies:
+      '@h3ravel/config': ^2.2.6
+      '@h3ravel/contracts': ^2.2.6
+      '@h3ravel/core': ^2.2.6
+      '@h3ravel/database': ^11.19.6
     peerDependenciesMeta:
       '@h3ravel/config':
         optional: true
@@ -868,11 +859,11 @@ packages:
       '@h3ravel/database':
         optional: true
 
-  '@h3ravel/view@2.2.0':
-    resolution: {integrity: sha512-oSVkDGjm3Lxe4OFBoCzlVxnd1nZAkd5KC0FW6hwvcE0JlBoNkEw1f0KZqICvH8O5YTDiuTw5E17NxhhUOYX8Gg==}
+  '@h3ravel/view@2.2.6':
+    resolution: {integrity: sha512-ydj3P0Qbu1i979d6cKxat2DszI+qpuULY+E1M2jnRMKTz/LMx7kpMKt6IfbBJ+xXIoCcWnIIXS1paagLfIaYfA==}
     peerDependencies:
-      '@h3ravel/shared': ^2.2.0
-      '@h3ravel/support': ^2.2.0
+      '@h3ravel/shared': ^2.2.6
+      '@h3ravel/support': ^2.2.6
 
   '@humanfs/core@0.19.2':
     resolution: {integrity: sha512-UhXNm+CFMWcbChXywFwkmhqjs3PRCmcSa/hfBgLIb7oQ5HNb1wS0icWsGtSAUNgefHeI+eBrA8I1fxmbHsGdvA==}
@@ -1056,8 +1047,8 @@ packages:
   '@jridgewell/trace-mapping@0.3.9':
     resolution: {integrity: sha512-3Belt6tdc8bPgAtbcmdtNJlirVoTmEb5e2gC94PnkwEW9jI6CAHUeoG85tjWP5WquqfavoMtMwiG4P926ZKKuQ==}
 
-  '@js-joda/core@5.7.0':
-    resolution: {integrity: sha512-WBu4ULVVxySLLzK1Ppq+OdfP+adRS4ntmDQT915rzDJ++i95gc2jZkM5B6LWEAwN3lGXpfie3yPABozdD3K3Vg==}
+  '@js-joda/core@6.1.0':
+    resolution: {integrity: sha512-H8NTMRDJqad/leyv/D/A3kSOsf5/58Ydj4DJGDyaCWk9OU/zuZOLhndVffJgQjsgrn5GC0znHMHie7TfvPPG4w==}
 
   '@napi-rs/wasm-runtime@1.1.5':
     resolution: {integrity: sha512-AWPoBRJ9tsnVhor4sjO7rkni+7p+2IAEFj6cx06UgP10jkQHqay/36uRV/bFkgrh18D9vb4cr8Q0Pthskgzy+Q==}
@@ -1846,8 +1837,8 @@ packages:
     resolution: {integrity: sha512-BLrgEcRTwX2o6gGxGOCNyMvGSp35YofuYzw9h1IMTRmKqttAZZVU67bdb9Pr2vUHA8+j3i2tJfjO6C6+4myGTA==}
     engines: {node: 18 || 20 || >=22}
 
-  barrelize@1.8.1:
-    resolution: {integrity: sha512-1ZBbbaOAnLsjKTU2f3IgCfPFUGVx4KI1KD3UJe5hk5dcjezCuC7OzzSzYWEXYISAgI8z5TTFppkJieN6zQqfgQ==}
+  barrelize@1.8.2:
+    resolution: {integrity: sha512-mh0+8Fbxx8CkptRSpg9up0AU98OkTC4pM+77eRMcilpFotZlI11yys+uKbKpJkc541sVQa+RKOTU9S9GgaI2TQ==}
     hasBin: true
 
   base64-js@1.5.1:
@@ -1937,9 +1928,9 @@ packages:
   chardet@2.1.1:
     resolution: {integrity: sha512-PsezH1rqdV9VvyNhxxOW32/d75r01NY7TQCmOqomRo15ZSOKbpTFVsfjghxo6JloQUCGnH4k1LGu0R4yCLlWQQ==}
 
-  chokidar@4.0.3:
-    resolution: {integrity: sha512-Qgzu8kfBvo+cA4962jnP1KkS6Dop5NS6g7R5LFYJr4b8Ub94PPQXUksCw9PvXoeXPRRddRNC5C1JQUR2SMGtnA==}
-    engines: {node: '>= 14.16.0'}
+  chokidar@5.0.0:
+    resolution: {integrity: sha512-TQMmc3w+5AxjpL8iIiwebF73dRDF4fBIieAqGn9RGCWaEVwQ6Fb2cGe31Yns0RRIzii5goJ1Y7xbMwo1TxMplw==}
+    engines: {node: '>= 20.19.0'}
 
   chownr@1.1.4:
     resolution: {integrity: sha512-jJ0bqzaylmJtVnNgzTeSOs8DPavpbYgEr/b0YL8/2GO3xJEhInFmhKMUnEJQjZumK7KXGFhUy89PrsJWlakBVg==}
@@ -1968,9 +1959,6 @@ packages:
     resolution: {integrity: sha512-ouuZd4/dm2Sw5Gmqy6bGyNNNe1qt9RpmxveLSO7KcgsTnU7RXfsw+/bukWGo1abgBiMAic068rclZsO4IWmmxQ==}
     engines: {node: '>= 12'}
 
-  collect.js@4.36.1:
-    resolution: {integrity: sha512-jd97xWPKgHn6uvK31V6zcyPd40lUJd7gpYxbN2VOVxGWO4tyvS9Li4EpsFjXepGTo2tYcOTC4a8YsbQXMJ4XUw==}
-
   color-convert@2.0.1:
     resolution: {integrity: sha512-RRECPsj7iu/xb5oKYcsFHSppFNnsj/52OVTRKb4zP5onXwVF3zVmmToNcOfGC+CRDpfK/U584fMg38ZHCaElKQ==}
     engines: {node: '>=7.0.0'}
@@ -1980,9 +1968,6 @@ packages:
 
   colorette@2.0.19:
     resolution: {integrity: sha512-3tlv/dIP7FWvj3BsbHrGLJ6l/oKh1O3TcgBqMn+yyCagOxc23fyzDS6HypQbgxWbkpDnf52p1LuR4eWDQ/K9WQ==}
-
-  colorette@2.0.20:
-    resolution: {integrity: sha512-IfEDxwoWIjkeXL1eXcDiow4UbKjhLdq6/EuSVR9GMN7KVH3r9gQ83e73hsz1Nd1T3ijd5xv1wcWRYO+D6kCI2w==}
 
   combined-stream@1.0.8:
     resolution: {integrity: sha512-FQN4MRfuJeHf7cBbBMJFXhKSDq+2kAArBlmRBvcvFE5BB1HZKXtSFASDhdlz9zOYwxh8lDdnvmMOe/+5cdoEdg==}
@@ -2002,6 +1987,9 @@ packages:
   concat-stream@2.0.0:
     resolution: {integrity: sha512-MWufYdFw53ccGjCA+Ol7XJYpAlW6/prSMzuPOTRnJGcGzuhLn4Scrz7qf6o8bROZ514ltazcIFJZevcfbo0x7A==}
     engines: {'0': node >= 6.0}
+
+  console-table-printer@2.16.1:
+    resolution: {integrity: sha512-Sc9FRJ4O9xKGNrvulNdPfK5SyBcZ6lcaRnDE4AQ/uw6IDtjHhsqyzzqcnMikjyGaiOOF2tNOKoBhbVjRvFy9Lw==}
 
   convert-source-map@2.0.0:
     resolution: {integrity: sha512-Kvp459HrV2FEJ1CAsi1Ku+MY3kasH19TFykTz2xWmMeq6bk2NU3XXvfJ+Q61m0xktWwt+1HSYf3JZsTms3aRJg==}
@@ -2501,21 +2489,12 @@ packages:
     resolution: {integrity: sha512-pCcEwRi+TKpMlxAQObHDQ56KawURgyAf6jtIY046fJ5tIv3zDe/LEIubckAO8fj6JnAxLdmWkUfNyulQ2iKdEw==}
     engines: {node: '>=14.0.0'}
 
-  h3@2.0.1-rc.22:
-    resolution: {integrity: sha512-Esv0DMIuPkCTSWCA0vO73vcTqwzH1wjSrAO1TXNu/K3up1sZHa9EKMapbmxCDYBeymC3fVTk4qxp7ogQWQ+KgA==}
+  h3@2.0.1-rc.25:
+    resolution: {integrity: sha512-uIK++Up28xDt4n0+bSWfVssRivNXpUmMmA6CCiK6j9+utLcBMcFK97Gn9PlSZwAPW9oLy3CjGJ4ag40CY9YYtQ==}
     engines: {node: '>=20.11.1'}
     hasBin: true
     peerDependencies:
-      crossws: ^0.4.1
-    peerDependenciesMeta:
-      crossws:
-        optional: true
-
-  h3@2.0.1-rc.5:
-    resolution: {integrity: sha512-qkohAzCab0nLzXNm78tBjZDvtKMTmtygS8BJLT3VPczAQofdqlFXDPkXdLMJN4r05+xqneG8snZJ0HgkERCZTg==}
-    engines: {node: '>=20.11.1'}
-    peerDependencies:
-      crossws: ^0.4.1
+      crossws: ^0.4.9
     peerDependenciesMeta:
       crossws:
         optional: true
@@ -2746,12 +2725,13 @@ packages:
   keyv@4.5.4:
     resolution: {integrity: sha512-oxVHkHR/EJf2CNXnWxRLW6mg7JyCCUcG0DtEGmL2ctUo1PNTin1PUil+r/+4r5MpVgC/fn1kjsx7mjSujKqIpw==}
 
-  knex@3.2.10:
-    resolution: {integrity: sha512-oypTHfrc9i72iyxaUQBKHOxhcr0xM65MPf6FpN02nimsftXwzXprIkLjfXdubvhbu4PMWLp023q8o8CYvHSuZw==}
+  knex@3.3.0:
+    resolution: {integrity: sha512-LgWl031hNuLv9Lhxdd9093zULa2aNcoP04Bk29e5NidgRcEr/T0rAr2WYi4BhjTiCDoQiRU56meUE5rppLKZzQ==}
     engines: {node: '>=16'}
     hasBin: true
     peerDependencies:
       better-sqlite3: '*'
+      mariadb: '*'
       mysql: '*'
       mysql2: '*'
       pg: '*'
@@ -2761,6 +2741,8 @@ packages:
       tedious: '*'
     peerDependenciesMeta:
       better-sqlite3:
+        optional: true
+      mariadb:
         optional: true
       mysql:
         optional: true
@@ -2781,14 +2763,14 @@ packages:
     resolution: {integrity: sha512-+bT2uH4E5LGE7h/n3evcS/sQlJXCpIp6ym8OWJ5eV6+67Dsql/LaaT7qJBAt2rzfoa/5QBGBhxDix1dMt2kQKQ==}
     engines: {node: '>= 0.8.0'}
 
-  lint-staged@16.4.0:
-    resolution: {integrity: sha512-lBWt8hujh/Cjysw5GYVmZpFHXDCgZzhrOm8vbcUdobADZNOK/bRshr2kM3DfgrrtR1DQhfupW9gnIXOfiFi+bw==}
-    engines: {node: '>=20.17'}
+  lint-staged@17.0.8:
+    resolution: {integrity: sha512-B2P/d+jVW0UXOQ0MVMLrB/9ydA1P+zz6jYfdrbbEd9ur3S2rcbduFWKiUCC02Sm5hbC8nrm7y24WuYMG54HfxA==}
+    engines: {node: '>=22.22.1'}
     hasBin: true
 
-  listr2@9.0.5:
-    resolution: {integrity: sha512-ME4Fb83LgEgwNw96RKNvKV4VTLuXfoKudAmm2lP8Kk87KaMK0/Xrx/aAkMWmT8mDb+3MlFDspfbCs7adjRxA2g==}
-    engines: {node: '>=20.0.0'}
+  listr2@10.2.2:
+    resolution: {integrity: sha512-JtNtbZj8q5BnDMR7trpwvwk3RIrANtIVzEUm8w7amp6xelLgyuq+4WZoTH913XaQAoH/cNdYhaNzBPA2U3xbDw==}
+    engines: {node: '>=22.13.0'}
 
   load-yaml-file@0.2.0:
     resolution: {integrity: sha512-OfCBkGEw4nN6JLtgRidPX6QxjBQGQf72q3si2uvqyFEMbycSFFHwAZeXx6cJgFM9wmLrf9zBwCP3Ivqa+LLZPw==}
@@ -2944,8 +2926,8 @@ packages:
     resolution: {integrity: sha512-WWdIxpyjEn+FhQJQQv9aQAYlHoNVdzIzUySNV1gHUPDSdZJ3yZn7pAAbQcV7B56Mvu881q9FZV+0Vx2xC44VWA==}
     engines: {node: ^18.17.0 || >=20.5.0}
 
-  mysql2@3.22.5:
-    resolution: {integrity: sha512-95uZ2TrPWAZdwpB3vvvDbmEMcNG8yIeNCyu6GUcr/QnWEE/wXm7+mhOCsdQfWQDTV7qYT/PDUZ4U4UPP4AsXqQ==}
+  mysql2@3.22.6:
+    resolution: {integrity: sha512-fPKmeDGUzvFP7bMD5SASlJ5zIgvCC4hbanTmhbUlEmhyrY1hR4Hi3xLOWgTd3luYjLVifx6uGvMNJ2m/LlqEpg==}
     engines: {node: '>= 8.0'}
     peerDependencies:
       '@types/node': '>= 8'
@@ -3093,8 +3075,8 @@ packages:
   pg-cloudflare@1.4.0:
     resolution: {integrity: sha512-Vo7z/6rrQYxpNRylp4Tlob2elzbh+N/MOQbxFVWCxS7oEx6jF53GTJFxK2WWpKuBRkmiin4Mt+xofFDjx09R0A==}
 
-  pg-connection-string@2.13.0:
-    resolution: {integrity: sha512-EMnU9E2fSULdsbErBbMaXJvFeD9B4+nPcM3f+4lsiCR0BHLPrLVjv3DbyM2hgQQviKJaTWIRRTjKjWlHg3p2ig==}
+  pg-connection-string@2.14.0:
+    resolution: {integrity: sha512-XwWDGcLRGCXAR8F/AM5bG7Q+A3Wm2s6QeEjlOKZLlH3UYcguiqCWKyWXVag5TLTIjR7oOJUY8kcADaZgWPyLeg==}
 
   pg-connection-string@2.6.2:
     resolution: {integrity: sha512-ch6OwaeaPYcova4kKZ15sbJ2hKb/VP48ZD2gE7i1J+L4MspCtBMAx8nMgz7bksc7IojCIIWuEhHibSMFH8m8oA==}
@@ -3108,15 +3090,15 @@ packages:
     peerDependencies:
       pg: '>=8.0'
 
-  pg-protocol@1.14.0:
-    resolution: {integrity: sha512-n5taZ1kO3s9ngDTVxsEznOqCyToTgz0FLuPq0B33COy5pPpuWJpY3/2oRBVETuOgzdqRXfWpM9HIhp2LBBT1BA==}
+  pg-protocol@1.15.0:
+    resolution: {integrity: sha512-cq9sECI5s0+uPUXjbz8ioyPJni6RzsRib0US67i5IoTZKw8fNeYlVE7u8F4dG7vEJJtc5wdD1K189lCCUwqWTQ==}
 
   pg-types@2.2.0:
     resolution: {integrity: sha512-qTAAlrEsl8s4OiEQY69wDvcMIdQN6wdz5ojQiOy6YRMuynxenON0O5oCpJI6lshc6scgAY8qvJ2On/p+CXY0GA==}
     engines: {node: '>=4'}
 
-  pg@8.21.0:
-    resolution: {integrity: sha512-AUP1EYJuHraQGsVoCQVIcM7TEJVGtDzxWtGFZd8rds9d+CCXlU5Js1rYgfLNvxy9iJrpHjGrRjoi/3BT9fRyiA==}
+  pg@8.22.0:
+    resolution: {integrity: sha512-8wih1vVIBMxoUM2oB4soJsD9tDnDpLv4OXBJ+EJzFsvycD+lfyIreC2gGHq78f8jbLLt+bvlPTFdFZfJkOuzAA==}
     engines: {node: '>= 16.0.0'}
     peerDependencies:
       pg-native: '>=3.0.1'
@@ -3216,10 +3198,6 @@ packages:
   queue-microtask@1.2.3:
     resolution: {integrity: sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==}
 
-  radashi@12.9.1:
-    resolution: {integrity: sha512-HCvrL1Ag7qnyH11UiSWQaEIiizJ7kldHjBw63aELoum7C8nQrSLqotLDuKKvoRPtO0w8azCzUQcL3yrU3lBksw==}
-    engines: {node: '>=16.0.0'}
-
   rc@1.2.8:
     resolution: {integrity: sha512-y3bGgqKj3QBdxLbLkomlohkvsA8gdAiUQlSBJnBhfn+BPxg4bc62d8TcBW15wavDfgexCgccckhcZvywyQYPOw==}
     hasBin: true
@@ -3232,9 +3210,9 @@ packages:
     resolution: {integrity: sha512-oIGGmcpTLwPga8Bn6/Z75SVaH1z5dUut2ibSyAMVhmUggWpmDn2dapB0n7f8nwaSiRtepAsfJyfXIO5DCVAODg==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
 
-  readdirp@4.1.2:
-    resolution: {integrity: sha512-GDhwkLfywWL2s6vEjyhri+eXmfH6j1L7JE27WhqLeYzoh/A3DBaYGEj2H/HFZCn/kMfim73FXxEJTw06WtxQwg==}
-    engines: {node: '>= 14.18.0'}
+  readdirp@5.0.0:
+    resolution: {integrity: sha512-9u/XQ1pvrQtYyMpZe7DXKv2p5CNvyVwzUB6uhLAnQwHMSgKMBR62lc7AHljaeteeHXn11XTAaLLUVZYVZyuRBQ==}
+    engines: {node: '>= 20.19.0'}
 
   rechoir@0.8.0:
     resolution: {integrity: sha512-/vxpCXddiX8NGfGO/mTafwjq4aFa/71pvamip0++IQk3zG8cbCj0fifNPrjjF1XMXUne91jL9OoxmdykoEtifQ==}
@@ -3313,11 +3291,8 @@ packages:
     engines: {node: '>=18.0.0', npm: '>=8.0.0'}
     hasBin: true
 
-  rou3@0.7.12:
-    resolution: {integrity: sha512-iFE4hLDuloSWcD7mjdCDhx2bKcIsYbtOTpfH5MHHLSKMOUyjqQXTeZVa289uuwEGEKFoE/BAPbhaU4B774nceg==}
-
-  rou3@0.8.1:
-    resolution: {integrity: sha512-ePa+XGk00/3HuCqrEnK3LxJW7I0SdNg6EFzKUJG73hMAdDcOUC/i/aSz7LSDwLrGr33kal/rqOGydzwl6U7zBA==}
+  rou3@0.9.1:
+    resolution: {integrity: sha512-z/sSmzvtwMDDnxsPVhfWMuG6F6mbmhFDXoVqLmMfbpDD9qfV3GDmSQpf0+W296/ZDIpW2wcMmBfpVFzcnOi/nA==}
 
   run-applescript@7.1.0:
     resolution: {integrity: sha512-DPe5pVFaAsinSaV6QjQ6gdiedWDcRCbUuiQfQa2wmWV7+xC9bGulGI8+TdRmoFkAPaBXk8CrAbnlY2ISniJ47Q==}
@@ -3381,6 +3356,9 @@ packages:
   simple-get@4.0.1:
     resolution: {integrity: sha512-brv7p5WgH0jmQJr1ZDDfKDOSeWWg+OVypG99A/5vYGPqJ6pxiaHLy8nxtFjBA7oMa01ebA9gfh1uMCFqOuXxvA==}
 
+  simple-wcswidth@1.1.2:
+    resolution: {integrity: sha512-j7piyCjAeTDSjzTSQ7DokZtMNwNlEAyxqSZeCS+CXH7fJ4jx3FuJ/mTW3mE+6JLs4VJBbcll0Kjn+KXI5t21Iw==}
+
   slice-ansi@7.1.2:
     resolution: {integrity: sha512-iOBWFgUX7caIZiuutICxVgX1SdxwAVFFKwt1EvMYYec/NWO5meOJ6K5uQxhrYBdQJne4KxiqZc+KptFOWFSI9w==}
     engines: {node: '>=18'}
@@ -3414,26 +3392,21 @@ packages:
   sprintf-js@1.1.3:
     resolution: {integrity: sha512-Oo+0REFV59/rz3gfJNKQiBlwfHaSESl1pcGyABQsnnIfWOFt6JNj5gCog2U6MLZ//IGYD+nA8nI+mTShREReaA==}
 
-  sql-escaper@1.3.3:
-    resolution: {integrity: sha512-BsTCV265VpTp8tm1wyIm1xqQCS+Q9NHx2Sr+WcnUrgLrQ6yiDIvHYJV5gHxsj1lMBy2zm5twLaZao8Jd+S8JJw==}
+  sql-escaper@1.5.0:
+    resolution: {integrity: sha512-JCY91/D1lVq7p6RzuHg9XFQH9vT9L22bljsk+uTdMWke4ZqPCCE+iIMNPmJPUUTywn6eW2nncaWc+MizKZgF4A==}
     engines: {bun: '>=1.0.0', deno: '>=2.0.0', node: '>=12.0.0'}
 
   sqlite3@6.0.1:
     resolution: {integrity: sha512-X0czUUMG2tmSqJpEQa3tCuZSHKIx8PwM53vLZzKp/o6Rpy25fiVfjdbnZ988M8+O3ZWR1ih0K255VumCb3MAnQ==}
     engines: {node: '>=20.17.0'}
 
-  srvx@0.11.16:
-    resolution: {integrity: sha512-bp07zRuycfTY43IjAvvTFnmnJi8ikW0VFiHwOhhYcVW/L4xQ1XY4PAd4Nuum1rsA17C39zL7x+CDhrn5AL32Rw==}
+  srvx@0.11.22:
+    resolution: {integrity: sha512-LqZxxBDMKuMAZzFzJnDCkFOrs9MZQZr0LvHiO/SuSZVdQaXD7xQ5UWTUxheJrQPve1qk9MG2B/yttUvJxw8egQ==}
     engines: {node: '>=20.16.0'}
     hasBin: true
 
   srvx@0.8.16:
     resolution: {integrity: sha512-hmcGW4CgroeSmzgF1Ihwgl+Ths0JqAJ7HwjP2X7e3JzY7u4IydLMcdnlqGQiQGUswz+PO9oh/KtCpOISIvs9QQ==}
-    engines: {node: '>=20.16.0'}
-    hasBin: true
-
-  srvx@0.9.8:
-    resolution: {integrity: sha512-RZaxTKJEE/14HYn8COLuUOJAt0U55N9l1Xf6jj+T0GoA01EUH1Xz5JtSUOI+EHn+AEgPCVn7gk6jHJffrr06fQ==}
     engines: {node: '>=20.16.0'}
     hasBin: true
 
@@ -3533,13 +3506,13 @@ packages:
     resolution: {integrity: sha512-56adEpPMouktRlBLXiaYFFzZ/3+JXa8P9n7WbR+ibIjtviN55mEaOkiysCnPnWm+7kkui1Dn8J9l+g6zV8731w==}
     engines: {node: '>=18'}
 
-  tarn@3.0.2:
-    resolution: {integrity: sha512-51LAVKUSZSVfI05vjPESNc5vwqqZpbXCsU+/+wxlOrUjk2SnFTt97v9ZgQrD4YmxYW1Px6w2KjaDitCfkvgxMQ==}
+  tarn@3.1.2:
+    resolution: {integrity: sha512-3RTvqKZcK/17jnJ8rMKFXbyNogywTs1z0gVPPwFsJGX46rkmUHOdIaSQ/aVO1rS7nH+soiXiWk7rvUXxndm8Dg==}
     engines: {node: '>=8.0.0'}
 
-  tedious@19.2.1:
-    resolution: {integrity: sha512-pk1Q16Yl62iocuQB+RWbg6rFUFkIyzqOFQ6NfysCltRvQqKwfurgj8v/f2X+CKvDhSL4IJ0cCOfCHDg9PWEEYA==}
-    engines: {node: '>=18.17'}
+  tedious@20.0.0:
+    resolution: {integrity: sha512-bTR0aou0Ghucf0ytvZUJjnKHGKDV8tT57jPYtEkSpfTWFe++4uR1wxJLQ4mh5wlSvAYXzmgBxbI0vaE56qigXw==}
+    engines: {node: '>=22'}
 
   teeny-request@9.0.0:
     resolution: {integrity: sha512-resvxdc6Mgb7YEThw6G6bExlXKkv6+YbuzGg9xuXxSgxJF7Ozs+o8Y9+2R3sArdWdW8nOokoQb1yrpFB0pQK2g==}
@@ -3816,6 +3789,10 @@ packages:
   word-wrap@1.2.5:
     resolution: {integrity: sha512-BN22B5eaMMI9UMtjrGd5g5eCYPpCPDUy0FJXbYsaT5zYxjFOckS53SQDE3pWkVoWpHXVb3BrYcEN4Twa55B5cA==}
     engines: {node: '>=0.10.0'}
+
+  wrap-ansi@10.0.0:
+    resolution: {integrity: sha512-SGcvg80f0wUy2/fXES19feHMz8E0JoXv2uNgHOu4Dgi2OrCy1lqwFYEJz1BLbDI0exjPMe/ZdzZ/YpGECBG/aQ==}
+    engines: {node: '>=20'}
 
   wrap-ansi@6.2.0:
     resolution: {integrity: sha512-r6lPcBGxZXlIcymEu7InxDMhdW0KDxpLgoFLcguasxCaJ/SOIZwINatK9KY/tf+ZrlywOKU0UDj3ATXUBfxJXA==}
@@ -4292,6 +4269,10 @@ snapshots:
 
   '@bcoe/v8-coverage@1.0.2': {}
 
+  '@cli-prompts/multiline@1.0.0':
+    dependencies:
+      ansi-escapes: 7.3.0
+
   '@cspotcode/source-map-support@0.8.1':
     dependencies:
       '@jridgewell/trace-mapping': 0.3.9
@@ -4533,99 +4514,68 @@ snapshots:
       - encoding
       - supports-color
 
-  '@h3ravel/arquebus@1.29.0-alpha.15(@types/node@25.9.3)(sqlite3@6.0.1)':
+  '@h3ravel/arquebus@3.0.0(@types/node@25.9.3)(h3@2.0.1-rc.25)(sqlite3@6.0.1)':
     dependencies:
-      '@h3ravel/shared': 1.29.0-alpha.16(@types/node@25.9.3)
-      '@h3ravel/support': 1.29.0-alpha.16
-      barrelize: 1.8.1
+      '@h3ravel/collect.js': 5.4.0
+      '@h3ravel/musket': 2.2.7(@types/node@25.9.3)
+      '@h3ravel/shared': 2.2.6(@types/node@25.9.3)
+      '@h3ravel/support': 2.2.6(@types/node@25.9.3)(h3@2.0.1-rc.25)
+      barrelize: 1.8.2
       chalk: 5.6.2
-      chokidar: 4.0.3
-      collect.js: 4.36.1
-      commander: 14.0.3
+      chokidar: 5.0.0
       cross-env: 10.1.0
       dayjs: 1.11.21
       dotenv: 17.4.2
       escalade: 3.2.0
       husky: 9.1.7
-      knex: 3.2.10(mysql2@3.22.5(@types/node@25.9.3))(pg@8.21.0)(sqlite3@6.0.1)(tedious@19.2.1)
-      lint-staged: 16.4.0
-      mysql2: 3.22.5(@types/node@25.9.3)
-      pg: 8.21.0
+      knex: 3.3.0(mysql2@3.22.6(@types/node@25.9.3))(pg@8.22.0)(sqlite3@6.0.1)(tedious@20.0.0)
+      lint-staged: 17.0.8
+      mysql2: 3.22.6(@types/node@25.9.3)
+      pg: 8.22.0
       pluralize: 8.0.0
-      radashi: 12.9.1
       resolve-from: 5.0.0
-      tedious: 19.2.1
+      tedious: 20.0.0
     transitivePeerDependencies:
       - '@types/node'
       - better-sqlite3
       - crossws
+      - h3
+      - mariadb
       - mysql
       - pg-native
       - pg-query-stream
       - sqlite3
       - supports-color
 
-  '@h3ravel/arquebus@2.0.0(@types/node@25.9.3)(sqlite3@6.0.1)':
+  '@h3ravel/cache@11.19.6(@h3ravel/support@2.2.6(@types/node@25.9.3)(h3@2.0.1-rc.25))':
     dependencies:
-      '@h3ravel/shared': 2.2.0(@types/node@25.9.3)
-      '@h3ravel/support': 2.2.0(@types/node@25.9.3)
-      barrelize: 1.8.1
-      chalk: 5.6.2
-      chokidar: 4.0.3
-      collect.js: 4.36.1
-      commander: 14.0.3
-      cross-env: 10.1.0
-      dayjs: 1.11.21
-      dotenv: 17.4.2
-      escalade: 3.2.0
-      husky: 9.1.7
-      knex: 3.2.10(mysql2@3.22.5(@types/node@25.9.3))(pg@8.21.0)(sqlite3@6.0.1)(tedious@19.2.1)
-      lint-staged: 16.4.0
-      mysql2: 3.22.5(@types/node@25.9.3)
-      pg: 8.21.0
-      pluralize: 8.0.0
-      radashi: 12.9.1
-      resolve-from: 5.0.0
-      tedious: 19.2.1
-    transitivePeerDependencies:
-      - '@types/node'
-      - better-sqlite3
-      - crossws
-      - mysql
-      - pg-native
-      - pg-query-stream
-      - sqlite3
-      - supports-color
+      '@h3ravel/support': 2.2.6(@types/node@25.9.3)(h3@2.0.1-rc.25)
 
-  '@h3ravel/cache@11.19.0(@h3ravel/support@2.2.0(@types/node@25.9.3))':
+  '@h3ravel/collect.js@5.4.0': {}
+
+  '@h3ravel/config@2.2.6(@types/node@25.9.3)(h3@2.0.1-rc.25)':
     dependencies:
-      '@h3ravel/support': 2.2.0(@types/node@25.9.3)
-
-  '@h3ravel/collect.js@5.3.7': {}
-
-  '@h3ravel/config@2.2.0(@types/node@25.9.3)':
-    dependencies:
-      '@h3ravel/musket': 1.29.0-alpha.15(@types/node@25.9.3)
-      '@h3ravel/shared': 2.2.0(@types/node@25.9.3)
-      '@h3ravel/support': 2.2.0(@types/node@25.9.3)
+      '@h3ravel/musket': 2.2.7(@types/node@25.9.3)
+      '@h3ravel/shared': 2.2.6(@types/node@25.9.3)
+      '@h3ravel/support': 2.2.6(@types/node@25.9.3)(h3@2.0.1-rc.25)
     transitivePeerDependencies:
       - '@types/node'
       - crossws
+      - h3
 
-  '@h3ravel/console@11.19.0(@google-cloud/storage@7.21.0(encoding@0.1.13))(@h3ravel/core@2.2.0(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13))))(@h3ravel/support@2.2.0(@types/node@25.9.3))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13)))':
+  '@h3ravel/console@11.19.6(@google-cloud/storage@7.21.0(encoding@0.1.13))(@h3ravel/core@2.2.6(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13))))(@h3ravel/support@2.2.6(@types/node@25.9.3)(h3@2.0.1-rc.25))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13)))':
     dependencies:
-      '@h3ravel/core': 2.2.0(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13)))
-      '@h3ravel/foundation': 2.2.0(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13)))
-      '@h3ravel/musket': 1.29.0-alpha.15(@types/node@25.9.3)
-      '@h3ravel/shared': 2.2.0(@types/node@25.9.3)
-      '@h3ravel/support': 2.2.0(@types/node@25.9.3)
+      '@h3ravel/core': 2.2.6(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13)))
+      '@h3ravel/foundation': 2.2.6(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13)))
+      '@h3ravel/musket': 2.2.7(@types/node@25.9.3)
+      '@h3ravel/shared': 2.2.6(@types/node@25.9.3)
+      '@h3ravel/support': 2.2.6(@types/node@25.9.3)(h3@2.0.1-rc.25)
       chalk: 5.6.2
       commander: 14.0.3
       dayjs: 1.11.21
       dotenv: 17.4.2
       execa: 9.6.1
       preferred-pm: 4.1.1
-      radashi: 12.9.1
       resolve-from: 5.0.0
     transitivePeerDependencies:
       - '@google-cloud/storage'
@@ -4634,30 +4584,24 @@ snapshots:
       - flydrive
       - supports-color
 
-  '@h3ravel/contracts@1.29.0-alpha.16':
+  '@h3ravel/contracts@2.2.6':
     dependencies:
-      h3: 2.0.1-rc.5
+      h3: 2.0.1-rc.25
     transitivePeerDependencies:
       - crossws
 
-  '@h3ravel/contracts@2.2.0':
+  '@h3ravel/core@2.2.6(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13)))':
     dependencies:
-      h3: 2.0.1-rc.5
-    transitivePeerDependencies:
-      - crossws
-
-  '@h3ravel/core@2.2.0(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13)))':
-    dependencies:
-      '@h3ravel/foundation': 2.2.0(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13)))
-      '@h3ravel/shared': 2.2.0(@types/node@25.9.3)
-      '@h3ravel/support': 2.2.0(@types/node@25.9.3)
+      '@h3ravel/foundation': 2.2.6(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13)))
+      '@h3ravel/shared': 2.2.6(@types/node@25.9.3)
+      '@h3ravel/support': 2.2.6(@types/node@25.9.3)(h3@2.0.1-rc.25)
       chalk: 5.6.2
       commander: 14.0.3
       detect-port: 2.1.0
       dotenv: 17.4.2
       dotenv-expand: 12.0.3
       fast-glob: 3.3.3
-      h3: 2.0.1-rc.5
+      h3: 2.0.1-rc.25
       reflect-metadata: 0.2.2
       semver: 7.8.4
       srvx: 0.8.16
@@ -4669,52 +4613,55 @@ snapshots:
       - flydrive
       - supports-color
 
-  '@h3ravel/database@11.19.0(@h3ravel/core@2.2.0(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13))))(@h3ravel/filesystem@2.2.0(@h3ravel/core@2.2.0(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13))))(@types/node@25.9.3)(encoding@0.1.13))(@h3ravel/shared@2.2.0(@types/node@25.9.3))(@h3ravel/support@2.2.0(@types/node@25.9.3))(@types/node@25.9.3)':
+  '@h3ravel/database@11.19.6(@h3ravel/core@2.2.6(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13))))(@h3ravel/filesystem@2.2.6(@h3ravel/core@2.2.6(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13))))(@types/node@25.9.3)(encoding@0.1.13)(h3@2.0.1-rc.25))(@h3ravel/shared@2.2.6(@types/node@25.9.3))(@h3ravel/support@2.2.6(@types/node@25.9.3)(h3@2.0.1-rc.25))(@types/node@25.9.3)(h3@2.0.1-rc.25)':
     dependencies:
-      '@h3ravel/arquebus': 1.29.0-alpha.15(@types/node@25.9.3)(sqlite3@6.0.1)
-      '@h3ravel/core': 2.2.0(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13)))
-      '@h3ravel/filesystem': 2.2.0(@h3ravel/core@2.2.0(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13))))(@types/node@25.9.3)(encoding@0.1.13)
-      '@h3ravel/musket': 1.29.0-alpha.15(@types/node@25.9.3)
-      '@h3ravel/shared': 2.2.0(@types/node@25.9.3)
-      '@h3ravel/support': 2.2.0(@types/node@25.9.3)
+      '@h3ravel/arquebus': 3.0.0(@types/node@25.9.3)(h3@2.0.1-rc.25)(sqlite3@6.0.1)
+      '@h3ravel/core': 2.2.6(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13)))
+      '@h3ravel/filesystem': 2.2.6(@h3ravel/core@2.2.6(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13))))(@types/node@25.9.3)(encoding@0.1.13)(h3@2.0.1-rc.25)
+      '@h3ravel/musket': 2.2.7(@types/node@25.9.3)
+      '@h3ravel/shared': 2.2.6(@types/node@25.9.3)
+      '@h3ravel/support': 2.2.6(@types/node@25.9.3)(h3@2.0.1-rc.25)
       sqlite3: 6.0.1
     transitivePeerDependencies:
       - '@types/node'
       - better-sqlite3
       - crossws
+      - h3
+      - mariadb
       - mysql
       - pg-native
       - pg-query-stream
       - supports-color
 
-  '@h3ravel/events@2.2.0(@h3ravel/core@2.2.0(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13))))':
+  '@h3ravel/events@2.2.6(@h3ravel/core@2.2.6(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13))))':
     dependencies:
-      '@h3ravel/core': 2.2.0(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13)))
+      '@h3ravel/core': 2.2.6(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13)))
 
-  '@h3ravel/filesystem@2.2.0(@h3ravel/core@2.2.0(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13))))(@types/node@25.9.3)(encoding@0.1.13)':
+  '@h3ravel/filesystem@2.2.6(@h3ravel/core@2.2.6(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13))))(@types/node@25.9.3)(encoding@0.1.13)(h3@2.0.1-rc.25)':
     dependencies:
       '@aws-sdk/client-s3': 3.1068.0
       '@aws-sdk/s3-request-presigner': 3.1068.0
       '@google-cloud/storage': 7.21.0(encoding@0.1.13)
-      '@h3ravel/core': 2.2.0(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13)))
-      '@h3ravel/musket': 1.29.0-alpha.15(@types/node@25.9.3)
-      '@h3ravel/shared': 2.2.0(@types/node@25.9.3)
-      '@h3ravel/support': 2.2.0(@types/node@25.9.3)
+      '@h3ravel/core': 2.2.6(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13)))
+      '@h3ravel/musket': 2.2.7(@types/node@25.9.3)
+      '@h3ravel/shared': 2.2.6(@types/node@25.9.3)
+      '@h3ravel/support': 2.2.6(@types/node@25.9.3)(h3@2.0.1-rc.25)
       flydrive: 2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13))
       ssh2-sftp-client: 12.1.1
     transitivePeerDependencies:
       - '@types/node'
       - crossws
       - encoding
+      - h3
       - supports-color
 
-  '@h3ravel/foundation@2.2.0(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13)))':
+  '@h3ravel/foundation@2.2.6(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13)))':
     dependencies:
-      '@h3ravel/musket': 1.29.0-alpha.15(@types/node@25.9.3)
-      '@h3ravel/shared': 2.2.0(@types/node@25.9.3)
-      '@h3ravel/support': 2.2.0(@types/node@25.9.3)
+      '@h3ravel/musket': 2.2.7(@types/node@25.9.3)
+      '@h3ravel/shared': 2.2.6(@types/node@25.9.3)
+      '@h3ravel/support': 2.2.6(@types/node@25.9.3)(h3@2.0.1-rc.25)
       flydrive: 2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13))
-      h3: 2.0.1-rc.5
+      h3: 2.0.1-rc.25
       parasito: 0.2.5
     optionalDependencies:
       '@google-cloud/storage': 7.21.0(encoding@0.1.13)
@@ -4723,29 +4670,29 @@ snapshots:
       - crossws
       - supports-color
 
-  '@h3ravel/hashing@2.2.0(@h3ravel/core@2.2.0(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13))))(@h3ravel/foundation@2.2.0(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13))))(@h3ravel/shared@2.2.0(@types/node@25.9.3))(@h3ravel/support@2.2.0(@types/node@25.9.3))':
+  '@h3ravel/hashing@2.2.6(@h3ravel/core@2.2.6(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13))))(@h3ravel/foundation@2.2.6(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13))))(@h3ravel/shared@2.2.6(@types/node@25.9.3))(@h3ravel/support@2.2.6(@types/node@25.9.3)(h3@2.0.1-rc.25))':
     dependencies:
-      '@h3ravel/contracts': 2.2.0
-      '@h3ravel/foundation': 2.2.0(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13)))
-      '@h3ravel/shared': 2.2.0(@types/node@25.9.3)
-      '@h3ravel/support': 2.2.0(@types/node@25.9.3)
+      '@h3ravel/contracts': 2.2.6
+      '@h3ravel/foundation': 2.2.6(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13)))
+      '@h3ravel/shared': 2.2.6(@types/node@25.9.3)
+      '@h3ravel/support': 2.2.6(@types/node@25.9.3)(h3@2.0.1-rc.25)
       argon2: 0.44.0
       bcryptjs: 3.0.3
     optionalDependencies:
-      '@h3ravel/core': 2.2.0(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13)))
+      '@h3ravel/core': 2.2.6(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13)))
     transitivePeerDependencies:
       - crossws
 
-  '@h3ravel/http@11.19.0(@h3ravel/database@11.19.0(@h3ravel/core@2.2.0(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13))))(@h3ravel/filesystem@2.2.0(@h3ravel/core@2.2.0(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13))))(@types/node@25.9.3)(encoding@0.1.13))(@h3ravel/shared@2.2.0(@types/node@25.9.3))(@h3ravel/support@2.2.0(@types/node@25.9.3))(@types/node@25.9.3))(@h3ravel/foundation@2.2.0(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13))))(@h3ravel/validation@2.2.0(b7a86030beb24319a0eb2772ae7fcfad))(@types/node@25.9.3)':
+  '@h3ravel/http@11.19.6(@h3ravel/database@11.19.6(@h3ravel/core@2.2.6(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13))))(@h3ravel/filesystem@2.2.6(@h3ravel/core@2.2.6(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13))))(@types/node@25.9.3)(encoding@0.1.13)(h3@2.0.1-rc.25))(@h3ravel/shared@2.2.6(@types/node@25.9.3))(@h3ravel/support@2.2.6(@types/node@25.9.3)(h3@2.0.1-rc.25))(@types/node@25.9.3)(h3@2.0.1-rc.25))(@h3ravel/foundation@2.2.6(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13))))(@h3ravel/validation@2.2.6(451abdf09a8983b7137893bdaa8ae382))(@types/node@25.9.3)':
     dependencies:
-      '@h3ravel/contracts': 2.2.0
-      '@h3ravel/foundation': 2.2.0(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13)))
-      '@h3ravel/musket': 1.29.0-alpha.15(@types/node@25.9.3)
-      '@h3ravel/session': 2.2.0(@h3ravel/database@11.19.0(@h3ravel/core@2.2.0(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13))))(@h3ravel/filesystem@2.2.0(@h3ravel/core@2.2.0(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13))))(@types/node@25.9.3)(encoding@0.1.13))(@h3ravel/shared@2.2.0(@types/node@25.9.3))(@h3ravel/support@2.2.0(@types/node@25.9.3))(@types/node@25.9.3))(@h3ravel/foundation@2.2.0(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13))))(@h3ravel/shared@2.2.0(@types/node@25.9.3))
-      '@h3ravel/shared': 2.2.0(@types/node@25.9.3)
-      '@h3ravel/support': 2.2.0(@types/node@25.9.3)
-      '@h3ravel/validation': 2.2.0(b7a86030beb24319a0eb2772ae7fcfad)
-      h3: 2.0.1-rc.5
+      '@h3ravel/contracts': 2.2.6
+      '@h3ravel/foundation': 2.2.6(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13)))
+      '@h3ravel/musket': 2.2.7(@types/node@25.9.3)
+      '@h3ravel/session': 2.2.6(@h3ravel/database@11.19.6(@h3ravel/core@2.2.6(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13))))(@h3ravel/filesystem@2.2.6(@h3ravel/core@2.2.6(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13))))(@types/node@25.9.3)(encoding@0.1.13)(h3@2.0.1-rc.25))(@h3ravel/shared@2.2.6(@types/node@25.9.3))(@h3ravel/support@2.2.6(@types/node@25.9.3)(h3@2.0.1-rc.25))(@types/node@25.9.3)(h3@2.0.1-rc.25))(@h3ravel/foundation@2.2.6(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13))))(@h3ravel/shared@2.2.6(@types/node@25.9.3))
+      '@h3ravel/shared': 2.2.6(@types/node@25.9.3)
+      '@h3ravel/support': 2.2.6(@types/node@25.9.3)(h3@2.0.1-rc.25)
+      '@h3ravel/validation': 2.2.6(451abdf09a8983b7137893bdaa8ae382)
+      h3: 2.0.1-rc.25
       resora: 1.3.18(@types/node@25.9.3)
       srvx: 0.8.16
     transitivePeerDependencies:
@@ -4753,60 +4700,43 @@ snapshots:
       - '@types/node'
       - crossws
 
-  '@h3ravel/mail@11.19.0(@h3ravel/core@2.2.0(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13))))':
+  '@h3ravel/mail@11.19.6(@h3ravel/core@2.2.6(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13))))':
     dependencies:
       '@aws-sdk/client-sesv2': 3.1068.0
-      '@h3ravel/core': 2.2.0(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13)))
+      '@h3ravel/core': 2.2.6(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13)))
       nodemailer: 7.0.13
 
-  '@h3ravel/musket@1.29.0-alpha.15(@types/node@25.9.3)':
+  '@h3ravel/musket@2.2.7(@types/node@25.9.3)':
     dependencies:
-      '@h3ravel/shared': 1.29.0-alpha.16(@types/node@25.9.3)
+      '@h3ravel/shared': 2.2.6(@types/node@25.9.3)
       chalk: 5.6.2
       commander: 14.0.3
       dayjs: 1.11.21
       execa: 9.6.1
       glob: 13.0.6
       preferred-pm: 4.1.1
-      radashi: 12.9.1
       resolve-from: 5.0.0
       tsx: 4.22.4
     transitivePeerDependencies:
       - '@types/node'
       - crossws
 
-  '@h3ravel/musket@2.0.0(@types/node@25.9.3)':
+  '@h3ravel/queue@11.19.6(@h3ravel/contracts@2.2.6)(@h3ravel/core@2.2.6(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13))))':
     dependencies:
-      '@h3ravel/shared': 2.2.0(@types/node@25.9.3)
-      chalk: 5.6.2
-      commander: 14.0.3
-      dayjs: 1.11.21
-      execa: 9.6.1
-      glob: 13.0.6
-      preferred-pm: 4.1.1
-      radashi: 12.9.1
-      resolve-from: 5.0.0
-      tsx: 4.22.4
-    transitivePeerDependencies:
-      - '@types/node'
-      - crossws
+      '@h3ravel/contracts': 2.2.6
+      '@h3ravel/core': 2.2.6(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13)))
 
-  '@h3ravel/queue@11.19.0(@h3ravel/contracts@2.2.0)(@h3ravel/core@2.2.0(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13))))':
+  '@h3ravel/router@2.2.6(039bdf289fec37bbcd2dcaf217aa7cd5)':
     dependencies:
-      '@h3ravel/contracts': 2.2.0
-      '@h3ravel/core': 2.2.0(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13)))
-
-  '@h3ravel/router@2.2.0(d9f3292d5008ecc0ed0ced2d69d5a50d)':
-    dependencies:
-      '@h3ravel/contracts': 2.2.0
-      '@h3ravel/database': 11.19.0(@h3ravel/core@2.2.0(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13))))(@h3ravel/filesystem@2.2.0(@h3ravel/core@2.2.0(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13))))(@types/node@25.9.3)(encoding@0.1.13))(@h3ravel/shared@2.2.0(@types/node@25.9.3))(@h3ravel/support@2.2.0(@types/node@25.9.3))(@types/node@25.9.3)
-      '@h3ravel/events': 2.2.0(@h3ravel/core@2.2.0(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13))))
-      '@h3ravel/foundation': 2.2.0(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13)))
-      '@h3ravel/http': 11.19.0(@h3ravel/database@11.19.0(@h3ravel/core@2.2.0(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13))))(@h3ravel/filesystem@2.2.0(@h3ravel/core@2.2.0(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13))))(@types/node@25.9.3)(encoding@0.1.13))(@h3ravel/shared@2.2.0(@types/node@25.9.3))(@h3ravel/support@2.2.0(@types/node@25.9.3))(@types/node@25.9.3))(@h3ravel/foundation@2.2.0(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13))))(@h3ravel/validation@2.2.0(b7a86030beb24319a0eb2772ae7fcfad))(@types/node@25.9.3)
-      '@h3ravel/musket': 1.29.0-alpha.15(@types/node@25.9.3)
-      '@h3ravel/shared': 2.2.0(@types/node@25.9.3)
-      '@h3ravel/support': 2.2.0(@types/node@25.9.3)
-      h3: 2.0.1-rc.5
+      '@h3ravel/contracts': 2.2.6
+      '@h3ravel/database': 11.19.6(@h3ravel/core@2.2.6(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13))))(@h3ravel/filesystem@2.2.6(@h3ravel/core@2.2.6(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13))))(@types/node@25.9.3)(encoding@0.1.13)(h3@2.0.1-rc.25))(@h3ravel/shared@2.2.6(@types/node@25.9.3))(@h3ravel/support@2.2.6(@types/node@25.9.3)(h3@2.0.1-rc.25))(@types/node@25.9.3)(h3@2.0.1-rc.25)
+      '@h3ravel/events': 2.2.6(@h3ravel/core@2.2.6(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13))))
+      '@h3ravel/foundation': 2.2.6(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13)))
+      '@h3ravel/http': 11.19.6(@h3ravel/database@11.19.6(@h3ravel/core@2.2.6(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13))))(@h3ravel/filesystem@2.2.6(@h3ravel/core@2.2.6(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13))))(@types/node@25.9.3)(encoding@0.1.13)(h3@2.0.1-rc.25))(@h3ravel/shared@2.2.6(@types/node@25.9.3))(@h3ravel/support@2.2.6(@types/node@25.9.3)(h3@2.0.1-rc.25))(@types/node@25.9.3)(h3@2.0.1-rc.25))(@h3ravel/foundation@2.2.6(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13))))(@h3ravel/validation@2.2.6(451abdf09a8983b7137893bdaa8ae382))(@types/node@25.9.3)
+      '@h3ravel/musket': 2.2.7(@types/node@25.9.3)
+      '@h3ravel/shared': 2.2.6(@types/node@25.9.3)
+      '@h3ravel/support': 2.2.6(@types/node@25.9.3)(h3@2.0.1-rc.25)
+      h3: 2.0.1-rc.25
       reflect-metadata: 0.2.2
     transitivePeerDependencies:
       - '@google-cloud/storage'
@@ -4817,33 +4747,21 @@ snapshots:
       - flydrive
       - supports-color
 
-  '@h3ravel/session@2.2.0(@h3ravel/database@11.19.0(@h3ravel/core@2.2.0(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13))))(@h3ravel/filesystem@2.2.0(@h3ravel/core@2.2.0(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13))))(@types/node@25.9.3)(encoding@0.1.13))(@h3ravel/shared@2.2.0(@types/node@25.9.3))(@h3ravel/support@2.2.0(@types/node@25.9.3))(@types/node@25.9.3))(@h3ravel/foundation@2.2.0(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13))))(@h3ravel/shared@2.2.0(@types/node@25.9.3))':
+  '@h3ravel/session@2.2.6(@h3ravel/database@11.19.6(@h3ravel/core@2.2.6(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13))))(@h3ravel/filesystem@2.2.6(@h3ravel/core@2.2.6(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13))))(@types/node@25.9.3)(encoding@0.1.13)(h3@2.0.1-rc.25))(@h3ravel/shared@2.2.6(@types/node@25.9.3))(@h3ravel/support@2.2.6(@types/node@25.9.3)(h3@2.0.1-rc.25))(@types/node@25.9.3)(h3@2.0.1-rc.25))(@h3ravel/foundation@2.2.6(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13))))(@h3ravel/shared@2.2.6(@types/node@25.9.3))':
     dependencies:
-      '@h3ravel/database': 11.19.0(@h3ravel/core@2.2.0(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13))))(@h3ravel/filesystem@2.2.0(@h3ravel/core@2.2.0(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13))))(@types/node@25.9.3)(encoding@0.1.13))(@h3ravel/shared@2.2.0(@types/node@25.9.3))(@h3ravel/support@2.2.0(@types/node@25.9.3))(@types/node@25.9.3)
-      '@h3ravel/foundation': 2.2.0(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13)))
-      '@h3ravel/shared': 2.2.0(@types/node@25.9.3)
+      '@h3ravel/database': 11.19.6(@h3ravel/core@2.2.6(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13))))(@h3ravel/filesystem@2.2.6(@h3ravel/core@2.2.6(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13))))(@types/node@25.9.3)(encoding@0.1.13)(h3@2.0.1-rc.25))(@h3ravel/shared@2.2.6(@types/node@25.9.3))(@h3ravel/support@2.2.6(@types/node@25.9.3)(h3@2.0.1-rc.25))(@types/node@25.9.3)(h3@2.0.1-rc.25)
+      '@h3ravel/foundation': 2.2.6(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13)))
+      '@h3ravel/shared': 2.2.6(@types/node@25.9.3)
 
-  '@h3ravel/shared@1.29.0-alpha.16(@types/node@25.9.3)':
+  '@h3ravel/shared@2.2.6(@types/node@25.9.3)':
     dependencies:
+      '@cli-prompts/multiline': 1.0.0
       '@inquirer/prompts': 7.10.1(@types/node@25.9.3)
       chalk: 5.6.2
+      console-table-printer: 2.16.1
       edge.js: 6.5.1
       escalade: 3.2.0
-      h3: 2.0.1-rc.5
-      inquirer-autocomplete-standalone: 0.8.1
-      ora: 9.4.0
-      preferred-pm: 4.1.1
-    transitivePeerDependencies:
-      - '@types/node'
-      - crossws
-
-  '@h3ravel/shared@2.2.0(@types/node@25.9.3)':
-    dependencies:
-      '@inquirer/prompts': 7.10.1(@types/node@25.9.3)
-      chalk: 5.6.2
-      edge.js: 6.5.1
-      escalade: 3.2.0
-      h3: 2.0.1-rc.5
+      h3: 2.0.1-rc.25
       inquirer-autocomplete-standalone: 0.8.1
       jiti: 2.7.0
       ora: 9.4.0
@@ -4852,64 +4770,59 @@ snapshots:
       - '@types/node'
       - crossws
 
-  '@h3ravel/support@1.29.0-alpha.16':
+  '@h3ravel/support@2.2.6(@types/node@25.9.3)(h3@2.0.1-rc.25)':
     dependencies:
-      '@h3ravel/collect.js': 5.3.7
-      '@h3ravel/contracts': 1.29.0-alpha.16
+      '@h3ravel/collect.js': 5.4.0
+      '@h3ravel/contracts': 2.2.6
+      '@h3ravel/shared': 2.2.6(@types/node@25.9.3)
       dayjs: 1.11.21
       luxon: 3.7.2
-    transitivePeerDependencies:
-      - crossws
-
-  '@h3ravel/support@2.2.0(@types/node@25.9.3)':
-    dependencies:
-      '@h3ravel/collect.js': 5.3.7
-      '@h3ravel/contracts': 2.2.0
-      '@h3ravel/shared': 2.2.0(@types/node@25.9.3)
-      dayjs: 1.11.21
-      luxon: 3.7.2
+    optionalDependencies:
+      h3: 2.0.1-rc.25
     transitivePeerDependencies:
       - '@types/node'
       - crossws
 
-  '@h3ravel/url@2.2.0(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13)))':
+  '@h3ravel/url@2.2.6(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13)))(h3@2.0.1-rc.25)':
     dependencies:
-      '@h3ravel/contracts': 2.2.0
-      '@h3ravel/foundation': 2.2.0(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13)))
-      '@h3ravel/shared': 2.2.0(@types/node@25.9.3)
-      '@h3ravel/support': 2.2.0(@types/node@25.9.3)
+      '@h3ravel/contracts': 2.2.6
+      '@h3ravel/foundation': 2.2.6(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13)))
+      '@h3ravel/shared': 2.2.6(@types/node@25.9.3)
+      '@h3ravel/support': 2.2.6(@types/node@25.9.3)(h3@2.0.1-rc.25)
     transitivePeerDependencies:
       - '@google-cloud/storage'
       - '@types/node'
       - crossws
       - flydrive
+      - h3
       - supports-color
 
-  '@h3ravel/validation@2.2.0(b7a86030beb24319a0eb2772ae7fcfad)':
+  '@h3ravel/validation@2.2.6(451abdf09a8983b7137893bdaa8ae382)':
     dependencies:
-      '@h3ravel/contracts': 2.2.0
-      '@h3ravel/foundation': 2.2.0(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13)))
-      '@h3ravel/shared': 2.2.0(@types/node@25.9.3)
-      '@h3ravel/support': 2.2.0(@types/node@25.9.3)
+      '@h3ravel/contracts': 2.2.6
+      '@h3ravel/foundation': 2.2.6(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13)))
+      '@h3ravel/shared': 2.2.6(@types/node@25.9.3)
+      '@h3ravel/support': 2.2.6(@types/node@25.9.3)(h3@2.0.1-rc.25)
       simple-body-validator: 1.3.9
     optionalDependencies:
-      '@h3ravel/config': 2.2.0(@types/node@25.9.3)
-      '@h3ravel/core': 2.2.0(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13)))
-      '@h3ravel/database': 11.19.0(@h3ravel/core@2.2.0(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13))))(@h3ravel/filesystem@2.2.0(@h3ravel/core@2.2.0(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13))))(@types/node@25.9.3)(encoding@0.1.13))(@h3ravel/shared@2.2.0(@types/node@25.9.3))(@h3ravel/support@2.2.0(@types/node@25.9.3))(@types/node@25.9.3)
+      '@h3ravel/config': 2.2.6(@types/node@25.9.3)(h3@2.0.1-rc.25)
+      '@h3ravel/core': 2.2.6(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13)))
+      '@h3ravel/database': 11.19.6(@h3ravel/core@2.2.6(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13))))(@h3ravel/filesystem@2.2.6(@h3ravel/core@2.2.6(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13))))(@types/node@25.9.3)(encoding@0.1.13)(h3@2.0.1-rc.25))(@h3ravel/shared@2.2.6(@types/node@25.9.3))(@h3ravel/support@2.2.6(@types/node@25.9.3)(h3@2.0.1-rc.25))(@types/node@25.9.3)(h3@2.0.1-rc.25)
     transitivePeerDependencies:
       - '@google-cloud/storage'
       - '@types/node'
       - crossws
       - flydrive
+      - h3
       - supports-color
 
-  '@h3ravel/view@2.2.0(a6b79107df6f4d55e9e00237e004dd1c)':
+  '@h3ravel/view@2.2.6(cc1cc77cf10127803cb1f54ff8ea4ad8)':
     dependencies:
-      '@h3ravel/core': 2.2.0(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13)))
-      '@h3ravel/http': 11.19.0(@h3ravel/database@11.19.0(@h3ravel/core@2.2.0(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13))))(@h3ravel/filesystem@2.2.0(@h3ravel/core@2.2.0(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13))))(@types/node@25.9.3)(encoding@0.1.13))(@h3ravel/shared@2.2.0(@types/node@25.9.3))(@h3ravel/support@2.2.0(@types/node@25.9.3))(@types/node@25.9.3))(@h3ravel/foundation@2.2.0(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13))))(@h3ravel/validation@2.2.0(b7a86030beb24319a0eb2772ae7fcfad))(@types/node@25.9.3)
-      '@h3ravel/musket': 1.29.0-alpha.15(@types/node@25.9.3)
-      '@h3ravel/shared': 2.2.0(@types/node@25.9.3)
-      '@h3ravel/support': 2.2.0(@types/node@25.9.3)
+      '@h3ravel/core': 2.2.6(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13)))
+      '@h3ravel/http': 11.19.6(@h3ravel/database@11.19.6(@h3ravel/core@2.2.6(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13))))(@h3ravel/filesystem@2.2.6(@h3ravel/core@2.2.6(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13))))(@types/node@25.9.3)(encoding@0.1.13)(h3@2.0.1-rc.25))(@h3ravel/shared@2.2.6(@types/node@25.9.3))(@h3ravel/support@2.2.6(@types/node@25.9.3)(h3@2.0.1-rc.25))(@types/node@25.9.3)(h3@2.0.1-rc.25))(@h3ravel/foundation@2.2.6(@google-cloud/storage@7.21.0(encoding@0.1.13))(@types/node@25.9.3)(flydrive@2.1.0(@aws-sdk/client-s3@3.1068.0)(@aws-sdk/s3-request-presigner@3.1068.0)(@google-cloud/storage@7.21.0(encoding@0.1.13))))(@h3ravel/validation@2.2.6(451abdf09a8983b7137893bdaa8ae382))(@types/node@25.9.3)
+      '@h3ravel/musket': 2.2.7(@types/node@25.9.3)
+      '@h3ravel/shared': 2.2.6(@types/node@25.9.3)
+      '@h3ravel/support': 2.2.6(@types/node@25.9.3)(h3@2.0.1-rc.25)
       edge.js: 6.5.1
     transitivePeerDependencies:
       - '@google-cloud/storage'
@@ -5105,7 +5018,7 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.5
 
-  '@js-joda/core@5.7.0': {}
+  '@js-joda/core@6.1.0': {}
 
   '@napi-rs/wasm-runtime@1.1.5(@emnapi/core@1.11.0)(@emnapi/runtime@1.11.0)':
     dependencies:
@@ -5783,7 +5696,7 @@ snapshots:
 
   balanced-match@4.0.4: {}
 
-  barrelize@1.8.1: {}
+  barrelize@1.8.2: {}
 
   base64-js@1.5.1: {}
 
@@ -5870,9 +5783,9 @@ snapshots:
 
   chardet@2.1.1: {}
 
-  chokidar@4.0.3:
+  chokidar@5.0.0:
     dependencies:
-      readdirp: 4.1.2
+      readdirp: 5.0.0
 
   chownr@1.1.4: {}
 
@@ -5893,8 +5806,6 @@ snapshots:
 
   cli-width@4.1.0: {}
 
-  collect.js@4.36.1: {}
-
   color-convert@2.0.1:
     dependencies:
       color-name: 1.1.4
@@ -5902,8 +5813,6 @@ snapshots:
   color-name@1.1.4: {}
 
   colorette@2.0.19: {}
-
-  colorette@2.0.20: {}
 
   combined-stream@1.0.8:
     dependencies:
@@ -5921,6 +5830,10 @@ snapshots:
       inherits: 2.0.4
       readable-stream: 3.6.2
       typedarray: 0.0.6
+
+  console-table-printer@2.16.1:
+    dependencies:
+      simple-wcswidth: 1.1.2
 
   convert-source-map@2.0.0: {}
 
@@ -6488,15 +6401,10 @@ snapshots:
       - encoding
       - supports-color
 
-  h3@2.0.1-rc.22:
+  h3@2.0.1-rc.25:
     dependencies:
-      rou3: 0.8.1
-      srvx: 0.11.16
-
-  h3@2.0.1-rc.5:
-    dependencies:
-      rou3: 0.7.12
-      srvx: 0.9.8
+      rou3: 0.9.1
+      srvx: 0.11.22
 
   has-flag@4.0.0: {}
 
@@ -6696,7 +6604,7 @@ snapshots:
     dependencies:
       json-buffer: 3.0.1
 
-  knex@3.2.10(mysql2@3.22.5(@types/node@25.9.3))(pg@8.21.0)(sqlite3@6.0.1)(tedious@19.2.1):
+  knex@3.3.0(mysql2@3.22.6(@types/node@25.9.3))(pg@8.22.0)(sqlite3@6.0.1)(tedious@20.0.0):
     dependencies:
       colorette: 2.0.19
       commander: 10.0.1
@@ -6710,13 +6618,13 @@ snapshots:
       pg-connection-string: 2.6.2
       rechoir: 0.8.0
       resolve-from: 5.0.0
-      tarn: 3.0.2
+      tarn: 3.1.2
       tildify: 2.0.0
     optionalDependencies:
-      mysql2: 3.22.5(@types/node@25.9.3)
-      pg: 8.21.0
+      mysql2: 3.22.6(@types/node@25.9.3)
+      pg: 8.22.0
       sqlite3: 6.0.1
-      tedious: 19.2.1
+      tedious: 20.0.0
     transitivePeerDependencies:
       - supports-color
 
@@ -6725,23 +6633,22 @@ snapshots:
       prelude-ls: 1.2.1
       type-check: 0.4.0
 
-  lint-staged@16.4.0:
+  lint-staged@17.0.8:
     dependencies:
-      commander: 14.0.3
-      listr2: 9.0.5
+      listr2: 10.2.2
       picomatch: 4.0.4
       string-argv: 0.3.2
       tinyexec: 1.2.4
+    optionalDependencies:
       yaml: 2.9.0
 
-  listr2@9.0.5:
+  listr2@10.2.2:
     dependencies:
       cli-truncate: 5.2.0
-      colorette: 2.0.20
       eventemitter3: 5.0.4
       log-update: 6.1.0
       rfdc: 1.4.1
-      wrap-ansi: 9.0.2
+      wrap-ansi: 10.0.0
 
   load-yaml-file@0.2.0:
     dependencies:
@@ -6864,7 +6771,7 @@ snapshots:
 
   mute-stream@2.0.0: {}
 
-  mysql2@3.22.5(@types/node@25.9.3):
+  mysql2@3.22.6(@types/node@25.9.3):
     dependencies:
       '@types/node': 25.9.3
       aws-ssl-profiles: 1.1.2
@@ -6874,7 +6781,7 @@ snapshots:
       long: 5.3.2
       lru.min: 1.1.4
       named-placeholders: 1.1.6
-      sql-escaper: 1.3.3
+      sql-escaper: 1.5.0
 
   named-placeholders@1.1.6:
     dependencies:
@@ -7016,17 +6923,17 @@ snapshots:
   pg-cloudflare@1.4.0:
     optional: true
 
-  pg-connection-string@2.13.0: {}
+  pg-connection-string@2.14.0: {}
 
   pg-connection-string@2.6.2: {}
 
   pg-int8@1.0.1: {}
 
-  pg-pool@3.14.0(pg@8.21.0):
+  pg-pool@3.14.0(pg@8.22.0):
     dependencies:
-      pg: 8.21.0
+      pg: 8.22.0
 
-  pg-protocol@1.14.0: {}
+  pg-protocol@1.15.0: {}
 
   pg-types@2.2.0:
     dependencies:
@@ -7036,11 +6943,11 @@ snapshots:
       postgres-date: 1.0.7
       postgres-interval: 1.2.0
 
-  pg@8.21.0:
+  pg@8.22.0:
     dependencies:
-      pg-connection-string: 2.13.0
-      pg-pool: 3.14.0(pg@8.21.0)
-      pg-protocol: 1.14.0
+      pg-connection-string: 2.14.0
+      pg-pool: 3.14.0(pg@8.22.0)
+      pg-protocol: 1.15.0
       pg-types: 2.2.0
       pgpass: 1.0.5
     optionalDependencies:
@@ -7129,8 +7036,6 @@ snapshots:
 
   queue-microtask@1.2.3: {}
 
-  radashi@12.9.1: {}
-
   rc@1.2.8:
     dependencies:
       deep-extend: 0.6.0
@@ -7152,7 +7057,7 @@ snapshots:
       process: 0.11.10
       string_decoder: 1.3.0
 
-  readdirp@4.1.2: {}
+  readdirp@5.0.0: {}
 
   rechoir@0.8.0:
     dependencies:
@@ -7173,7 +7078,7 @@ snapshots:
 
   resora@1.3.18(@types/node@25.9.3):
     dependencies:
-      '@h3ravel/musket': 2.0.0(@types/node@25.9.3)
+      '@h3ravel/musket': 2.2.7(@types/node@25.9.3)
     transitivePeerDependencies:
       - '@types/node'
       - crossws
@@ -7289,9 +7194,7 @@ snapshots:
       '@rollup/rollup-win32-x64-msvc': 4.61.1
       fsevents: 2.3.3
 
-  rou3@0.7.12: {}
-
-  rou3@0.8.1: {}
+  rou3@0.9.1: {}
 
   run-applescript@7.1.0: {}
 
@@ -7355,6 +7258,8 @@ snapshots:
       once: 1.4.0
       simple-concat: 1.0.1
 
+  simple-wcswidth@1.1.2: {}
+
   slice-ansi@7.1.2:
     dependencies:
       ansi-styles: 6.2.3
@@ -7382,7 +7287,7 @@ snapshots:
 
   sprintf-js@1.1.3: {}
 
-  sql-escaper@1.3.3: {}
+  sql-escaper@1.5.0: {}
 
   sqlite3@6.0.1:
     dependencies:
@@ -7393,11 +7298,9 @@ snapshots:
     optionalDependencies:
       node-gyp: 12.4.0
 
-  srvx@0.11.16: {}
+  srvx@0.11.22: {}
 
   srvx@0.8.16: {}
-
-  srvx@0.9.8: {}
 
   ssh2-sftp-client@12.1.1:
     dependencies:
@@ -7514,14 +7417,14 @@ snapshots:
       minizlib: 3.1.0
       yallist: 5.0.0
 
-  tarn@3.0.2: {}
+  tarn@3.1.2: {}
 
-  tedious@19.2.1:
+  tedious@20.0.0:
     dependencies:
       '@azure/core-auth': 1.10.1
       '@azure/identity': 4.13.1
       '@azure/keyvault-keys': 4.10.2
-      '@js-joda/core': 5.7.0
+      '@js-joda/core': 6.1.0
       '@types/node': 25.9.3
       bl: 6.1.6
       iconv-lite: 0.7.2
@@ -7751,6 +7654,12 @@ snapshots:
 
   word-wrap@1.2.5: {}
 
+  wrap-ansi@10.0.0:
+    dependencies:
+      ansi-styles: 6.2.3
+      string-width: 8.2.1
+      strip-ansi: 7.2.0
+
   wrap-ansi@6.2.0:
     dependencies:
       ansi-styles: 4.3.0
@@ -7775,7 +7684,8 @@ snapshots:
 
   yallist@5.0.0: {}
 
-  yaml@2.9.0: {}
+  yaml@2.9.0:
+    optional: true
 
   yn@3.1.1: {}
 
